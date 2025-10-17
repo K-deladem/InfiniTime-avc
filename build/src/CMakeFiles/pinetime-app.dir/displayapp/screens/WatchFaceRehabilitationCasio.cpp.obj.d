@@ -545,7 +545,6 @@ src/CMakeFiles/pinetime-app.dir/displayapp/screens/WatchFaceRehabilitationCasio.
  /Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/Watchdog.h \
  /Users/deladem/pinetime-dev/nRF5_SDK/modules/nrfx/mdk/nrf52_bitfields.h \
  /Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/BleController.h \
- /Users/deladem/pinetime-dev/InfiniTime-avc/src/components/heartrate/HeartRateController.h \
  /Users/deladem/pinetime-dev/InfiniTime-avc/src/utility/DirtyValue.h \
  /Users/deladem/pinetime-dev/InfiniTime-avc/src/algorithms/RehabilitationAlgorithm.h \
  /Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/Colors.h \
@@ -1095,7 +1094,6 @@ src/CMakeFiles/pinetime-app.dir/displayapp/screens/WatchFaceRehabilitationCasio.
 /Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/Watchdog.h:
 /Users/deladem/pinetime-dev/nRF5_SDK/modules/nrfx/mdk/nrf52_bitfields.h:
 /Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/BleController.h:
-/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/heartrate/HeartRateController.h:
 /Users/deladem/pinetime-dev/InfiniTime-avc/src/utility/DirtyValue.h:
 /Users/deladem/pinetime-dev/InfiniTime-avc/src/algorithms/RehabilitationAlgorithm.h:
 /Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/Colors.h:

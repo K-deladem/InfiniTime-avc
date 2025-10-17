@@ -618,7 +618,6 @@ src/CMakeFiles/pinetime-app.dir/displayapp/DisplayApp.cpp.obj: \
  /Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/WatchFaceTerminal.h \
  /Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/WatchFacePrideFlag.h \
  /Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/WatchFaceRehabilitationCasio.h \
- /Users/deladem/pinetime-dev/InfiniTime-avc/src/components/heartrate/HeartRateController.h \
  /Users/deladem/pinetime-dev/InfiniTime-avc/src/algorithms/RehabilitationAlgorithm.h
 /Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/DisplayApp.h:
 /Users/deladem/pinetime-dev/nRF5_SDK/external/freertos/source/include/FreeRTOS.h:
@@ -1238,5 +1237,4 @@ src/CMakeFiles/pinetime-app.dir/displayapp/DisplayApp.cpp.obj: \
 /Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/WatchFaceTerminal.h:
 /Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/WatchFacePrideFlag.h:
 /Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/WatchFaceRehabilitationCasio.h:
-/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/heartrate/HeartRateController.h:
 /Users/deladem/pinetime-dev/InfiniTime-avc/src/algorithms/RehabilitationAlgorithm.h:

@@ -19,7 +19,7 @@
 
 namespace Pinetime {
   namespace System {
-    class SystemTask;  // Forward declaration
+    class SystemTask;
   }
 
   namespace Applications {
@@ -34,7 +34,7 @@ namespace Pinetime {
           Controllers::NotificationManager& notificationManager,
           Controllers::Settings& settingsController,
           Controllers::MotionController& motionController,
-          Pinetime::System::SystemTask& systemTask  // ← AJOUTER
+          Pinetime::System::SystemTask& systemTask
         );
 
         ~WatchFaceRehabilitationCasio() override;
@@ -49,7 +49,7 @@ namespace Pinetime {
         Controllers::NotificationManager& notificationManager;
         Controllers::Settings& settingsController;
         Controllers::MotionController& motionController;
-        Pinetime::System::SystemTask& systemTask;  // ← AJOUTER
+        Pinetime::System::SystemTask& systemTask;
 
         // ===== DONNÉES DE SYNCHRONISATION =====
         Utility::DirtyValue<uint8_t> batteryPercentRemaining{};
@@ -63,6 +63,12 @@ namespace Pinetime {
         uint8_t movementSymmetry = 0;
         bool isActiveMovement = false;
         
+        // ===== TIMERS POUR THROTTLING =====
+        uint32_t lastMotionUpdate = 0;
+        uint32_t lastBleUpdate = 0;
+        uint8_t lastSentScore = 0;
+        uint8_t lastSentSymmetry = 0;
+        
         // ===== ALGORITHME =====
         RehabilitationAlgorithm algorithm;
 
@@ -73,16 +79,29 @@ namespace Pinetime {
         lv_obj_t* statusIcon = nullptr;
         lv_obj_t* symmetryLabel = nullptr;
 
+        // ===== STYLES LVGL =====
+        lv_style_t time_style;
+        lv_style_t score_style;
+        lv_style_t symmetry_style;
+        lv_style_t status_style;
+        lv_style_t bar_bg_style;
+        lv_style_t bar_indic_style;
+
         // ===== MÉTHODES PRIVÉES =====
         void UpdateTime();
         void UpdateMotionData();
         void UpdateUI();
         void SendDataToMobile();
+        bool ValidateSensorData(int16_t x, int16_t y, int16_t z);
       };
 
     }
+  }
+}
 
-    // ===== ENREGISTREMENT DE LA WATCHFACE =====
+// ===== ENREGISTREMENT DE LA WATCHFACE =====
+namespace Pinetime {
+  namespace Applications {
     template <>
     struct WatchFaceTraits<WatchFace::RehabilitationCasio> {
       static constexpr WatchFace watchFace = WatchFace::RehabilitationCasio;
@@ -96,7 +115,7 @@ namespace Pinetime {
           controllers.notificationManager,
           controllers.settingsController,
           controllers.motionController,
-          *controllers.systemTask  // ← PASSER
+          *controllers.systemTask
         );
       }
 

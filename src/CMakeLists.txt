@@ -429,6 +429,7 @@ list(APPEND SOURCE_FILES
         displayapp/screens/WatchFacePineTimeStyle.cpp
         displayapp/screens/WatchFaceCasioStyleG7710.cpp
         displayapp/screens/WatchFacePrideFlag.cpp
+        displayapp/screens/WatchFaceRehabilitationCasio.cpp
 
         ##
 
@@ -492,6 +493,8 @@ list(APPEND SOURCE_FILES
         touchhandler/TouchHandler.cpp
 
         utility/Math.cpp
+        algorithms/RehabilitationAlgorithm.cpp
+        algorithms/RehabilitationData.cpp
         )
 
 list(APPEND RECOVERY_SOURCE_FILES

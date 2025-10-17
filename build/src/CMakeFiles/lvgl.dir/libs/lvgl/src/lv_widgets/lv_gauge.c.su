@@ -1,0 +1,14 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_widgets/lv_gauge.c:474:17:lv_gauge_signal	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_widgets/lv_gauge.c:438:24:lv_gauge_design	232	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_widgets/lv_gauge.c:146:6:lv_gauge_set_needle_count	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_widgets/lv_gauge.c:181:6:lv_gauge_set_value	80	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_widgets/lv_gauge.c:286:6:lv_gauge_set_scale	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_widgets/lv_gauge.c:65:12:lv_gauge_create	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_widgets/lv_gauge.c:306:6:lv_gauge_set_needle_img	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_widgets/lv_gauge.c:324:6:lv_gauge_set_formatter_cb	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_widgets/lv_gauge.c:343:9:lv_gauge_get_value	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_widgets/lv_gauge.c:360:9:lv_gauge_get_needle_count	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_widgets/lv_gauge.c:373:9:lv_gauge_get_label_count	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_widgets/lv_gauge.c:387:14:lv_gauge_get_needle_img	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_widgets/lv_gauge.c:401:12:lv_gauge_get_needle_img_pivot_x	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_widgets/lv_gauge.c:415:12:lv_gauge_get_needle_img_pivot_y	8	static

@@ -1,0 +1,14 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_hs_hci.c:405:1:ble_hs_hci_frag_alloc	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_hs_hci.c:104:1:ble_hs_hci_set_buf_sz	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_hs_hci.c:121:1:ble_hs_hci_add_avail_pkts	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_hs_hci.c:295:1:ble_hs_hci_cmd_tx	40	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_hs_hci.c:357:1:ble_hs_hci_rx_evt	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_hs_hci.c:429:1:ble_hs_hci_frag_num_mbufs	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_hs_hci.c:438:1:ble_hs_hci_frag_num_mbufs_free	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_hs_hci.c:476:1:ble_hs_hci_acl_tx_now	40	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_hs_hci.c:568:1:ble_hs_hci_acl_tx	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_hs_hci.c:581:1:ble_hs_hci_set_le_supported_feat	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_hs_hci.c:587:1:ble_hs_hci_get_le_supported_feat	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_hs_hci.c:593:1:ble_hs_hci_set_hci_version	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_hs_hci.c:599:1:ble_hs_hci_get_hci_version	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_hs_hci.c:605:1:ble_hs_hci_init	16	static

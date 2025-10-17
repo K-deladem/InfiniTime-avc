@@ -1,0 +1,3 @@
+/Users/deladem/pinetime-dev/nRF5_SDK/components/libraries/balloc/nrf_balloc.c:249:12:nrf_balloc_init	8	static
+/Users/deladem/pinetime-dev/nRF5_SDK/components/libraries/balloc/nrf_balloc.c:290:8:nrf_balloc_alloc	16	static
+/Users/deladem/pinetime-dev/nRF5_SDK/components/libraries/balloc/nrf_balloc.c:325:6:nrf_balloc_free	16	static

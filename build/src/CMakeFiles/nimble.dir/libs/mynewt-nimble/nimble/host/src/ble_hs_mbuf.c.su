@@ -1,0 +1,8 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_hs_mbuf.c:27:1:ble_hs_mbuf_gen_pkt	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_hs_mbuf.c:55:1:ble_hs_mbuf_bare_pkt	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_hs_mbuf.c:67:1:ble_hs_mbuf_acl_pkt	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_hs_mbuf.c:82:1:ble_hs_mbuf_l2cap_pkt	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/include/host/ble_hs_mbuf.h:46:17:ble_hs_mbuf_att_pkt	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/include/host/ble_hs_mbuf.h:57:17:ble_hs_mbuf_from_flat	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/include/host/ble_hs_mbuf.h:71:5:ble_hs_mbuf_to_flat	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_hs_mbuf.c:149:1:ble_hs_mbuf_pullup_base	8	static

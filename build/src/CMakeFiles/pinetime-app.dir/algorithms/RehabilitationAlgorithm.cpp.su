@@ -1,0 +1,9 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/algorithms/RehabilitationAlgorithm.cpp:10:6:void RehabilitationAlgorithm::ResetCalibration()	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/algorithms/RehabilitationAlgorithm.cpp:5:1:RehabilitationAlgorithm::RehabilitationAlgorithm()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/algorithms/RehabilitationAlgorithm.cpp:32:7:float RehabilitationAlgorithm::CalculateAccelMagnitude(float, float, float) const	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/algorithms/RehabilitationAlgorithm.cpp:36:7:float RehabilitationAlgorithm::CalculateGyroMagnitude(float, float, float) const	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/algorithms/RehabilitationAlgorithm.cpp:40:6:bool RehabilitationAlgorithm::DetectActiveMovement(float, float) const	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/algorithms/RehabilitationAlgorithm.cpp:44:10:uint16_t RehabilitationAlgorithm::CalculateMovementQuality(float)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/algorithms/RehabilitationAlgorithm.cpp:58:9:uint8_t RehabilitationAlgorithm::CalculateSymmetry(float, float, float) const	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/algorithms/RehabilitationAlgorithm.cpp:72:9:uint8_t RehabilitationAlgorithm::CalculateFinalScore(uint16_t, uint8_t, bool) const	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/algorithms/RehabilitationAlgorithm.cpp:15:33:RehabilitationAlgorithm::Result RehabilitationAlgorithm::Calculate(const SensorData&)	32	static

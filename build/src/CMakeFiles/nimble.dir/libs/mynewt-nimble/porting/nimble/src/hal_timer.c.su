@@ -1,0 +1,16 @@
+/Users/deladem/pinetime-dev/nRF5_SDK/components/toolchain/cmsis/include/core_cm4.h:1661:22:NVIC_SetPendingIRQ	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/porting/npl/freertos/include/nimble/nimble_npl_os.h:284:1:ble_npl_hw_enter_critical	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/porting/npl/freertos/include/nimble/nimble_npl_os.h:292:1:ble_npl_hw_exit_critical	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/porting/nimble/src/hal_timer.c:218:1:hal_timer_read_bsptimer	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/porting/nimble/src/hal_timer.c:145:1:nrf_timer_set_ocmp	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/porting/nimble/src/hal_timer.c:432:1:nrf52_timer5_irq_handler	32	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/porting/nimble/include/hal/hal_timer.h:70:5:hal_timer_init	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/porting/nimble/include/hal/hal_timer.h:88:5:hal_timer_config	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/porting/nimble/include/hal/hal_timer.h:77:5:hal_timer_deinit	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/porting/nimble/include/hal/hal_timer.h:100:10:hal_timer_get_resolution	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/porting/nimble/include/hal/hal_timer.h:109:10:hal_timer_read	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/porting/nimble/include/hal/hal_timer.h:119:5:hal_timer_delay	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/porting/nimble/include/hal/hal_timer.h:132:5:hal_timer_set_cb	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/porting/nimble/include/hal/hal_timer.h:155:5:hal_timer_start_at	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/porting/nimble/include/hal/hal_timer.h:143:5:hal_timer_start	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/porting/nimble/include/hal/hal_timer.h:162:5:hal_timer_stop	16	static

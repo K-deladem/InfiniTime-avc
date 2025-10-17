@@ -1,0 +1,3 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/widgets/StatusIcons.cpp:7:1:Pinetime::Applications::Widgets::StatusIcons::StatusIcons(const Pinetime::Controllers::Battery&, const Pinetime::Controllers::Ble&, const Pinetime::Controllers::AlarmController&)	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/widgets/StatusIcons.cpp:13:6:void Pinetime::Applications::Widgets::StatusIcons::Create()	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/widgets/StatusIcons.cpp:34:6:void Pinetime::Applications::Widgets::StatusIcons::Update()	8	static

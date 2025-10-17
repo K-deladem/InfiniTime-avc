@@ -1,0 +1,28 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/logging/DummyLogger.h:8:12:virtual void Pinetime::Logging::DummyLogger::Init()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/logging/DummyLogger.h:11:12:virtual void Pinetime::Logging::DummyLogger::Resume()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/main.cpp:191:6:void DebounceTimerCallback(TimerHandle_t)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/main.cpp:186:6:void DebounceTimerChargeCallback(TimerHandle_t)	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/main.cpp:302:6:void calibrate_lf_clock_rc(nrf_drv_clock_evt_type_t)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/DisplayApp.h:50:11:Pinetime::Applications::DisplayApp::~DisplayApp()	8	static
+/opt/homebrew/arm-toolchain/arm-none-eabi/include/c++/13.2.1/bits/basic_string.h:280:7:constexpr void std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::_M_dispose() [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]	0	static
+/opt/homebrew/arm-toolchain/arm-none-eabi/include/c++/13.2.1/bits/std_function.h:241:5:std::_Function_base::~_Function_base()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/systemtask/SystemTask.h:53:11:Pinetime::System::SystemTask::~SystemTask()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/main.cpp:152:6:void vApplicationMallocFailedHook()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/main.cpp:156:6:void vApplicationStackOverflowHook(TaskHandle_t, char*)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/main.cpp:169:6:void nrfx_gpiote_evt_handler(nrfx_gpiote_pin_t, nrf_gpiote_polarity_t)	32	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/main.cpp:195:6:void SPIM0_SPIS0_TWIM0_TWIS0_SPI0_TWI0_IRQHandler()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/main.cpp:217:6:void RADIO_IRQHandler()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/main.cpp:221:6:void RNG_IRQHandler()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/main.cpp:225:6:void RTC0_IRQHandler()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/main.cpp:229:6:void WDT_IRQHandler()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/main.cpp:233:6:void npl_freertos_hw_set_isr(int, void (*)())	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/main.cpp:249:10:uint32_t npl_freertos_hw_enter_critical()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/main.cpp:255:6:void npl_freertos_hw_exit_critical(uint32_t)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/main.cpp:263:24:ble_npl_eventq* nimble_port_get_dflt_eventq()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/main.cpp:267:6:void nimble_port_run()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/main.cpp:275:6:void BleHost(void*)	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/main.cpp:279:6:void nimble_port_init()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/main.cpp:296:6:void nimble_port_ll_task_func(void*)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/main.cpp:308:6:void enable_dcdc_regulator()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/main.cpp:312:5:int main()	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/main.cpp:368:1:cpp)	120	static

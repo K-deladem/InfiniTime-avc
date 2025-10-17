@@ -1,0 +1,11 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/CurrentTimeClient.cpp:104:6:virtual void Pinetime::Controllers::CurrentTimeClient::Discover(uint16_t, std::function<void(short unsigned int)>)	48	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/CurrentTimeClient.cpp:30:1:Pinetime::Controllers::CurrentTimeClient::CurrentTimeClient(Pinetime::Controllers::DateTime&)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/CurrentTimeClient.cpp:33:6:void Pinetime::Controllers::CurrentTimeClient::Init()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/CurrentTimeClient.cpp:99:6:void Pinetime::Controllers::CurrentTimeClient::Reset()	0	static
+/opt/homebrew/arm-toolchain/arm-none-eabi/include/c++/13.2.1/bits/std_function.h:587:7:) const [with _Res = void; _ArgTypes = {short unsigned int}]	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/CurrentTimeClient.cpp:36:6:bool Pinetime::Controllers::CurrentTimeClient::OnDiscoveryEvent(uint16_t, const ble_gatt_error*, const ble_gatt_svc*)	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/CurrentTimeClient.cpp:11:7:int {anonymous}::OnDiscoveryEventCallback(uint16_t, const ble_gatt_error*, const ble_gatt_svc*, void*)	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/CurrentTimeClient.cpp:59:5:int Pinetime::Controllers::CurrentTimeClient::OnCharacteristicDiscoveryEvent(uint16_t, const ble_gatt_error*, const ble_gatt_chr*)	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/CurrentTimeClient.cpp:16:7:int {anonymous}::OnCurrentTimeCharacteristicDiscoveredCallback(uint16_t, const ble_gatt_error*, const ble_gatt_chr*, void*)	4	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/CurrentTimeClient.cpp:82:5:int Pinetime::Controllers::CurrentTimeClient::OnCurrentTimeReadResult(uint16_t, const ble_gatt_error*, const ble_gatt_attr*)	48	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/CurrentTimeClient.cpp:24:7:int {anonymous}::CurrentTimeReadCallback(uint16_t, const ble_gatt_error*, ble_gatt_attr*, void*)	4	static

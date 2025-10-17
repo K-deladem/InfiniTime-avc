@@ -1,0 +1,10 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/TwiMaster.cpp:11:1:Pinetime::Drivers::TwiMaster::TwiMaster(NRF_TWIM_Type*, uint32_t, uint8_t, uint8_t)	12	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/TwiMaster.cpp:15:6:void Pinetime::Drivers::TwiMaster::ConfigurePins() const	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/TwiMaster.cpp:25:6:void Pinetime::Drivers::TwiMaster::Init()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/TwiMaster.cpp:158:6:void Pinetime::Drivers::TwiMaster::Sleep()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/TwiMaster.cpp:162:6:void Pinetime::Drivers::TwiMaster::Wakeup()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/TwiMaster.cpp:171:6:void Pinetime::Drivers::TwiMaster::FixHwFreezed()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/TwiMaster.cpp:73:23:Pinetime::Drivers::TwiMaster::ErrorCodes Pinetime::Drivers::TwiMaster::Read(uint8_t, uint8_t*, size_t, bool)	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/TwiMaster.cpp:114:23:Pinetime::Drivers::TwiMaster::ErrorCodes Pinetime::Drivers::TwiMaster::Write(uint8_t, const uint8_t*, size_t, bool)	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/TwiMaster.cpp:51:23:Pinetime::Drivers::TwiMaster::ErrorCodes Pinetime::Drivers::TwiMaster::Read(uint8_t, uint8_t, uint8_t*, size_t)	40	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/TwiMaster.cpp:61:23:Pinetime::Drivers::TwiMaster::ErrorCodes Pinetime::Drivers::TwiMaster::Write(uint8_t, uint8_t, const uint8_t*, size_t)	32	static

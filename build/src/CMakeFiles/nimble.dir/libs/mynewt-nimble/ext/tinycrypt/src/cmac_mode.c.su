@@ -1,0 +1,6 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/ext/tinycrypt/src/cmac_mode.c:78:6:gf_double	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/ext/tinycrypt/include/tinycrypt/cmac_mode.h:153:5:tc_cmac_erase	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/ext/tinycrypt/include/tinycrypt/cmac_mode.h:163:5:tc_cmac_init	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/ext/tinycrypt/include/tinycrypt/cmac_mode.h:142:5:tc_cmac_setup	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/ext/tinycrypt/include/tinycrypt/cmac_mode.h:176:5:tc_cmac_update	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/ext/tinycrypt/include/tinycrypt/cmac_mode.h:188:5:tc_cmac_final	16	static

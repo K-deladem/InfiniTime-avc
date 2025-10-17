@@ -1,0 +1,8 @@
+/Users/deladem/pinetime-dev/nRF5_SDK/external/utf_converter/utf.c:12:8:utf8EncodeRune	12	static
+/Users/deladem/pinetime-dev/nRF5_SDK/external/utf_converter/utf.c:78:13:utf8DecodeRune	20	static
+/Users/deladem/pinetime-dev/nRF5_SDK/external/utf_converter/utf.c:178:8:utf16EncodeRune	0	static
+/Users/deladem/pinetime-dev/nRF5_SDK/external/utf_converter/utf.c:204:17:utf16DecodeRune	8	static
+/Users/deladem/pinetime-dev/nRF5_SDK/external/utf_converter/utf.c:246:8:utf8RuneCount	24	static
+/Users/deladem/pinetime-dev/nRF5_SDK/external/utf_converter/utf.c:272:8:utf8UTF16Count	32	static
+/Users/deladem/pinetime-dev/nRF5_SDK/external/utf_converter/utf.c:299:8:utf16RuneCount	24	static
+/Users/deladem/pinetime-dev/nRF5_SDK/external/utf_converter/utf.c:325:8:utf16UTF8Count	32	static

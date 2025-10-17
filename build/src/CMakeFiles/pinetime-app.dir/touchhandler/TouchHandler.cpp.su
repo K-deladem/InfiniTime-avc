@@ -1,0 +1,2 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/touchhandler/TouchHandler.cpp:30:37:Pinetime::Applications::TouchEvents Pinetime::Controllers::TouchHandler::GestureGet()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/touchhandler/TouchHandler.cpp:36:6:bool Pinetime::Controllers::TouchHandler::ProcessTouchInfo(Pinetime::Drivers::Cst816S::TouchInfos)	16	static

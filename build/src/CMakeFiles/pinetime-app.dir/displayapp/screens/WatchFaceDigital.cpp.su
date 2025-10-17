@@ -1,0 +1,9 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_misc/lv_color.h:588:26:lv_color_t lv_color_hex(uint32_t)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:29:22:virtual bool Pinetime::Applications::Screens::Screen::OnButtonPushed()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:35:22:virtual bool Pinetime::Applications::Screens::Screen::OnTouchEvent(Pinetime::Applications::TouchEvents)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:39:22:virtual bool Pinetime::Applications::Screens::Screen::OnTouchEvent(uint16_t, uint16_t)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_core/lv_disp.h:158:26:lv_obj_t* lv_scr_act()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/WatchFaceDigital.cpp:93:1:Pinetime::Applications::Screens::WatchFaceDigital::~WatchFaceDigital()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/WatchFaceDigital.cpp:93:1:virtual Pinetime::Applications::Screens::WatchFaceDigital::~WatchFaceDigital()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/WatchFaceDigital.cpp:98:6:virtual void Pinetime::Applications::Screens::WatchFaceDigital::Refresh()	96	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/WatchFaceDigital.cpp:19:1:Pinetime::Applications::Screens::WatchFaceDigital::WatchFaceDigital(Pinetime::Controllers::DateTime&, const Pinetime::Controllers::Battery&, const Pinetime::Controllers::Ble&, const Pinetime::Controllers::AlarmController&, Pinetime::Controllers::NotificationManager&, Pinetime::Controllers::Settings&, Pinetime::Controllers::HeartRateController&, Pinetime::Controllers::MotionController&, Pinetime::Controllers::SimpleWeatherService&)	48	static

@@ -1,0 +1,5 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_font/lv_font_loader.c:199:21:read_bits	32	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_font/lv_font_loader.c:230:12:read_label	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_font/lv_font_loader.c:122:6:lv_font_free	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_font/lv_font_loader.c:588:9:load_kern	56	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_font/lv_font_loader.c:88:13:lv_font_load	136	static

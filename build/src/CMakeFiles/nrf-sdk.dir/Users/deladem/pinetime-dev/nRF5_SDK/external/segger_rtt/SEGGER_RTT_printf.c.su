@@ -1,0 +1,4 @@
+/Users/deladem/pinetime-dev/nRF5_SDK/external/segger_rtt/SEGGER_RTT_printf.c:122:13:_StoreChar	8	static
+/Users/deladem/pinetime-dev/nRF5_SDK/external/segger_rtt/SEGGER_RTT_printf.c:147:13:_PrintUnsigned	40	static
+/Users/deladem/pinetime-dev/nRF5_SDK/external/segger_rtt/SEGGER_RTT_printf.c:332:5:SEGGER_RTT_vprintf	144	static
+/Users/deladem/pinetime-dev/nRF5_SDK/external/segger_rtt/SEGGER_RTT_printf.c:506:5:SEGGER_RTT_printf	12	static

@@ -1,0 +1,9 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/MotionService.cpp:31:1:Pinetime::Controllers::MotionService::MotionService(Pinetime::Controllers::NimbleController&, Pinetime::Controllers::MotionController&)	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/MotionService.cpp:53:6:void Pinetime::Controllers::MotionService::Init()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/MotionService.cpp:62:5:int Pinetime::Controllers::MotionService::OnStepCountRequested(uint16_t, ble_gatt_access_ctxt*)	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/MotionService.cpp:24:7:int {anonymous}::MotionServiceCallback(uint16_t, uint16_t, ble_gatt_access_ctxt*, void*)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/MotionService.cpp:78:6:void Pinetime::Controllers::MotionService::OnNewStepCountValue(uint32_t)	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/MotionService.cpp:94:6:void Pinetime::Controllers::MotionService::OnNewMotionValues(int16_t, int16_t, int16_t)	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/MotionService.cpp:110:6:void Pinetime::Controllers::MotionService::SubscribeNotification(uint16_t)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/MotionService.cpp:117:6:void Pinetime::Controllers::MotionService::UnsubscribeNotification(uint16_t)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/MotionService.cpp:124:6:bool Pinetime::Controllers::MotionService::IsMotionNotificationSubscribed() const	0	static

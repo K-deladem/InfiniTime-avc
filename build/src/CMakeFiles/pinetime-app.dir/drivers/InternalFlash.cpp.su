@@ -1,0 +1,2 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/InternalFlash.cpp:5:6:static void Pinetime::Drivers::InternalFlash::ErasePage(uint32_t)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/InternalFlash.cpp:21:6:static void Pinetime::Drivers::InternalFlash::WriteWord(uint32_t, uint32_t)	0	static

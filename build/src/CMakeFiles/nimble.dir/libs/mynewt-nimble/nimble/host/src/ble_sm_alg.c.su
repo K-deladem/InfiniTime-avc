@@ -1,0 +1,12 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_sm_alg.c:57:1:ble_sm_alg_encrypt	208	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_sm_alg.c:205:1:ble_sm_alg_aes_cmac	280	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_sm_alg.c:499:1:ble_sm_alg_rand	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_sm_alg.c:81:1:ble_sm_alg_s1	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_sm_alg.c:117:1:ble_sm_alg_c1	64	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_sm_alg.c:227:1:ble_sm_alg_f4	112	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_sm_alg.c:272:1:ble_sm_alg_f5	144	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_sm_alg.c:340:1:ble_sm_alg_f6	128	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_sm_alg.c:388:1:ble_sm_alg_g2	120	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_sm_alg.c:421:1:ble_sm_alg_gen_dhkey	144	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_sm_alg.c:472:1:ble_sm_alg_gen_key_pair	88	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_sm_alg.c:524:1:ble_sm_alg_ecc_init	0	static

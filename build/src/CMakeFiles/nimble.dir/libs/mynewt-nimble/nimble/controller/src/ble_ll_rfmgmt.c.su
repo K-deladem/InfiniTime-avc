@@ -1,0 +1,13 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/porting/npl/freertos/include/nimble/nimble_npl_os.h:284:1:ble_npl_hw_enter_critical	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/porting/npl/freertos/include/nimble/nimble_npl_os.h:292:1:ble_npl_hw_exit_critical	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/controller/src/ble_ll_rfmgmt.c:146:1:ble_ll_rfmgmt_release_ev	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/controller/src/ble_ll_rfmgmt.c:60:1:ble_ll_rfmgmt_enable	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/controller/src/ble_ll_rfmgmt.c:139:1:ble_ll_rfmgmt_timer_exp	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/controller/src/ble_ll_rfmgmt.c:83:1:ble_ll_rfmgmt_timer_reschedule	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/controller/include/controller/ble_ll_rfmgmt.h:27:6:ble_ll_rfmgmt_init	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/controller/include/controller/ble_ll_rfmgmt.h:31:6:ble_ll_rfmgmt_reset	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/controller/include/controller/ble_ll_rfmgmt.h:34:6:ble_ll_rfmgmt_scan_changed	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/controller/include/controller/ble_ll_rfmgmt.h:37:6:ble_ll_rfmgmt_sched_changed	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/controller/include/controller/ble_ll_rfmgmt.h:40:6:ble_ll_rfmgmt_release	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/controller/include/controller/ble_ll_rfmgmt.h:43:10:ble_ll_rfmgmt_enable_now	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/controller/include/controller/ble_ll_rfmgmt.h:46:6:ble_ll_rfmgmt_is_enabled	8	static

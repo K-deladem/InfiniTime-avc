@@ -1,0 +1,7 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/Hrs3300.cpp:27:1:Pinetime::Drivers::Hrs3300::Hrs3300(Pinetime::Drivers::TwiMaster&, uint8_t)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/Hrs3300.cpp:71:23:Pinetime::Drivers::Hrs3300::PackedHrsAls Pinetime::Drivers::Hrs3300::ReadHrsAls()	32	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/Hrs3300.cpp:104:6:void Pinetime::Drivers::Hrs3300::WriteRegister(uint8_t, uint8_t)	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/Hrs3300.cpp:110:9:uint8_t Pinetime::Drivers::Hrs3300::ReadRegister(uint8_t)	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/Hrs3300.cpp:53:6:void Pinetime::Drivers::Hrs3300::Enable()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/Hrs3300.cpp:62:6:void Pinetime::Drivers::Hrs3300::Disable()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/Hrs3300.cpp:30:6:void Pinetime::Drivers::Hrs3300::Init()	16	static

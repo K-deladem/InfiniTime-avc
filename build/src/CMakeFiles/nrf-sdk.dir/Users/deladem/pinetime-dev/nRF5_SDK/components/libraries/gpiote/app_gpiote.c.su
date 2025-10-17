@@ -1,0 +1,10 @@
+/Users/deladem/pinetime-dev/nRF5_SDK/modules/nrfx/drivers/include/nrf_bitmask.h:68:26:nrf_bitmask_bit_is_set	0	static
+/Users/deladem/pinetime-dev/nRF5_SDK/modules/nrfx/drivers/include/nrf_bitmask.h:82:22:nrf_bitmask_bit_set	0	static
+/Users/deladem/pinetime-dev/nRF5_SDK/components/libraries/gpiote/app_gpiote.c:66:6:gpiote_handler	40	static
+/Users/deladem/pinetime-dev/nRF5_SDK/components/libraries/gpiote/app_gpiote.c:289:17:user_enable	40	static
+/Users/deladem/pinetime-dev/nRF5_SDK/components/libraries/gpiote/app_gpiote.c:95:10:app_gpiote_init	16	static
+/Users/deladem/pinetime-dev/nRF5_SDK/components/libraries/gpiote/app_gpiote.c:126:10:app_gpiote_user_register	56	static
+/Users/deladem/pinetime-dev/nRF5_SDK/components/libraries/gpiote/app_gpiote.c:178:10:app_gpiote_user_register_ex	56	static
+/Users/deladem/pinetime-dev/nRF5_SDK/components/libraries/gpiote/app_gpiote.c:307:10:app_gpiote_user_enable	16	static
+/Users/deladem/pinetime-dev/nRF5_SDK/components/libraries/gpiote/app_gpiote.c:325:10:app_gpiote_user_disable	0	static
+/Users/deladem/pinetime-dev/nRF5_SDK/components/libraries/gpiote/app_gpiote.c:338:10:app_gpiote_pins_state_get	8	static

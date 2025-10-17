@@ -1,0 +1,13 @@
+/Users/deladem/pinetime-dev/nRF5_SDK/modules/nrfx/drivers/include/nrfx_clock.h:88:12:nrfx_clock_init	0	static
+/Users/deladem/pinetime-dev/nRF5_SDK/modules/nrfx/drivers/include/nrfx_clock.h:93:6:nrfx_clock_enable	0	static
+/Users/deladem/pinetime-dev/nRF5_SDK/modules/nrfx/drivers/include/nrfx_clock.h:98:6:nrfx_clock_disable	0	static
+/Users/deladem/pinetime-dev/nRF5_SDK/modules/nrfx/drivers/include/nrfx_clock.h:108:6:nrfx_clock_lfclk_start	24	static
+/Users/deladem/pinetime-dev/nRF5_SDK/modules/nrfx/drivers/include/nrfx_clock.h:113:6:nrfx_clock_lfclk_stop	0	static
+/Users/deladem/pinetime-dev/nRF5_SDK/modules/nrfx/drivers/include/nrfx_clock.h:126:6:nrfx_clock_hfclk_start	8	static
+/Users/deladem/pinetime-dev/nRF5_SDK/modules/nrfx/drivers/include/nrfx_clock.h:131:6:nrfx_clock_hfclk_stop	0	static
+/Users/deladem/pinetime-dev/nRF5_SDK/modules/nrfx/drivers/include/nrfx_clock.h:103:6:nrfx_clock_uninit	8	static
+/Users/deladem/pinetime-dev/nRF5_SDK/modules/nrfx/drivers/include/nrfx_clock.h:151:12:nrfx_clock_calibration_start	0	static
+/Users/deladem/pinetime-dev/nRF5_SDK/modules/nrfx/drivers/include/nrfx_clock.h:161:12:nrfx_clock_is_calibrating	0	static
+/Users/deladem/pinetime-dev/nRF5_SDK/modules/nrfx/drivers/include/nrfx_clock.h:167:6:nrfx_clock_calibration_timer_start	0	static
+/Users/deladem/pinetime-dev/nRF5_SDK/modules/nrfx/drivers/include/nrfx_clock.h:172:6:nrfx_clock_calibration_timer_stop	0	static
+/Users/deladem/pinetime-dev/nRF5_SDK/modules/nrfx/drivers/src/nrfx_clock.c:334:6:POWER_CLOCK_IRQHandler	16	static

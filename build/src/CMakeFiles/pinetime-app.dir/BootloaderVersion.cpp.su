@@ -1,0 +1,6 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/BootloaderVersion.cpp:12:10:static uint32_t Pinetime::BootloaderVersion::Major()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/BootloaderVersion.cpp:16:10:static uint32_t Pinetime::BootloaderVersion::Minor()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/BootloaderVersion.cpp:20:10:static uint32_t Pinetime::BootloaderVersion::Patch()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/BootloaderVersion.cpp:24:13:static const char* Pinetime::BootloaderVersion::VersionString()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/BootloaderVersion.cpp:28:6:static bool Pinetime::BootloaderVersion::IsValid()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/BootloaderVersion.cpp:32:6:static void Pinetime::BootloaderVersion::SetVersion(uint32_t)	16	static

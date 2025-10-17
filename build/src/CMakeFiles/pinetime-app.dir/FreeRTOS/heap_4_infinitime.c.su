@@ -1,0 +1,8 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/FreeRTOS/heap_4_infinitime.c:393:13:prvInsertBlockIntoFreeList	8	static
+/Users/deladem/pinetime-dev/nRF5_SDK/external/freertos/source/include/portable.h:130:7:pvPortMalloc	24	static
+/Users/deladem/pinetime-dev/nRF5_SDK/external/freertos/source/include/portable.h:131:6:vPortFree	8	static
+/Users/deladem/pinetime-dev/nRF5_SDK/external/freertos/source/include/portable.h:133:8:xPortGetFreeHeapSize	0	static
+/Users/deladem/pinetime-dev/nRF5_SDK/external/freertos/source/include/portable.h:134:8:xPortGetMinimumEverFreeHeapSize	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/FreeRTOS/portmacro_cmsis.h:183:8:xPortGetHeapSize	0	static
+/Users/deladem/pinetime-dev/nRF5_SDK/external/freertos/source/include/portable.h:132:6:vPortInitialiseBlocks	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/FreeRTOS/heap_4_infinitime.c:455:7:pvPortRealloc	24	static

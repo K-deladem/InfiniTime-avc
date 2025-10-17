@@ -1,0 +1,18 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/LittleVgl.cpp:61:13:void rounder(lv_disp_drv_t*, lv_area_t*)	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/LittleVgl.cpp:48:15:lv_fs_res_t {anonymous}::lvglSeek(lv_fs_drv_t*, void*, uint32_t)	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/LittleVgl.cpp:40:15:lv_fs_res_t {anonymous}::lvglRead(lv_fs_drv_t*, void*, void*, uint32_t, uint32_t*)	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/LittleVgl.cpp:32:15:lv_fs_res_t {anonymous}::lvglClose(lv_fs_drv_t*, void*)	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/LittleVgl.cpp:18:15:lv_fs_res_t {anonymous}::lvglOpen(lv_fs_drv_t*, void*, const char*, lv_fs_mode_t)	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/LittleVgl.cpp:76:1:Pinetime::Components::LittleVgl::LittleVgl(Pinetime::Drivers::St7789&, Pinetime::Controllers::FS&)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/LittleVgl.cpp:87:6:void Pinetime::Components::LittleVgl::InitDisplay()	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/LittleVgl.cpp:108:6:void Pinetime::Components::LittleVgl::InitTouchpad()	40	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/LittleVgl.cpp:118:6:void Pinetime::Components::LittleVgl::InitFileSystem()	80	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/LittleVgl.cpp:79:6:void Pinetime::Components::LittleVgl::Init()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/LittleVgl.cpp:134:6:void Pinetime::Components::LittleVgl::SetFullRefresh(FullRefreshDirections)	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/LittleVgl.cpp:152:6:void Pinetime::Components::LittleVgl::FlushDisplay(const lv_area_t*, lv_color_t*)	64	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/LittleVgl.cpp:56:13:void disp_flush(lv_disp_drv_t*, const lv_area_t*, lv_color_t*)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/LittleVgl.cpp:233:6:void Pinetime::Components::LittleVgl::SetNewTouchPoint(int16_t, int16_t, bool)	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/LittleVgl.cpp:253:6:void Pinetime::Components::LittleVgl::CancelTap()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/LittleVgl.cpp:262:6:void Pinetime::Components::LittleVgl::ClearTouchState()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/LittleVgl.cpp:267:6:bool Pinetime::Components::LittleVgl::GetTouchPadInfo(lv_indev_data_t*)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/LittleVgl.cpp:71:6:bool touchpad_read(lv_indev_drv_t*, lv_indev_data_t*)	0	static

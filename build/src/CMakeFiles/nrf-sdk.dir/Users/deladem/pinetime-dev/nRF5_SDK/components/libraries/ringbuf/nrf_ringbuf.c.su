@@ -1,0 +1,7 @@
+/Users/deladem/pinetime-dev/nRF5_SDK/components/libraries/ringbuf/nrf_ringbuf.c:47:6:nrf_ringbuf_init	0	static
+/Users/deladem/pinetime-dev/nRF5_SDK/components/libraries/ringbuf/nrf_ringbuf.c:57:12:nrf_ringbuf_alloc	24	static
+/Users/deladem/pinetime-dev/nRF5_SDK/components/libraries/ringbuf/nrf_ringbuf.c:91:12:nrf_ringbuf_put	16	static
+/Users/deladem/pinetime-dev/nRF5_SDK/components/libraries/ringbuf/nrf_ringbuf.c:110:12:nrf_ringbuf_cpy_put	40	static
+/Users/deladem/pinetime-dev/nRF5_SDK/components/libraries/ringbuf/nrf_ringbuf.c:144:12:nrf_ringbuf_get	24	static
+/Users/deladem/pinetime-dev/nRF5_SDK/components/libraries/ringbuf/nrf_ringbuf.c:189:12:nrf_ringbuf_cpy_get	32	static
+/Users/deladem/pinetime-dev/nRF5_SDK/components/libraries/ringbuf/nrf_ringbuf.c:224:12:nrf_ringbuf_free	8	static

@@ -1,0 +1,18 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/SpiNorFlash.cpp:9:1:Pinetime::Drivers::SpiNorFlash::SpiNorFlash(Pinetime::Drivers::Spi&)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/SpiNorFlash.cpp:20:6:void Pinetime::Drivers::SpiNorFlash::Uninit()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/SpiNorFlash.cpp:23:6:void Pinetime::Drivers::SpiNorFlash::Sleep()	32	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/SpiNorFlash.cpp:44:29:Pinetime::Drivers::SpiNorFlash::Identification Pinetime::Drivers::SpiNorFlash::ReadIdentification()	32	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/SpiNorFlash.cpp:12:6:void Pinetime::Drivers::SpiNorFlash::Init()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/SpiNorFlash.cpp:29:6:void Pinetime::Drivers::SpiNorFlash::Wakeup()	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/SpiNorFlash.cpp:51:9:uint8_t Pinetime::Drivers::SpiNorFlash::ReadStatusRegister()	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/SpiNorFlash.cpp:58:6:bool Pinetime::Drivers::SpiNorFlash::WriteInProgress()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/SpiNorFlash.cpp:62:6:bool Pinetime::Drivers::SpiNorFlash::WriteEnabled()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/SpiNorFlash.cpp:66:9:uint8_t Pinetime::Drivers::SpiNorFlash::ReadConfigurationRegister()	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/SpiNorFlash.cpp:73:6:void Pinetime::Drivers::SpiNorFlash::Read(uint32_t, uint8_t*, size_t)	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/SpiNorFlash.cpp:82:6:void Pinetime::Drivers::SpiNorFlash::WriteEnable()	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/SpiNorFlash.cpp:87:6:void Pinetime::Drivers::SpiNorFlash::SectorErase(uint32_t)	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/SpiNorFlash.cpp:104:9:uint8_t Pinetime::Drivers::SpiNorFlash::ReadSecurityRegister()	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/SpiNorFlash.cpp:111:6:bool Pinetime::Drivers::SpiNorFlash::ProgramFailed()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/SpiNorFlash.cpp:115:6:bool Pinetime::Drivers::SpiNorFlash::EraseFailed()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/SpiNorFlash.cpp:119:6:void Pinetime::Drivers::SpiNorFlash::Write(uint32_t, const uint8_t*, size_t)	48	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/SpiNorFlash.cpp:149:29:Pinetime::Drivers::SpiNorFlash::Identification Pinetime::Drivers::SpiNorFlash::GetIdentification() const	8	static

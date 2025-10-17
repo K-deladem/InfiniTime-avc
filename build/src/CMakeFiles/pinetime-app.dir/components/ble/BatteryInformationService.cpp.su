@@ -1,0 +1,5 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/BatteryInformationService.cpp:15:1:Pinetime::Controllers::BatteryInformationService::BatteryInformationService(Pinetime::Controllers::Battery&)	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/BatteryInformationService.cpp:32:6:void Pinetime::Controllers::BatteryInformationService::Init()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/BatteryInformationService.cpp:41:5:int Pinetime::Controllers::BatteryInformationService::OnBatteryServiceRequested(uint16_t, ble_gatt_access_ctxt*)	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/BatteryInformationService.cpp:10:5:int BatteryInformationServiceCallback(uint16_t, uint16_t, ble_gatt_access_ctxt*, void*)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/BatteryInformationService.cpp:51:6:void Pinetime::Controllers::BatteryInformationService::NotifyBatteryLevel(uint16_t, uint8_t)	24	static

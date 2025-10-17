@@ -1,0 +1,11 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:14:22:virtual void Pinetime::Applications::Screens::Screen::Refresh()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:29:22:virtual bool Pinetime::Applications::Screens::Screen::OnButtonPushed()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:35:22:virtual bool Pinetime::Applications::Screens::Screen::OnTouchEvent(Pinetime::Applications::TouchEvents)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:39:22:virtual bool Pinetime::Applications::Screens::Screen::OnTouchEvent(uint16_t, uint16_t)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_core/lv_disp.h:158:26:lv_obj_t* lv_scr_act()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/settings/SettingWakeUp.cpp:55:1:Pinetime::Applications::Screens::SettingWakeUp::~SettingWakeUp()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/settings/SettingWakeUp.cpp:55:1:virtual Pinetime::Applications::Screens::SettingWakeUp::~SettingWakeUp()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/settings/Settings.h:280:12:bool Pinetime::Controllers::Settings::isWakeUpModeOn(WakeUpMode) const	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/settings/SettingWakeUp.cpp:20:1:Pinetime::Applications::Screens::SettingWakeUp::SettingWakeUp(Pinetime::Controllers::Settings&)	40	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/settings/SettingWakeUp.cpp:60:6:void Pinetime::Applications::Screens::SettingWakeUp::UpdateSelected(lv_obj_t*)	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/settings/SettingWakeUp.cpp:12:8:void {anonymous}::event_handler(lv_obj_t*, lv_event_t)	0	static

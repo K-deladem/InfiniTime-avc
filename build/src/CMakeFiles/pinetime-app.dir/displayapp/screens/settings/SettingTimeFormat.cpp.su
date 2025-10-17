@@ -1,0 +1,9 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:14:22:virtual void Pinetime::Applications::Screens::Screen::Refresh()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:29:22:virtual bool Pinetime::Applications::Screens::Screen::OnButtonPushed()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:35:22:virtual bool Pinetime::Applications::Screens::Screen::OnTouchEvent(Pinetime::Applications::TouchEvents)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:39:22:virtual bool Pinetime::Applications::Screens::Screen::OnTouchEvent(uint16_t, uint16_t)	0	static
+/opt/homebrew/arm-toolchain/arm-none-eabi/include/c++/13.2.1/bits/std_function.h:267:7:), _Functor>::_M_manager(std::_Any_data&, const std::_Any_data&, std::_Manager_operation) [with _Res = void; _Functor = Pinetime::Applications::Screens::SettingTimeFormat::SettingTimeFormat(Pinetime::Controllers::Settings&)::<lambda(uint32_t)>; _ArgTypes = {long unsigned int}]	0	static
+/opt/homebrew/arm-toolchain/arm-none-eabi/include/c++/13.2.1/bits/std_function.h:288:7:) [with _Res = void; _Functor = Pinetime::Applications::Screens::SettingTimeFormat::SettingTimeFormat(Pinetime::Controllers::Settings&)::<lambda(uint32_t)>; _ArgTypes = {long unsigned int}]	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/settings/SettingTimeFormat.cpp:45:1:Pinetime::Applications::Screens::SettingTimeFormat::SettingTimeFormat(Pinetime::Controllers::Settings&)	120	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/settings/SettingTimeFormat.cpp:59:1:Pinetime::Applications::Screens::SettingTimeFormat::~SettingTimeFormat()	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/settings/SettingTimeFormat.cpp:59:1:virtual Pinetime::Applications::Screens::SettingTimeFormat::~SettingTimeFormat()	8	static

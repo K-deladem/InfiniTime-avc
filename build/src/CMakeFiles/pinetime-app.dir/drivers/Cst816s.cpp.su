@@ -1,0 +1,6 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/Cst816s.cpp:18:1:Pinetime::Drivers::Cst816S::Cst816S(Pinetime::Drivers::TwiMaster&, uint8_t)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/Cst816s.cpp:62:21:Pinetime::Drivers::Cst816S::TouchInfos Pinetime::Drivers::Cst816S::GetTouchInfo()	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/Cst816s.cpp:99:6:void Pinetime::Drivers::Cst816S::Sleep()	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/Cst816s.cpp:114:6:bool Pinetime::Drivers::Cst816S::CheckDeviceIds()	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/Cst816s.cpp:21:6:bool Pinetime::Drivers::Cst816S::Init()	32	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/Cst816s.cpp:109:6:void Pinetime::Drivers::Cst816S::Wakeup()	0	static

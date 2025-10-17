@@ -1,0 +1,3 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_hs_mqueue.c:23:1:ble_mqueue_init	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_hs_mqueue.c:33:1:ble_mqueue_get	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_hs_mqueue.c:56:1:ble_mqueue_put	24	static

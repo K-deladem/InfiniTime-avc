@@ -1,0 +1,4 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_draw/lv_img_cache.c:206:13:lv_img_cache_match	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_draw/lv_img_cache.c:67:24:_lv_img_cache_open	40	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_draw/lv_img_cache.c:183:6:lv_img_cache_invalidate_src	32	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_draw/lv_img_cache.c:152:6:lv_img_cache_set_size	16	static

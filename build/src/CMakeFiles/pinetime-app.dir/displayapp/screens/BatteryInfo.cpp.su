@@ -1,0 +1,8 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:29:22:virtual bool Pinetime::Applications::Screens::Screen::OnButtonPushed()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:35:22:virtual bool Pinetime::Applications::Screens::Screen::OnTouchEvent(Pinetime::Applications::TouchEvents)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:39:22:virtual bool Pinetime::Applications::Screens::Screen::OnTouchEvent(uint16_t, uint16_t)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_core/lv_disp.h:158:26:lv_obj_t* lv_scr_act()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/BatteryInfo.cpp:47:1:Pinetime::Applications::Screens::BatteryInfo::~BatteryInfo()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/BatteryInfo.cpp:47:1:virtual Pinetime::Applications::Screens::BatteryInfo::~BatteryInfo()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/BatteryInfo.cpp:52:6:virtual void Pinetime::Applications::Screens::BatteryInfo::Refresh()	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/BatteryInfo.cpp:8:1:Pinetime::Applications::Screens::BatteryInfo::BatteryInfo(const Pinetime::Controllers::Battery&)	24	static

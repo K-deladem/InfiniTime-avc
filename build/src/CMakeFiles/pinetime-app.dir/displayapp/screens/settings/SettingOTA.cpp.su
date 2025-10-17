@@ -1,0 +1,10 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:14:22:virtual void Pinetime::Applications::Screens::Screen::Refresh()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:29:22:virtual bool Pinetime::Applications::Screens::Screen::OnButtonPushed()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:35:22:virtual bool Pinetime::Applications::Screens::Screen::OnTouchEvent(Pinetime::Applications::TouchEvents)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:39:22:virtual bool Pinetime::Applications::Screens::Screen::OnTouchEvent(uint16_t, uint16_t)	0	static
+/opt/homebrew/arm-toolchain/arm-none-eabi/include/c++/13.2.1/bits/std_function.h:267:7:), _Functor>::_M_manager(std::_Any_data&, const std::_Any_data&, std::_Manager_operation) [with _Res = void; _Functor = Pinetime::Applications::Screens::SettingOTA::SettingOTA(Pinetime::Applications::DisplayApp*, Pinetime::Controllers::Settings&)::<lambda(uint32_t)>; _ArgTypes = {long unsigned int}]	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/settings/Settings.h:325:20:Pinetime::Controllers::Settings::DfuAndFsMode Pinetime::Controllers::Settings::GetDfuAndFsMode()	0	static
+/opt/homebrew/arm-toolchain/arm-none-eabi/include/c++/13.2.1/bits/std_function.h:288:7:) [with _Res = void; _Functor = Pinetime::Applications::Screens::SettingOTA::SettingOTA(Pinetime::Applications::DisplayApp*, Pinetime::Controllers::Settings&)::<lambda(uint32_t)>; _ArgTypes = {long unsigned int}]	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/settings/SettingOTA.cpp:38:1:Pinetime::Applications::Screens::SettingOTA::SettingOTA(Pinetime::Applications::DisplayApp*, Pinetime::Controllers::Settings&)	120	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/settings/SettingOTA.cpp:55:1:Pinetime::Applications::Screens::SettingOTA::~SettingOTA()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/settings/SettingOTA.cpp:55:1:virtual Pinetime::Applications::Screens::SettingOTA::~SettingOTA()	8	static

@@ -1,0 +1,17 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:29:22:virtual bool Pinetime::Applications::Screens::Screen::OnButtonPushed()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:35:22:virtual bool Pinetime::Applications::Screens::Screen::OnTouchEvent(Pinetime::Applications::TouchEvents)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:39:22:virtual bool Pinetime::Applications::Screens::Screen::OnTouchEvent(uint16_t, uint16_t)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_core/lv_disp.h:158:26:lv_obj_t* lv_scr_act()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Timer.cpp:74:1:Pinetime::Applications::Screens::Timer::~Timer()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Timer.cpp:74:1:virtual Pinetime::Applications::Screens::Timer::~Timer()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Timer.cpp:79:6:void Pinetime::Applications::Screens::Timer::ButtonPressed()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Timer.cpp:95:6:void Pinetime::Applications::Screens::Timer::UpdateMask()	72	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Timer.cpp:84:6:void Pinetime::Applications::Screens::Timer::MaskReset()	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Timer.cpp:120:6:void Pinetime::Applications::Screens::Timer::DisplayTime()	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Timer.cpp:128:6:void Pinetime::Applications::Screens::Timer::SetTimerRunning()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Timer.cpp:134:6:void Pinetime::Applications::Screens::Timer::SetTimerStopped()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Timer.cpp:20:1:Pinetime::Applications::Screens::Timer::Timer(Pinetime::Controllers::Timer&)	88	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Timer.cpp:140:6:void Pinetime::Applications::Screens::Timer::ToggleRunning()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Timer.cpp:9:13:void btnEventHandler(lv_obj_t*, lv_event_t)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Timer.cpp:153:6:void Pinetime::Applications::Screens::Timer::Reset()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Timer.cpp:105:6:virtual void Pinetime::Applications::Screens::Timer::Refresh()	8	static

@@ -1,0 +1,5 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/settings/Settings.cpp:7:1:Pinetime::Controllers::Settings::Settings(Pinetime::Controllers::FS&)	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/settings/Settings.cpp:25:6:void Pinetime::Controllers::Settings::LoadSettingsFromFile()	152	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/settings/Settings.cpp:10:6:void Pinetime::Controllers::Settings::Init()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/settings/Settings.cpp:39:6:void Pinetime::Controllers::Settings::SaveSettingsToFile()	96	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/settings/Settings.cpp:16:6:void Pinetime::Controllers::Settings::SaveSettings()	8	static

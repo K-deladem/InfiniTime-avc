@@ -1,0 +1,8 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/heartrate/Ppg.cpp:8:9:float {anonymous}::LinearInterpolation(const float*, const float*, int, float)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/heartrate/Ppg.cpp:140:1:Pinetime::Controllers::Ppg::Ppg()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/heartrate/Ppg.cpp:145:8:int8_t Pinetime::Controllers::Ppg::Preprocess(uint16_t, uint16_t)	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/heartrate/Ppg.cpp:171:6:void Pinetime::Controllers::Ppg::Reset(bool)	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/heartrate/Ppg.cpp:255:6:void Pinetime::Controllers::Ppg::SpectrumAverage(const float*, float*, int, bool)	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/heartrate/Ppg.cpp:268:7:float Pinetime::Controllers::Ppg::HeartRateAverage(float)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/heartrate/Ppg.cpp:186:5:int Pinetime::Controllers::Ppg::ProcessHeartRate(bool)	72	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/heartrate/Ppg.cpp:156:5:int Pinetime::Controllers::Ppg::HeartRate()	8	static

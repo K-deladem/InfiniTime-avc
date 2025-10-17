@@ -1,0 +1,14 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/NimbleController.cpp:56:6:void nimble_on_reset(int)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/NimbleController.cpp:25:1:Pinetime::Controllers::NimbleController::NimbleController(Pinetime::System::SystemTask&, Pinetime::Controllers::Ble&, Pinetime::Controllers::DateTime&, Pinetime::Controllers::NotificationManager&, Pinetime::Controllers::Battery&, Pinetime::Drivers::SpiNorFlash&, Pinetime::Controllers::HeartRateController&, Pinetime::Controllers::MotionController&, Pinetime::Controllers::FS&)	40	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/NimbleController.cpp:141:6:void Pinetime::Controllers::NimbleController::StartAdvertising()	224	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/NimbleController.cpp:60:6:void nimble_on_sync()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/NimbleController.cpp:395:6:void Pinetime::Controllers::NimbleController::StartDiscovery()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/NimbleController.cpp:401:10:uint16_t Pinetime::Controllers::NimbleController::connHandle()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/NimbleController.cpp:405:6:void Pinetime::Controllers::NimbleController::NotifyBatteryLevel(uint8_t)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/NimbleController.cpp:411:6:void Pinetime::Controllers::NimbleController::EnableRadio()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/NimbleController.cpp:418:6:void Pinetime::Controllers::NimbleController::DisableRadio()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/NimbleController.cpp:428:6:void Pinetime::Controllers::NimbleController::PersistBond(ble_gap_conn_desc&)	952	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/NimbleController.cpp:186:5:int Pinetime::Controllers::NimbleController::OnGAPEvent(ble_gap_event*)	64	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/NimbleController.cpp:71:5:int GAPEventCallback(ble_gap_event*, void*)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/NimbleController.cpp:488:6:void Pinetime::Controllers::NimbleController::RestoreBond()	272	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/NimbleController.cpp:76:6:void Pinetime::Controllers::NimbleController::Init()	24	static

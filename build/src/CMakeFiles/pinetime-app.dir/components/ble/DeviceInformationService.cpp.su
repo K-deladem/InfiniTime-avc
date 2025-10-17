@@ -1,0 +1,4 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/DeviceInformationService.cpp:18:6:void Pinetime::Controllers::DeviceInformationService::Init()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/DeviceInformationService.cpp:27:5:int Pinetime::Controllers::DeviceInformationService::OnDeviceInfoRequested(ble_gatt_access_ctxt*)	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/DeviceInformationService.cpp:13:5:int DeviceInformationCallback(uint16_t, uint16_t, ble_gatt_access_ctxt*, void*)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/DeviceInformationService.cpp:57:1:Pinetime::Controllers::DeviceInformationService::DeviceInformationService()	8	static

@@ -1,0 +1,12 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:14:22:virtual void Pinetime::Applications::Screens::Screen::Refresh()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:29:22:virtual bool Pinetime::Applications::Screens::Screen::OnButtonPushed()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:35:22:virtual bool Pinetime::Applications::Screens::Screen::OnTouchEvent(Pinetime::Applications::TouchEvents)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:39:22:virtual bool Pinetime::Applications::Screens::Screen::OnTouchEvent(uint16_t, uint16_t)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_core/lv_disp.h:158:26:lv_obj_t* lv_scr_act()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Tile.cpp:94:1:Pinetime::Applications::Screens::Tile::~Tile()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Tile.cpp:94:1:virtual Pinetime::Applications::Screens::Tile::~Tile()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Tile.cpp:99:6:void Pinetime::Applications::Screens::Tile::UpdateScreen()	40	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Tile.cpp:26:1:Pinetime::Applications::Screens::Tile::Tile(uint8_t, uint8_t, Pinetime::Applications::DisplayApp*, Pinetime::Controllers::Settings&, const Pinetime::Controllers::Battery&, const Pinetime::Controllers::Ble&, const Pinetime::Controllers::AlarmController&, Pinetime::Controllers::DateTime&, std::array<Applications, 6>&)	40	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Tile.cpp:9:8:void {anonymous}::lv_update_task(_lv_task_t*)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Tile.cpp:104:6:void Pinetime::Applications::Screens::Tile::OnValueChangedEvent(lv_obj_t*, uint32_t)	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Tile.cpp:14:8:void {anonymous}::event_handler(lv_obj_t*, lv_event_t)	16	static

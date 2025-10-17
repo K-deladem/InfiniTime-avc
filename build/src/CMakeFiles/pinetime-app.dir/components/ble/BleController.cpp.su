@@ -1,0 +1,10 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/BleController.cpp:5:6:bool Pinetime::Controllers::Ble::IsConnected() const	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/BleController.cpp:9:6:void Pinetime::Controllers::Ble::Connect()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/BleController.cpp:13:6:void Pinetime::Controllers::Ble::Disconnect()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/BleController.cpp:17:6:bool Pinetime::Controllers::Ble::IsRadioEnabled() const	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/BleController.cpp:21:6:void Pinetime::Controllers::Ble::EnableRadio()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/BleController.cpp:25:6:void Pinetime::Controllers::Ble::DisableRadio()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/BleController.cpp:29:6:void Pinetime::Controllers::Ble::StartFirmwareUpdate()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/BleController.cpp:33:6:void Pinetime::Controllers::Ble::StopFirmwareUpdate()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/BleController.cpp:37:6:void Pinetime::Controllers::Ble::FirmwareUpdateTotalBytes(uint32_t)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/BleController.cpp:41:6:void Pinetime::Controllers::Ble::FirmwareUpdateCurrentBytes(uint32_t)	0	static

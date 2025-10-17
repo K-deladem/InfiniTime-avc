@@ -1,0 +1,6 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/controller/include/controller/ble_ll.h:573:6:ble_ll_rand_sample	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/controller/include/controller/ble_ll.h:574:5:ble_ll_rand_data_get	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/controller/include/controller/ble_ll.h:577:10:ble_ll_rand	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/controller/include/controller/ble_ll.h:575:6:ble_ll_rand_prand_get	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/controller/include/controller/ble_ll.h:576:5:ble_ll_rand_start	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/controller/include/controller/ble_ll.h:572:5:ble_ll_rand_init	8	static

@@ -1,0 +1,6 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/controller/src/ble_ll_utils.c:214:1:ble_ll_utils_csa2_perm	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/controller/include/controller/ble_ll_utils.h:22:10:ble_ll_utils_calc_access_addr	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/controller/include/controller/ble_ll_utils.h:23:9:ble_ll_utils_remapped_channel	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/controller/include/controller/ble_ll_utils.h:26:9:ble_ll_utils_calc_num_used_chans	12	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/controller/include/controller/ble_ll_utils.h:24:9:ble_ll_utils_calc_dci_csa2	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/controller/include/controller/ble_ll_utils.h:27:10:ble_ll_utils_calc_window_widening	8	static

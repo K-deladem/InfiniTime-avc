@@ -1,0 +1,7 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:14:22:virtual void Pinetime::Applications::Screens::Screen::Refresh()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:29:22:virtual bool Pinetime::Applications::Screens::Screen::OnButtonPushed()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/InfiniPaint.cpp:15:1:Pinetime::Applications::Screens::InfiniPaint::~InfiniPaint()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/InfiniPaint.cpp:15:1:virtual Pinetime::Applications::Screens::InfiniPaint::~InfiniPaint()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/InfiniPaint.cpp:63:6:virtual bool Pinetime::Applications::Screens::InfiniPaint::OnTouchEvent(uint16_t, uint16_t)	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/InfiniPaint.cpp:19:6:virtual bool Pinetime::Applications::Screens::InfiniPaint::OnTouchEvent(Pinetime::Applications::TouchEvents)	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/InfiniPaint.cpp:10:1:Pinetime::Applications::Screens::InfiniPaint::InfiniPaint(Pinetime::Components::LittleVgl&, Pinetime::Controllers::MotorController&)	0	static

@@ -1,0 +1,7 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:14:22:virtual void Pinetime::Applications::Screens::Screen::Refresh()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:29:22:virtual bool Pinetime::Applications::Screens::Screen::OnButtonPushed()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:35:22:virtual bool Pinetime::Applications::Screens::Screen::OnTouchEvent(Pinetime::Applications::TouchEvents)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:39:22:virtual bool Pinetime::Applications::Screens::Screen::OnTouchEvent(uint16_t, uint16_t)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Label.cpp:10:1:Pinetime::Applications::Screens::Label::~Label()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Label.cpp:10:1:virtual Pinetime::Applications::Screens::Label::~Label()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Label.cpp:5:1:Pinetime::Applications::Screens::Label::Label(uint8_t, uint8_t, lv_obj_t*)	16	static

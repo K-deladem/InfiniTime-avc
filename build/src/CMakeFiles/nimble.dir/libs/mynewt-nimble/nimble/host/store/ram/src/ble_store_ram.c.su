@@ -1,0 +1,10 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/include/nimble/ble.h:295:19:ble_addr_cmp	4	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/store/ram/src/ble_store_ram.c:94:1:ble_store_ram_find_sec	40	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/store/ram/src/ble_store_ram.c:199:1:ble_store_ram_delete_sec	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/store/ram/src/ble_store_ram.c:296:1:ble_store_ram_find_cccd	40	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/store/ram/src/ble_store_ram.c:79:1:ble_store_ram_print_key_sec	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/store/ram/include/store/ram/ble_store_ram.h:35:5:ble_store_ram_read	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/store/ram/src/ble_store_ram.c:56:1:ble_store_ram_print_value_sec	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/store/ram/include/store/ram/ble_store_ram.h:37:5:ble_store_ram_write	48	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/store/ram/include/store/ram/ble_store_ram.h:38:5:ble_store_ram_delete	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/store/ram/src/ble_store_ram.c:489:1:ble_store_ram_init	0	static

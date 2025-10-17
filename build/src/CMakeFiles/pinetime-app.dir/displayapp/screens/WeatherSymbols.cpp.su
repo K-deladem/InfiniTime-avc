@@ -1,0 +1,2 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/WeatherSymbols.cpp:3:13:const char* Pinetime::Applications::Screens::Symbols::GetSymbol(Pinetime::Controllers::SimpleWeatherService::Icons)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/WeatherSymbols.cpp:38:13:const char* Pinetime::Applications::Screens::Symbols::GetCondition(Pinetime::Controllers::SimpleWeatherService::Icons)	0	static

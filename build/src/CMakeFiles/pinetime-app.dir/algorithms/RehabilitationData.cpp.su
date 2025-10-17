@@ -1,0 +1,5 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/algorithms/RehabilitationData.cpp:6:1:RehabilitationData::RehabilitationData()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/algorithms/RehabilitationData.cpp:10:6:void RehabilitationData::AddMeasurement(uint8_t, uint16_t)	32	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/algorithms/RehabilitationData.cpp:64:33:RehabilitationData::DailyRecord RehabilitationData::GetTodayStats() const	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/algorithms/RehabilitationData.cpp:68:6:void RehabilitationData::Load()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/algorithms/RehabilitationData.cpp:74:6:void RehabilitationData::Save()	0	static

@@ -1,0 +1,9 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_hs_hci_util.c:26:1:ble_hs_hci_util_handle_pb_bc_join	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_hs_hci_util.c:38:1:ble_hs_hci_util_read_adv_tx_pwr	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_hs_hci_util.c:61:1:ble_hs_hci_util_rand	40	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_hs_hci_util.c:87:1:ble_hs_hci_util_read_rssi	32	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_hs_hci_util.c:113:1:ble_hs_hci_util_set_random_addr	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_hs_hci_util.c:125:1:ble_hs_hci_util_set_data_len	32	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_hs_hci_util.c:161:1:ble_hs_hci_util_data_hdr_strip	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/include/host/ble_hs_hci.h:63:5:ble_hs_hci_read_chan_map	40	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/include/host/ble_hs_hci.h:88:5:ble_hs_hci_set_chan_class	24	static

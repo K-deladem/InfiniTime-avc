@@ -1,0 +1,9 @@
+/opt/homebrew/arm-toolchain/arm-none-eabi/include/stdlib.h:108:7:malloc	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/stdlib.c:14:7:__wrap_malloc	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/stdlib.c:18:7:__wrap__malloc_r	0	static
+/opt/homebrew/arm-toolchain/arm-none-eabi/include/stdlib.h:94:6:free	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/stdlib.c:27:6:__wrap_free	0	static
+/opt/homebrew/arm-toolchain/arm-none-eabi/include/stdlib.h:90:7:calloc	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/stdlib.c:39:7:__wrap_calloc	0	static
+/opt/homebrew/arm-toolchain/arm-none-eabi/include/stdlib.h:145:7:realloc	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/stdlib.c:49:7:__wrap_realloc	0	static

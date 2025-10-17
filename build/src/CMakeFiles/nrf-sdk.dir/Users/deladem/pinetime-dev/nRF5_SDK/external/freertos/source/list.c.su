@@ -1,0 +1,5 @@
+/Users/deladem/pinetime-dev/nRF5_SDK/external/freertos/source/include/list.h:345:6:vListInitialise	0	static
+/Users/deladem/pinetime-dev/nRF5_SDK/external/freertos/source/include/list.h:356:6:vListInitialiseItem	0	static
+/Users/deladem/pinetime-dev/nRF5_SDK/external/freertos/source/include/list.h:390:6:vListInsertEnd	0	static
+/Users/deladem/pinetime-dev/nRF5_SDK/external/freertos/source/include/list.h:369:6:vListInsert	12	static
+/Users/deladem/pinetime-dev/nRF5_SDK/external/freertos/source/include/list.h:405:13:uxListRemove	0	static

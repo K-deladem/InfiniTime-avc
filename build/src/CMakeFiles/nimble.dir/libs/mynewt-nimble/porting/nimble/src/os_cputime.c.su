@@ -1,0 +1,8 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/porting/nimble/include/os/os_cputime.h:105:5:os_cputime_init	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/porting/nimble/include/os/os_cputime.h:190:6:os_cputime_timer_init	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/porting/nimble/include/os/os_cputime.h:206:5:os_cputime_timer_start	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/porting/nimble/include/os/os_cputime.h:229:6:os_cputime_timer_stop	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/porting/nimble/include/os/os_cputime.h:112:10:os_cputime_get32	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/porting/nimble/include/os/os_cputime.h:174:6:os_cputime_delay_ticks	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/porting/nimble/include/os/os_cputime.h:181:6:os_cputime_delay_usecs	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/porting/nimble/include/os/os_cputime.h:220:5:os_cputime_timer_relative	16	static

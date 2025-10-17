@@ -1,0 +1,4 @@
+/Users/deladem/pinetime-dev/nRF5_SDK/modules/nrfx/mdk/system_nrf52.c:218:13:errata_12	0	static
+/Users/deladem/pinetime-dev/nRF5_SDK/modules/nrfx/mdk/system_nrf52.c:235:13:errata_16	0	static
+/Users/deladem/pinetime-dev/nRF5_SDK/modules/nrfx/mdk/system_nrf52.c:56:6:SystemCoreClockUpdate	0	static
+/Users/deladem/pinetime-dev/nRF5_SDK/modules/nrfx/mdk/system_nrf52.c:61:6:SystemInit	8	static

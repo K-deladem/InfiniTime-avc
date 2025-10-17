@@ -1,0 +1,13 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/SpiMaster.cpp:9:1:Pinetime::Drivers::SpiMaster::SpiMaster(SpiModule, const Parameters&)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/SpiMaster.cpp:12:6:bool Pinetime::Drivers::SpiMaster::Init()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/SpiMaster.cpp:97:6:void Pinetime::Drivers::SpiMaster::SetupWorkaroundForErratum58()	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/SpiMaster.cpp:123:6:void Pinetime::Drivers::SpiMaster::DisableWorkaroundForErratum58()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/SpiMaster.cpp:160:6:void Pinetime::Drivers::SpiMaster::OnStartedEvent()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/SpiMaster.cpp:163:6:void Pinetime::Drivers::SpiMaster::PrepareTx(uint32_t, size_t)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/SpiMaster.cpp:138:6:void Pinetime::Drivers::SpiMaster::OnEndEvent()	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/SpiMaster.cpp:173:6:void Pinetime::Drivers::SpiMaster::PrepareRx(uint32_t, size_t)	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/SpiMaster.cpp:183:6:bool Pinetime::Drivers::SpiMaster::Write(uint8_t, const uint8_t*, size_t, const std::function<void()>&)	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/SpiMaster.cpp:225:6:bool Pinetime::Drivers::SpiMaster::Read(uint8_t, uint8_t*, size_t, uint8_t*, size_t)	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/SpiMaster.cpp:256:6:void Pinetime::Drivers::SpiMaster::Sleep()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/SpiMaster.cpp:267:6:void Pinetime::Drivers::SpiMaster::Wakeup()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/SpiMaster.cpp:272:6:bool Pinetime::Drivers::SpiMaster::WriteCmdAndBuffer(uint8_t, const uint8_t*, size_t, const uint8_t*, size_t)	24	static

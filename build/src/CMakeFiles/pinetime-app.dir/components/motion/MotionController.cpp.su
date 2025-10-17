@@ -1,0 +1,7 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/motion/MotionController.cpp:15:11:int16_t {anonymous}::DegreesRolled(int16_t, int16_t, int16_t, int16_t)	32	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/motion/MotionController.cpp:66:30:Pinetime::Controllers::MotionController::AccelStats Pinetime::Controllers::MotionController::GetAccelStats() const	48	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/motion/MotionController.cpp:38:6:void Pinetime::Controllers::MotionController::Update(int16_t, int16_t, int16_t, uint32_t)	48	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/motion/MotionController.cpp:96:6:bool Pinetime::Controllers::MotionController::ShouldRaiseWake() const	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/motion/MotionController.cpp:114:6:bool Pinetime::Controllers::MotionController::ShouldShakeWake(uint16_t)	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/motion/MotionController.cpp:125:6:bool Pinetime::Controllers::MotionController::ShouldLowerSleep() const	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/motion/MotionController.cpp:144:6:void Pinetime::Controllers::MotionController::Init(Pinetime::Drivers::Bma421::DeviceTypes)	0	static

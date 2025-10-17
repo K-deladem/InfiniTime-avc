@@ -1,0 +1,11 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/settings/Settings.h:280:12:bool Pinetime::Controllers::Settings::isWakeUpModeOn(WakeUpMode) const	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/systemtask/SystemTask.cpp:35:1:Pinetime::System::SystemTask::SystemTask(Pinetime::Drivers::SpiMaster&, Pinetime::Drivers::SpiNorFlash&, Pinetime::Drivers::TwiMaster&, Pinetime::Drivers::Cst816S&, Pinetime::Controllers::Battery&, Pinetime::Controllers::Ble&, Pinetime::Controllers::DateTime&, Pinetime::Controllers::AlarmController&, Pinetime::Drivers::Watchdog&, Pinetime::Controllers::NotificationManager&, Pinetime::Drivers::Hrs3300&, Pinetime::Controllers::MotionController&, Pinetime::Drivers::Bma421&, Pinetime::Controllers::Settings&, Pinetime::Controllers::HeartRateController&, Pinetime::Applications::DisplayApp&, Pinetime::Applications::HeartRateTask&, Pinetime::Controllers::FS&, Pinetime::Controllers::TouchHandler&, Pinetime::Controllers::ButtonHandler&)	48	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/systemtask/SystemTask.cpp:86:6:void Pinetime::System::SystemTask::Start()	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/systemtask/SystemTask.cpp:385:6:void Pinetime::System::SystemTask::GoToRunning()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/systemtask/SystemTask.cpp:413:6:void Pinetime::System::SystemTask::GoToSleep()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/systemtask/SystemTask.cpp:431:6:void Pinetime::System::SystemTask::UpdateMotion()	32	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/systemtask/SystemTask.cpp:463:6:void Pinetime::System::SystemTask::HandleButtonAction(Pinetime::Controllers::ButtonActions)	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/systemtask/SystemTask.cpp:99:6:void Pinetime::System::SystemTask::Work()	56	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/systemtask/SystemTask.cpp:93:6:static void Pinetime::System::SystemTask::Process(void*)	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/systemtask/SystemTask.cpp:495:6:void Pinetime::System::SystemTask::PushMessage(Pinetime::System::Messages)	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/systemtask/SystemTask.cpp:30:6:void MeasureBatteryTimerCallback(TimerHandle_t)	8	static

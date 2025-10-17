@@ -1,0 +1,18 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:14:22:virtual void Pinetime::Applications::Screens::Screen::Refresh()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:29:22:virtual bool Pinetime::Applications::Screens::Screen::OnButtonPushed()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:39:22:virtual bool Pinetime::Applications::Screens::Screen::OnTouchEvent(uint16_t, uint16_t)	0	static
+/opt/homebrew/arm-toolchain/arm-none-eabi/include/c++/13.2.1/bits/std_function.h:267:7:), _Functor>::_M_manager(std::_Any_data&, const std::_Any_data&, std::_Manager_operation) [with _Res = std::unique_ptr<Pinetime::Applications::Screens::Screen>; _Functor = Pinetime::Applications::Screens::Settings::CreateScreenList() const::<lambda()>; _ArgTypes = {}]	0	static
+/opt/homebrew/arm-toolchain/arm-none-eabi/include/c++/13.2.1/bits/std_function.h:241:5:std::_Function_base::~_Function_base()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/settings/Settings.cpp:11:6:auto Pinetime::Applications::Screens::Settings::CreateScreenList() const	56	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/settings/Settings.cpp:35:25:std::unique_ptr<Pinetime::Applications::Screens::Screen> Pinetime::Applications::Screens::Settings::CreateScreen(unsigned int) const	88	static
+/opt/homebrew/arm-toolchain/arm-none-eabi/include/c++/13.2.1/bits/std_function.h:288:7:) [with _Res = std::unique_ptr<Pinetime::Applications::Screens::Screen>; _Functor = Pinetime::Applications::Screens::Settings::CreateScreenList() const::<lambda()>; _ArgTypes = {}]	8	static
+/opt/homebrew/arm-toolchain/arm-none-eabi/include/c++/13.2.1/bits/unique_ptr.h:398:7:std::unique_ptr<_Tp, _Dp>::~unique_ptr() [with _Tp = Pinetime::Applications::Screens::Screen; _Dp = std::default_delete<Pinetime::Applications::Screens::Screen>]	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/ScreenList.h:35:9:Pinetime::Applications::Screens::ScreenList<N>::~ScreenList() [with unsigned int N = 4]	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/ScreenList.h:35:9:Pinetime::Applications::Screens::ScreenList<N>::~ScreenList() [with unsigned int N = 4]	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/settings/Settings.cpp:27:1:Pinetime::Applications::Screens::Settings::~Settings()	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/settings/Settings.cpp:27:1:virtual Pinetime::Applications::Screens::Settings::~Settings()	8	static
+/opt/homebrew/arm-toolchain/arm-none-eabi/include/c++/13.2.1/bits/std_function.h:587:7:) const [with _Res = std::unique_ptr<Pinetime::Applications::Screens::Screen>; _ArgTypes = {}]	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/settings/Settings.cpp:21:1:Pinetime::Applications::Screens::Settings::Settings(Pinetime::Applications::DisplayApp*, Pinetime::Controllers::Settings&)	112	static
+/opt/homebrew/arm-toolchain/arm-none-eabi/include/c++/13.2.1/bits/unique_ptr.h:206:12:void std::__uniq_ptr_impl<_Tp, _Dp>::reset(pointer) [with _Tp = Pinetime::Applications::Screens::Screen; _Dp = std::default_delete<Pinetime::Applications::Screens::Screen>]	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/ScreenList.h:39:14:bool Pinetime::Applications::Screens::ScreenList<N>::OnTouchEvent(Pinetime::Applications::TouchEvents) [with unsigned int N = 4]	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/settings/Settings.cpp:31:6:virtual bool Pinetime::Applications::Screens::Settings::OnTouchEvent(Pinetime::Applications::TouchEvents)	8	static

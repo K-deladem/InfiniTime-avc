@@ -1,0 +1,6 @@
+/Users/deladem/pinetime-dev/nRF5_SDK/components/libraries/util/app_util_platform.c:49:6:app_util_disable_irq	0	static
+/Users/deladem/pinetime-dev/nRF5_SDK/components/libraries/util/app_util_platform.c:55:6:app_util_enable_irq	0	static
+/Users/deladem/pinetime-dev/nRF5_SDK/components/libraries/util/app_util_platform.c:64:6:app_util_critical_region_enter	0	static
+/Users/deladem/pinetime-dev/nRF5_SDK/components/libraries/util/app_util_platform.c:78:6:app_util_critical_region_exit	0	static
+/Users/deladem/pinetime-dev/nRF5_SDK/components/libraries/util/app_util_platform.c:93:9:privilege_level_get	0	static
+/Users/deladem/pinetime-dev/nRF5_SDK/components/libraries/util/app_util_platform.c:115:9:current_int_priority_get	0	static

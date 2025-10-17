@@ -1,0 +1,10 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:14:22:virtual void Pinetime::Applications::Screens::Screen::Refresh()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:29:22:virtual bool Pinetime::Applications::Screens::Screen::OnButtonPushed()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:35:22:virtual bool Pinetime::Applications::Screens::Screen::OnTouchEvent(Pinetime::Applications::TouchEvents)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:39:22:virtual bool Pinetime::Applications::Screens::Screen::OnTouchEvent(uint16_t, uint16_t)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_core/lv_disp.h:158:26:lv_obj_t* lv_scr_act()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/settings/SettingSteps.cpp:71:1:Pinetime::Applications::Screens::SettingSteps::~SettingSteps()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/settings/SettingSteps.cpp:71:1:virtual Pinetime::Applications::Screens::SettingSteps::~SettingSteps()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/settings/SettingSteps.cpp:16:1:Pinetime::Applications::Screens::SettingSteps::SettingSteps(Pinetime::Controllers::Settings&)	40	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/settings/SettingSteps.cpp:76:6:void Pinetime::Applications::Screens::SettingSteps::UpdateSelected(lv_obj_t*, lv_event_t)	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/settings/SettingSteps.cpp:10:8:void {anonymous}::event_handler(lv_obj_t*, lv_event_t)	0	static

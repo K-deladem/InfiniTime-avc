@@ -1,0 +1,7 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/AlertNotificationService.cpp:19:6:void Pinetime::Controllers::AlertNotificationService::Init()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/AlertNotificationService.cpp:28:1:Pinetime::Controllers::AlertNotificationService::AlertNotificationService(Pinetime::System::SystemTask&, Pinetime::Controllers::NotificationManager&)	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/AlertNotificationService.cpp:47:5:int Pinetime::Controllers::AlertNotificationService::OnAlert(ble_gatt_access_ctxt*)	152	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/AlertNotificationService.cpp:14:5:int AlertNotificationCallback(uint16_t, uint16_t, ble_gatt_access_ctxt*, void*)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/AlertNotificationService.cpp:87:6:void Pinetime::Controllers::AlertNotificationService::AcceptIncomingCall()	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/AlertNotificationService.cpp:100:6:void Pinetime::Controllers::AlertNotificationService::RejectIncomingCall()	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/AlertNotificationService.cpp:113:6:void Pinetime::Controllers::AlertNotificationService::MuteIncomingCall()	24	static

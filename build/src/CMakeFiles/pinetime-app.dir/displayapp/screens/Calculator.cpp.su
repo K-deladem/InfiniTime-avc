@@ -1,0 +1,16 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:14:22:virtual void Pinetime::Applications::Screens::Screen::Refresh()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:29:22:virtual bool Pinetime::Applications::Screens::Screen::OnButtonPushed()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:35:22:virtual bool Pinetime::Applications::Screens::Screen::OnTouchEvent(Pinetime::Applications::TouchEvents)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:39:22:virtual bool Pinetime::Applications::Screens::Screen::OnTouchEvent(uint16_t, uint16_t)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_core/lv_disp.h:158:26:lv_obj_t* lv_scr_act()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Calculator.cpp:14:1:Pinetime::Applications::Screens::Calculator::~Calculator()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Calculator.cpp:14:1:virtual Pinetime::Applications::Screens::Calculator::~Calculator()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Calculator.cpp:21:1:Pinetime::Applications::Screens::Calculator::Calculator()	32	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Calculator.cpp:206:6:void Pinetime::Applications::Screens::Calculator::UpdateOperation() const	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Calculator.cpp:238:6:void Pinetime::Applications::Screens::Calculator::ResetInput()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Calculator.cpp:246:6:void Pinetime::Applications::Screens::Calculator::UpdateResultLabel() const	48	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Calculator.cpp:275:6:void Pinetime::Applications::Screens::Calculator::UpdateValueLabel()	64	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Calculator.cpp:322:6:void Pinetime::Applications::Screens::Calculator::Eval()	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Calculator.cpp:61:6:void Pinetime::Applications::Screens::Calculator::HandleInput()	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Calculator.cpp:55:6:void Pinetime::Applications::Screens::Calculator::OnButtonEvent(lv_obj_t*, lv_event_t)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Calculator.cpp:9:13:void eventHandler(lv_obj_t*, lv_event_t)	0	static

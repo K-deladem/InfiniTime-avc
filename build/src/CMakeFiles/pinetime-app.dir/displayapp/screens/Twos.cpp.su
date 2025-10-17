@@ -1,0 +1,12 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:14:22:virtual void Pinetime::Applications::Screens::Screen::Refresh()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:29:22:virtual bool Pinetime::Applications::Screens::Screen::OnButtonPushed()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:39:22:virtual bool Pinetime::Applications::Screens::Screen::OnTouchEvent(uint16_t, uint16_t)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_core/lv_disp.h:158:26:lv_obj_t* lv_scr_act()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Twos.cpp:66:1:Pinetime::Applications::Screens::Twos::~Twos()	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Twos.cpp:66:1:virtual Pinetime::Applications::Screens::Twos::~Twos()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Twos.cpp:100:6:bool Pinetime::Applications::Screens::Twos::tryMerge(int, int, int, int)	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Twos.cpp:116:6:bool Pinetime::Applications::Screens::Twos::tryMove(int, int, int, int)	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Twos.cpp:239:6:void Pinetime::Applications::Screens::Twos::updateGridDisplay()	40	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Twos.cpp:73:6:bool Pinetime::Applications::Screens::Twos::placeNewTile()	80	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Twos.cpp:8:1:Pinetime::Applications::Screens::Twos::Twos()	40	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Twos.cpp:125:6:virtual bool Pinetime::Applications::Screens::Twos::OnTouchEvent(Pinetime::Applications::TouchEvents)	48	static

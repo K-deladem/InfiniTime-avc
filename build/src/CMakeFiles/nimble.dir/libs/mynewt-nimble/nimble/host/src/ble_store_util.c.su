@@ -1,0 +1,8 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_store_util.c:167:1:ble_store_util_iter_count	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_store_util.c:31:1:ble_store_util_iter_unique_peer	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/include/host/ble_store.h:290:5:ble_store_util_bonded_peers	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/include/host/ble_store.h:293:5:ble_store_util_delete_all	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/include/host/ble_store.h:294:5:ble_store_util_delete_peer	40	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/include/host/ble_store.h:296:5:ble_store_util_count	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/include/host/ble_store.h:295:5:ble_store_util_delete_oldest_peer	40	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/include/host/ble_store.h:297:5:ble_store_util_status_rr	0	static

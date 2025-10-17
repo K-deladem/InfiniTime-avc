@@ -1,0 +1,10 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/SimpleWeatherService.cpp:31:12:uint64_t {anonymous}::ToUInt64(const uint8_t*)	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/SimpleWeatherService.cpp:83:1:Pinetime::Controllers::SimpleWeatherService::SimpleWeatherService(Pinetime::Controllers::DateTime&)	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/SimpleWeatherService.cpp:86:6:void Pinetime::Controllers::SimpleWeatherService::Init()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/SimpleWeatherService.cpp:91:5:int Pinetime::Controllers::SimpleWeatherService::OnCommand(ble_gatt_access_ctxt*)	128	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/SimpleWeatherService.cpp:79:5:int WeatherCallback(uint16_t, uint16_t, ble_gatt_access_ctxt*, void*)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/SimpleWeatherService.cpp:128:53:std::optional<Pinetime::Controllers::SimpleWeatherService::CurrentWeather> Pinetime::Controllers::SimpleWeatherService::Current() const	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/SimpleWeatherService.cpp:142:47:std::optional<Pinetime::Controllers::SimpleWeatherService::Forecast> Pinetime::Controllers::SimpleWeatherService::GetForecast() const	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/SimpleWeatherService.cpp:156:6:bool Pinetime::Controllers::SimpleWeatherService::CurrentWeather::operator==(const Pinetime::Controllers::SimpleWeatherService::CurrentWeather&) const	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/SimpleWeatherService.cpp:162:6:bool Pinetime::Controllers::SimpleWeatherService::Forecast::Day::operator==(const Pinetime::Controllers::SimpleWeatherService::Forecast::Day&) const	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/SimpleWeatherService.cpp:166:6:bool Pinetime::Controllers::SimpleWeatherService::Forecast::operator==(const Pinetime::Controllers::SimpleWeatherService::Forecast&) const	24	static

@@ -1,0 +1,4 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/systemtask/WakeLock.cpp:5:1:Pinetime::System::WakeLock::WakeLock(Pinetime::System::SystemTask&)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/systemtask/WakeLock.cpp:13:6:void Pinetime::System::WakeLock::Lock()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/systemtask/WakeLock.cpp:21:6:void Pinetime::System::WakeLock::Release()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/systemtask/WakeLock.cpp:9:1:Pinetime::System::WakeLock::~WakeLock()	8	static

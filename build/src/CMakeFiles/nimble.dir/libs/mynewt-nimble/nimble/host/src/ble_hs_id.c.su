@@ -1,0 +1,10 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_hs_id.c:28:1:ble_hs_id_set_pub	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/include/host/ble_hs_id.h:50:5:ble_hs_id_gen_rnd	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/include/host/ble_hs_id.h:65:5:ble_hs_id_set_rnd	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_hs_id.c:122:1:ble_hs_id_addr	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_hs_id.c:179:1:ble_hs_id_addr_type_usable	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/include/host/ble_hs_id.h:92:5:ble_hs_id_copy_addr	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_hs_id.c:214:1:ble_hs_id_use_addr	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/include/host/ble_hs_id.h:122:5:ble_hs_id_infer_auto	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_hs_id.c:292:1:ble_hs_id_reset	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_hs_id.c:303:2:ble_hs_id_rnd_reset	0	static

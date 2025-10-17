@@ -1,0 +1,13 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_hs_adv.c:768:1:find_field_func	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_hs_adv.c:36:1:ble_hs_adv_set_hdr	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_hs_adv.c:65:1:ble_hs_adv_set_flat_mbuf	40	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_hs_adv.c:524:1:ble_hs_adv_parse_uuids128	56	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_hs_adv.c:502:1:ble_hs_adv_parse_uuids32	48	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_hs_adv.c:480:1:ble_hs_adv_parse_uuids16	48	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_hs_adv.c:228:1:adv_set_fields	72	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_hs_adv.c:89:1:ble_hs_adv_set_flat	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/include/host/ble_hs_adv.h:164:5:ble_hs_adv_set_fields	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/include/host/ble_hs_adv.h:161:5:ble_hs_adv_set_fields_mbuf	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/include/host/ble_hs_adv.h:167:5:ble_hs_adv_parse_fields	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/include/host/ble_hs_adv.h:170:5:ble_hs_adv_parse	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_hs_adv.c:782:1:ble_hs_adv_find_field	24	static

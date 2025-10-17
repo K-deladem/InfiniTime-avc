@@ -1,0 +1,18 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:35:22:virtual bool Pinetime::Applications::Screens::Screen::OnTouchEvent(Pinetime::Applications::TouchEvents)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:39:22:virtual bool Pinetime::Applications::Screens::Screen::OnTouchEvent(uint16_t, uint16_t)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_core/lv_disp.h:158:26:lv_obj_t* lv_scr_act()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/StopWatch.cpp:80:1:Pinetime::Applications::Screens::StopWatch::~StopWatch()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/StopWatch.cpp:80:1:virtual Pinetime::Applications::Screens::StopWatch::~StopWatch()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/StopWatch.cpp:150:6:virtual void Pinetime::Applications::Screens::StopWatch::Refresh()	32	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/StopWatch.cpp:85:6:void Pinetime::Applications::Screens::StopWatch::SetInterfacePaused()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/StopWatch.cpp:92:6:void Pinetime::Applications::Screens::StopWatch::SetInterfaceRunning()	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/StopWatch.cpp:105:6:void Pinetime::Applications::Screens::StopWatch::SetInterfaceStopped()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/StopWatch.cpp:37:1:Pinetime::Applications::Screens::StopWatch::StopWatch(Pinetime::System::SystemTask&)	32	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/StopWatch.cpp:126:6:void Pinetime::Applications::Screens::StopWatch::Reset()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/StopWatch.cpp:133:6:void Pinetime::Applications::Screens::StopWatch::Start()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/StopWatch.cpp:140:6:void Pinetime::Applications::Screens::StopWatch::Pause()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/StopWatch.cpp:213:6:virtual bool Pinetime::Applications::Screens::StopWatch::OnButtonPushed()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/StopWatch.cpp:181:6:void Pinetime::Applications::Screens::StopWatch::playPauseBtnEventHandler()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/StopWatch.cpp:20:8:void {anonymous}::play_pause_event_handler(lv_obj_t*, lv_event_t)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/StopWatch.cpp:189:6:void Pinetime::Applications::Screens::StopWatch::stopLapBtnEventHandler()	64	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/StopWatch.cpp:27:8:void {anonymous}::stop_lap_event_handler(lv_obj_t*, lv_event_t)	0	static

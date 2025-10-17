@@ -1,0 +1,11 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_core/lv_refr.c:787:19:lv_refr_get_top_obj	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_core/lv_refr.c:872:13:lv_refr_obj	64	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_core/lv_refr.c:828:13:lv_refr_obj_and_children	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_core/lv_refr.c:1127:13:lv_refr_vdb_flush	112	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_core/lv_refr.c:700:13:lv_refr_area_part	128	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_core/lv_refr.c:69:6:_lv_refr_init	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_core/lv_refr.c:106:6:_lv_inv_area	40	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_core/lv_refr.c:155:13:_lv_refr_get_disp_refreshing	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_core/lv_refr.c:166:6:_lv_refr_set_disp_refreshing	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_core/lv_refr.c:175:6:_lv_disp_refr_task	80	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_core/lv_refr.c:81:6:lv_refr_now	8	static

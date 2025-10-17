@@ -1,0 +1,6 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/motor/MotorController.cpp:37:6:static void Pinetime::Controllers::MotorController::StopMotor(TimerHandle_t)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/motor/MotorController.cpp:8:6:void Pinetime::Controllers::MotorController::Init()	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/motor/MotorController.cpp:21:6:void Pinetime::Controllers::MotorController::RunForDuration(uint8_t)	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/motor/MotorController.cpp:16:6:static void Pinetime::Controllers::MotorController::Ring(TimerHandle_t)	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/motor/MotorController.cpp:27:6:void Pinetime::Controllers::MotorController::StartRinging()	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/motor/MotorController.cpp:32:6:void Pinetime::Controllers::MotorController::StopRinging()	16	static

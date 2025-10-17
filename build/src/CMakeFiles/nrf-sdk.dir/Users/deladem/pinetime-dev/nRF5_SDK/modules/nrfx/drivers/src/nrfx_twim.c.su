@@ -1,0 +1,12 @@
+/Users/deladem/pinetime-dev/nRF5_SDK/modules/nrfx/hal/nrf_twim.h:417:22:nrf_twim_event_clear	8	static
+/Users/deladem/pinetime-dev/nRF5_SDK/modules/nrfx/drivers/include/nrfx_twim.h:228:12:nrfx_twim_init	20	static
+/Users/deladem/pinetime-dev/nRF5_SDK/modules/nrfx/drivers/include/nrfx_twim.h:245:6:nrfx_twim_enable	0	static
+/Users/deladem/pinetime-dev/nRF5_SDK/modules/nrfx/drivers/include/nrfx_twim.h:252:6:nrfx_twim_disable	0	static
+/Users/deladem/pinetime-dev/nRF5_SDK/modules/nrfx/drivers/include/nrfx_twim.h:238:6:nrfx_twim_uninit	16	static
+/Users/deladem/pinetime-dev/nRF5_SDK/modules/nrfx/drivers/include/nrfx_twim.h:375:6:nrfx_twim_is_busy	0	static
+/Users/deladem/pinetime-dev/nRF5_SDK/modules/nrfx/drivers/include/nrfx_twim.h:363:12:nrfx_twim_xfer	32	static
+/Users/deladem/pinetime-dev/nRF5_SDK/modules/nrfx/drivers/include/nrfx_twim.h:282:12:nrfx_twim_tx	48	static
+/Users/deladem/pinetime-dev/nRF5_SDK/modules/nrfx/drivers/include/nrfx_twim.h:308:12:nrfx_twim_rx	48	static
+/Users/deladem/pinetime-dev/nRF5_SDK/modules/nrfx/drivers/include/nrfx_twim.h:389:10:nrfx_twim_start_task_get	0	static
+/Users/deladem/pinetime-dev/nRF5_SDK/modules/nrfx/drivers/include/nrfx_twim.h:401:10:nrfx_twim_stopped_event_get	0	static
+/Users/deladem/pinetime-dev/nRF5_SDK/modules/nrfx/drivers/src/nrfx_twim.c:682:6:SPIM1_SPIS1_TWIM1_TWIS1_SPI1_TWI1_IRQHandler	48	static

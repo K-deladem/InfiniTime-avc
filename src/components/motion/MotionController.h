@@ -7,6 +7,7 @@
 #include "drivers/Bma421.h"
 #include "components/ble/MotionService.h"
 #include "utility/CircularBuffer.h"
+#include "MovementTrackerIntegration.h" 
 
 namespace Pinetime {
   namespace Controllers {
@@ -63,6 +64,10 @@ namespace Pinetime {
 
       Pinetime::Controllers::MotionService* GetService() const {
         return service;
+      }
+
+      void SendToMovementTracker(int16_t x, int16_t y, int16_t z, uint32_t delta_ms) {
+        MovementTracker::getInstance().handleMotionDataRaw(x, y, z, delta_ms);
       }
 
     private:

@@ -64,6 +64,9 @@ void MotionController::Update(int16_t x, int16_t y, int16_t z, uint32_t nbSteps)
 
   stats = GetAccelStats();
 
+  uint32_t delta_time_ms = time - lastTime;
+  SendToMovementTracker(x, y, z, delta_time_ms);
+
   int32_t deltaSteps = nbSteps - this->nbSteps;
   if (deltaSteps > 0) {
     currentTripSteps += deltaSteps;

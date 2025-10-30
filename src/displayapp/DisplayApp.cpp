@@ -51,6 +51,7 @@
 #include "displayapp/screens/settings/SettingShakeThreshold.h"
 #include "displayapp/screens/settings/SettingBluetooth.h"
 #include "displayapp/screens/settings/SettingOTA.h"
+#include "screens/MovementWatchFace.h"
 
 #include "libs/lv_conf.h"
 #include "UserApps.h"
@@ -541,6 +542,11 @@ void DisplayApp::LoadScreen(Apps app, DisplayApp::FullRefreshDirections directio
       }
       settingsController.SetAppMenu(0);
     } break;
+
+   case Apps::Movement:
+      currentScreen = std::make_unique<Screens::MovementWatchFace>(this);
+      break;
+
     case Apps::Error:
       currentScreen = std::make_unique<Screens::Error>(bootError);
       break;

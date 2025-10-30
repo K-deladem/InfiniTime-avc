@@ -15,6 +15,7 @@
 #include "displayapp/screens/WatchFacePineTimeStyle.h"
 #include "displayapp/screens/WatchFaceTerminal.h"
 #include "displayapp/screens/WatchFacePrideFlag.h"
+#include "displayapp/screens/MovementWatchFace.h"
 
 namespace Pinetime {
   namespace Applications {
@@ -56,7 +57,28 @@ namespace Pinetime {
       return {CreateWatchFaceDescription<ts>()...};
     }
 
+    // ========================================================================
+    // WatchFaceTraits specialization for Movement - MUST BE BEFORE constexpr
+    // ========================================================================
+    template <>
+    struct WatchFaceTraits<WatchFace::Movement> {
+      static constexpr WatchFace watchFace = WatchFace::Movement;
+      static constexpr const char* name = "Movement";
+
+      static Screens::Screen* Create(AppControllers& controllers) {
+        return new Screens::MovementWatchFace(controllers.displayApp);
+      }
+
+      static bool IsAvailable(Pinetime::Controllers::FS& /*filesystem*/) {
+        return true;
+      }
+    };
+
+    // ========================================================================
+    // Now create the lists (after all specializations are defined)
+    // ========================================================================
     constexpr auto userApps = CreateAppDescriptions(UserAppTypes {});
     constexpr auto userWatchFaces = CreateWatchFaceDescriptions(UserWatchFaceTypes {});
+
   }
 }

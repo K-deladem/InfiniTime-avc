@@ -16,6 +16,7 @@
 #include "drivers/PinMap.h"
 #include "main.h"
 #include "BootErrors.h"
+#include "components/motion/MovementTrackerIntegration.h"
 
 #include <memory>
 
@@ -135,6 +136,8 @@ void SystemTask::Work() {
 
   motionSensor.Init();
   motionController.Init(motionSensor.DeviceType());
+  Pinetime::Controllers::MovementTracker::getInstance().init();
+  Pinetime::System::MovementSystemService::getInstance().init();
   settingsController.Init();
 
   displayApp.Register(this);

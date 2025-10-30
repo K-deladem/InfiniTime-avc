@@ -124,6 +124,7 @@ namespace Pinetime {
       Pinetime::Controllers::TouchHandler& touchHandler;
       Pinetime::Controllers::ButtonHandler& buttonHandler;
       Pinetime::Controllers::NimbleController nimbleController;
+      Pinetime::Controllers::MovementTracker& movementTracker = Pinetime::Controllers::MovementTracker::getInstance();
 
       static void Process(void* instance);
       void Work();

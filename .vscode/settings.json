@@ -76,6 +76,7 @@
         "iomanip": "cpp",
         "numbers": "cpp",
         "span": "cpp",
-        "variant": "cpp"
+        "variant": "cpp",
+        "*.in": "cpp"
     }
 }

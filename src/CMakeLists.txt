@@ -29,6 +29,14 @@ set(CMAKE_OSX_SYSROOT "/")
 set(CMAKE_OSX_DEPLOYMENT_TARGET "")
 
 
+set(SOURCES_COMPONENTS_MOTION
+   
+
+)
+
+
+
+
 set(SDK_SOURCE_FILES
         # Startup
         "${NRF5_SDK_PATH}/modules/nrfx/mdk/system_nrf52.c"
@@ -429,6 +437,7 @@ list(APPEND SOURCE_FILES
         displayapp/screens/WatchFacePineTimeStyle.cpp
         displayapp/screens/WatchFaceCasioStyleG7710.cpp
         displayapp/screens/WatchFacePrideFlag.cpp
+        displayapp/screens/MovementWatchFace.cpp
 
         ##
 
@@ -449,6 +458,9 @@ list(APPEND SOURCE_FILES
         components/datetime/DateTimeController.cpp
         components/brightness/BrightnessController.cpp
         components/motion/MotionController.cpp
+        components/motion/MovementAnalyzer.cpp          # NOUVEAU
+        components/motion/MovementBLEService.cpp        # NOUVEAU
+        components/motion/MovementTrackerIntegration.cpp # NOUVEAU
         components/ble/NimbleController.cpp
         components/ble/DeviceInformationService.cpp
         components/ble/CurrentTimeClient.cpp
@@ -519,6 +531,9 @@ list(APPEND RECOVERY_SOURCE_FILES
         components/datetime/DateTimeController.cpp
         components/brightness/BrightnessController.cpp
         components/motion/MotionController.cpp
+        components/motion/MovementAnalyzer.cpp          # NOUVEAU
+        components/motion/MovementBLEService.cpp        # NOUVEAU
+        components/motion/MovementTrackerIntegration.cpp # NOUVEAU
         components/ble/NimbleController.cpp
         components/ble/DeviceInformationService.cpp
         components/ble/CurrentTimeClient.cpp
@@ -638,6 +653,9 @@ set(INCLUDE_FILES
         components/datetime/DateTimeController.h
         components/brightness/BrightnessController.h
         components/motion/MotionController.h
+        components/motion/MovementAnalyzer.h          # NOUVEAU
+        components/motion/MovementBLEService.h        # NOUVEAU
+        components/motion/MovementTrackerIntegration.h # NOUVEAU
         components/firmwarevalidator/FirmwareValidator.h
         components/ble/BleController.h
         components/ble/NotificationManager.h

@@ -136,6 +136,9 @@ public:
     bool movement_detected;
     bool any_movement;
     float progress_percent;
+    float accel_x;
+    float accel_y;
+    float accel_z;
   };
   
   CurrentStatus getCurrentStatus() const;

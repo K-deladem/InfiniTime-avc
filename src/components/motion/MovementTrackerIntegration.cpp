@@ -21,14 +21,11 @@ void MovementTracker::init() {
 
 
 
+
 void MovementTracker::handleMotionDataRaw(int16_t x, int16_t y, int16_t z, uint32_t delta_time_ms) {
 
-  // Convertir les données int16_t brutes en float (gravité corrigée)
-  // Les données du BMA421 sont en unités d'accélération brute
-  // On divise par 4096 pour normaliser (typiquement ±16g)
-  constexpr float ACCEL_SCALE = 1.0f / 4096.0f;  // Conversion à g
-
-  // Récupérer les valeurs d'accélération actuelles
+  constexpr float ACCEL_SCALE = 1.0f / 1024.0f; 
+  // Récupérer les valeurs d'accélération actuelles en g
   float accel_x = static_cast<float>(x) * ACCEL_SCALE;
   float accel_y = static_cast<float>(y) * ACCEL_SCALE;
   float accel_z = static_cast<float>(z) * ACCEL_SCALE;
@@ -43,12 +40,13 @@ void MovementTracker::handleMotionDataRaw(int16_t x, int16_t y, int16_t z, uint3
 }
 
 
-
 void MovementTracker::handleMotionDataViaPointer(void* motion_controller_ptr) {
   
   if (!motion_controller_ptr) {
     return;
   }
+  // Cette fonction n'est pas utilisée actuellement
+  // Elle reste comme interface alternative
 }
 
 MovementService::CurrentStatus MovementTracker::getStatus() const {

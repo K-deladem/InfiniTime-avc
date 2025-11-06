@@ -212,8 +212,11 @@ void MovementService::updateAccelerometer(const std::array<float, 3>& gravity_co
   current_status.axis_active_time = result.axis_active_time;
   current_status.movement_detected = result.movement_detected;
   current_status.any_movement = result.any_movement;
+  current_status.accel_x = gravity_corrected_xl[0];
+  current_status.accel_y = gravity_corrected_xl[1];
+  current_status.accel_z = gravity_corrected_xl[2];
 
-  // Calculate progress percentage (example: max 3600 seconds = 1 hour)
+  // Calculate progress percentage (max 3600 seconds = 1 hour)
   constexpr uint32_t MAX_ACTIVE_TIME = 3600000; // milliseconds
   current_status.progress_percent =
       (static_cast<float>(result.axis_active_time) / MAX_ACTIVE_TIME) * 100.0f;

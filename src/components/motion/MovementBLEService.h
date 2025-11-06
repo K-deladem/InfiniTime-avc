@@ -4,9 +4,15 @@
 #include <array>
 #include <cstdint>
 #include <functional>
+#include <host/ble_gatt.h>
 
-// 🔧 FIX: Minimal NimBLE headers - moved to .cpp only
-// This prevents std::min conflicts in header chain
+// ============================================================================
+// UUID Definitions (InfiniTime Convention)
+// ============================================================================
+// Base UUID: xxxxxxxx-78fc-48fe-8e23-433b3a1942d0
+// Service UUID: 00060000-78fc-48fe-8e23-433b3a1942d0 (Movement Service)
+// Characteristic UUID: 00060001-78fc-48fe-8e23-433b3a1942d0
+// ============================================================================
 
 // ============================================================================
 // BLE Data Structure sent to Flutter
@@ -84,37 +90,69 @@ struct MovementData {
 };
 
 // ============================================================================
-// Minimal BLE Service - Stub Implementation
+// BLE Service - Full NimBLE Implementation
 // ============================================================================
 
 class MovementBLEService {
 public:
   using DataCallback = std::function<void(const MovementData&)>;
 
-  MovementBLEService() = default;
+  MovementBLEService();
   ~MovementBLEService() = default;
   
-  int init() { return 0; }  // Stub - implement if needed
+  // Initialize the BLE service (register with NimBLE)
+  int init();
   
-  bool sendMovementData(const MovementData& data) {
-    (void)data;  // Avoid unused warning
-    return true;  // Stub implementation
-  }
+  // Send movement data to all connected clients
+  bool sendMovementData(const MovementData& data);
   
-  void onDataReceived(DataCallback cb) {
-    (void)cb;  // Avoid unused warning
-  }
+  // Register callback for data received from Flutter
+  void onDataReceived(DataCallback cb);
   
-  void onConnect(uint16_t conn_handle) {
-    (void)conn_handle;
-  }
+  // Connection/disconnection callbacks
+  void onConnect(uint16_t conn_handle);
+  void onDisconnect(uint16_t conn_handle);
   
-  void onDisconnect(uint16_t conn_handle) {
-    (void)conn_handle;
-  }
+  // Status
+  bool isConnected() const;
+  int getConnectedClientCount() const;
+
+  // Friend function for callback access
+  friend int movementCharacteristicCallback(uint16_t conn_handle, uint16_t attr_handle,
+                                           struct ble_gatt_access_ctxt* ctxt, void* arg);
+
+private:
+  // UUID Definitions (128-bit format for NimBLE)
+  static constexpr ble_uuid128_t serviceUuid {
+    .u {.type = BLE_UUID_TYPE_128},
+    .value = {0xd0, 0x42, 0x19, 0x3a, 0x3b, 0x43, 0x23, 0x8e,
+              0xfe, 0x48, 0xfc, 0x78, 0x00, 0x00, 0x06, 0x00}
+    // 00060000-78fc-48fe-8e23-433b3a1942d0
+  };
   
-  bool isConnected() const { return false; }
-  int getConnectedClientCount() const { return 0; }
+  static constexpr ble_uuid128_t characteristicUuid {
+    .u {.type = BLE_UUID_TYPE_128},
+    .value = {0xd0, 0x42, 0x19, 0x3a, 0x3b, 0x43, 0x23, 0x8e,
+              0xfe, 0x48, 0xfc, 0x78, 0x01, 0x00, 0x06, 0x00}
+    // 00060001-78fc-48fe-8e23-433b3a1942d0
+  };
+  
+  // GATT definitions
+  ble_gatt_chr_def characteristicDefinition[2];
+  ble_gatt_svc_def serviceDefinition[2];
+  
+  // Characteristic handle (for sending notifications)
+  uint16_t movementCharacteristicHandle = 0;
+  
+  // Callbacks
+  DataCallback dataReceivedCallback;
+  
+  // Connected clients tracking
+  int connectedClientCount = 0;
+  
+  // Internal callback handler
+  int handleCharacteristicAccess(uint16_t conn_handle, uint16_t attr_handle,
+                                struct ble_gatt_access_ctxt* ctxt);
 };
 
 // ============================================================================

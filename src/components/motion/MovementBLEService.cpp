@@ -184,16 +184,19 @@ void MovementService::init() {
   // Initialize the BLE service
   int rc = ble_service.init();
   if (rc != 0) {
+    NRF_LOG_ERROR("Movement Service init failed: %d", rc);
     return;
   }
   
   analyzer.reset();
   
-  // Setup data callback (stub)
+  // Setup data callback (if Flutter sends data)
   ble_service.onDataReceived([this](const MovementData& data) {
-    (void)data;  // Avoid unused warning
+    NRF_LOG_DEBUG("Movement data received from BLE: timestamp=%lu", data.timestamp_ms);
     // Handle received data from Flutter if needed
   });
+  
+  NRF_LOG_INFO("Movement Service initialized");
 }
 
 void MovementService::updateAccelerometer(const std::array<float, 3>& gravity_corrected_xl,

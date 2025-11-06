@@ -64,12 +64,12 @@ namespace Pinetime {
     struct WatchFaceTraits<WatchFace::Movement> {
       static constexpr WatchFace watchFace = WatchFace::Movement;
       static constexpr const char* name = "Movement";
-
-      static Screens::Screen* Create(AppControllers& controllers) {
-        return new Screens::MovementWatchFace(controllers.displayApp);
+      
+      static Screens::Screen* Create([[maybe_unused]] AppControllers& controllers) {
+        return new Screens::MovementWatchFace(nullptr);
       }
-
-      static bool IsAvailable(Pinetime::Controllers::FS& /*filesystem*/) {
+      
+      static bool IsAvailable([[maybe_unused]] Controllers::FS& fileSystem) {
         return true;
       }
     };

@@ -1,9 +1,11 @@
+// ============================================================================
+// FILE: src/components/motion/MotionController.h
+// ============================================================================
+
 #pragma once
 
 #include <cstdint>
-
 #include <FreeRTOS.h>
-
 #include "drivers/Bma421.h"
 #include "components/ble/MotionService.h"
 #include "utility/CircularBuffer.h"
@@ -11,6 +13,7 @@
 
 namespace Pinetime {
   namespace Controllers {
+
     class MotionController {
     public:
       enum class DeviceTypes {
@@ -66,9 +69,8 @@ namespace Pinetime {
         return service;
       }
 
-      void SendToMovementTracker(int16_t x, int16_t y, int16_t z, uint32_t delta_ms) {
-        MovementTracker::getInstance().handleMotionDataRaw(x, y, z, delta_ms);
-      }
+      // ✅ AJOUTER CETTE FONCTION (déclaration)
+      void SendToMovementTracker(int16_t x, int16_t y, int16_t z, uint32_t delta_ms);
 
     private:
       uint32_t nbSteps = 0;
@@ -105,5 +107,6 @@ namespace Pinetime {
       DeviceTypes deviceType = DeviceTypes::Unknown;
       Pinetime::Controllers::MotionService* service = nullptr;
     };
-  }
-}
+
+  } // namespace Controllers
+} // namespace Pinetime

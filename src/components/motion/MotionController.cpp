@@ -1,8 +1,14 @@
+// ============================================================================
+// FILE: src/components/motion/MotionController.cpp
+// CODE EXACT - À UTILISER DIRECTEMENT
+// ============================================================================
+
 #include "components/motion/MotionController.h"
 
 #include <task.h>
 
 #include "utility/Math.h"
+#include "MovementTrackerIntegration.h"  
 
 using namespace Pinetime::Controllers;
 
@@ -65,7 +71,7 @@ void MotionController::Update(int16_t x, int16_t y, int16_t z, uint32_t nbSteps)
   stats = GetAccelStats();
 
   uint32_t delta_time_ms = time - lastTime;
-  SendToMovementTracker(x, y, z, delta_time_ms);
+  SendToMovementTracker(x, y, z, delta_time_ms);  // ✅ CETTE LIGNE EXISTE DÉJÀ!
 
   int32_t deltaSteps = nbSteps - this->nbSteps;
   if (deltaSteps > 0) {
@@ -152,5 +158,11 @@ void MotionController::Init(Pinetime::Drivers::Bma421::DeviceTypes types) {
     default:
       this->deviceType = DeviceTypes::Unknown;
       break;
+  }
+}
+
+void MotionController::SendToMovementTracker(int16_t x, int16_t y, int16_t z, uint32_t delta_ms) {
+  if (delta_ms > 0) {
+    MovementTracker::getInstance().handleMotionDataRaw(x, y, z, delta_ms);
   }
 }

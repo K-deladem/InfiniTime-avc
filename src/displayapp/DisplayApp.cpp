@@ -544,7 +544,7 @@ void DisplayApp::LoadScreen(Apps app, DisplayApp::FullRefreshDirections directio
     } break;
 
    case Apps::Movement:
-      currentScreen = std::make_unique<Screens::MovementWatchFace>(this);
+      currentScreen = std::make_unique<Screens::MovementWatchFace>(dateTimeController, batteryController, motionController, bleController);
       break;
 
     case Apps::Error:

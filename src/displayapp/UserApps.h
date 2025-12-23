@@ -65,8 +65,8 @@ namespace Pinetime {
       static constexpr WatchFace watchFace = WatchFace::Movement;
       static constexpr const char* name = "Movement";
       
-      static Screens::Screen* Create([[maybe_unused]] AppControllers& controllers) {
-        return new Screens::MovementWatchFace(nullptr);
+      static Screens::Screen* Create(AppControllers& controllers) {
+        return new Screens::MovementWatchFace(controllers.dateTimeController, controllers.batteryController, controllers.motionController, controllers.bleController);
       }
       
       static bool IsAvailable([[maybe_unused]] Controllers::FS& fileSystem) {

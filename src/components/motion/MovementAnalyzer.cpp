@@ -78,9 +78,14 @@ uint32_t MagnitudeActiveTimeCounter::update(const std::array<float, 3>& gravity_
   float magnitude = std::sqrt(gravity_corrected_xl[0] * gravity_corrected_xl[0] +
                               gravity_corrected_xl[1] * gravity_corrected_xl[1] +
                               gravity_corrected_xl[2] * gravity_corrected_xl[2]);
-  
+
+  // FIX: Calculer la déviation par rapport à la gravité (1g)
+  // Quand statique: magnitude ≈ 1g, deviation ≈ 0
+  // Quand en mouvement: magnitude varie, deviation > 0
+  float deviation = std::fabs(magnitude - 1.0f);
+
   // PSEUDOCODE: SET xl_magnitude_clean to low_pass_filter( xl_magnitude )
-  float magnitude_clean = filter.apply(magnitude);
+  float magnitude_clean = filter.apply(deviation);
 
   // PSEUDOCODE: IF member_variables.in_movement
   if (in_movement) {
@@ -149,13 +154,25 @@ uint32_t ActiveTimeCounter::update(const std::array<float, 3>& gravity_corrected
     return static_cast<uint32_t>(active_time_ms);
   }
 
+  // Initialiser avec les premières valeurs
+  if (!initialized) {
+    prev_values = gravity_corrected_xl;
+    initialized = true;
+    return static_cast<uint32_t>(active_time_ms);
+  }
+
   // PSEUDOCODE: INITIALIZE envelope to [0,0,0]
   std::array<float, 3> envelope;
-  
-  // PSEUDOCODE: FOR each axis in gravity_corrected_xl
-  //             envelope[axis_index] = low_pass_filter( abs( axis ) )
+
+  // Utiliser la DÉRIVÉE (différence entre échantillons) pour éliminer la gravité
+  // La gravité est constante, donc sa dérivée = 0
   for (int i = 0; i < 3; ++i) {
-    envelope[i] = filter.apply(std::fabs(gravity_corrected_xl[i]));
+    // Calculer la variation depuis le dernier échantillon
+    float derivative = gravity_corrected_xl[i] - prev_values[i];
+    // Mettre à jour la valeur précédente
+    prev_values[i] = gravity_corrected_xl[i];
+    // Appliquer le filtre envelope sur la valeur absolue de la dérivée
+    envelope[i] = filters[i].apply(std::fabs(derivative));
   }
 
   // PSEUDOCODE: IF member_variables.in_movement
@@ -227,7 +244,11 @@ void ActiveTimeCounter::reset() {
   in_movement = false;
   active_time_ms = 0;
   debounce_time = 0;
-  filter.reset();
+  initialized = false;
+  prev_values = {0.0f, 0.0f, 0.0f};
+  for (auto& f : filters) {
+    f.reset();
+  }
 }
 
 // ============================================================================
@@ -243,12 +264,24 @@ bool MovementDetector::detect(const std::array<float, 3>& gravity_corrected_xl,
     return false;
   }
 
+  // Initialiser avec les premières valeurs
+  if (!initialized) {
+    prev_values = gravity_corrected_xl;
+    initialized = true;
+    return false;
+  }
+
   // PSEUDOCODE: INITIALIZE envelope to [0,0,0]
   std::array<float, 3> envelope;
-  // PSEUDOCODE: FOR each axis in gravity_corrected_xl
-  //             envelope[axis_index] = low_pass_filter( abs( axis ) )
+
+  // Utiliser la DÉRIVÉE pour éliminer la gravité
   for (int i = 0; i < 3; ++i) {
-    envelope[i] = filter.apply(std::fabs(gravity_corrected_xl[i]));
+    // Calculer la variation depuis le dernier échantillon
+    float derivative = gravity_corrected_xl[i] - prev_values[i];
+    // Mettre à jour la valeur précédente
+    prev_values[i] = gravity_corrected_xl[i];
+    // Appliquer le filtre envelope sur la valeur absolue
+    envelope[i] = filters[i].apply(std::fabs(derivative));
   }
 
   // PSEUDOCODE: INITIALIZE movement_detected to false
@@ -311,7 +344,11 @@ void MovementDetector::reset() {
   axis_armed = {true, true, true};
   in_refractory = false;
   refractory_tick = 0;
-  filter.reset();
+  initialized = false;
+  prev_values = {0.0f, 0.0f, 0.0f};
+  for (auto& f : filters) {
+    f.reset();
+  }
 }
 
 // ============================================================================

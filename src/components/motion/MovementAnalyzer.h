@@ -36,14 +36,15 @@ public:
   }
 
 private:
-  static constexpr float MOVEMENT_THRESHOLD = 0.388f;
-  static constexpr uint32_t DEBOUNCE_THRESHOLD = 90; // milliseconds (harmonized name)
-  
-  ButterworthFilter filter{7.8f, 100.0f}; // 7.8Hz cutoff, 100Hz sample rate
-  
+  // Seuil basé sur la déviation par rapport à 1g
+  // 0.08g = mouvement léger détectable (marche, gestes)
+  static constexpr float MOVEMENT_THRESHOLD = 0.08f; // g deviation from 1g
+  static constexpr uint32_t DEBOUNCE_THRESHOLD = 200; // milliseconds
+
+  // Filtre plus rapide pour réponse plus immédiate (2Hz @ 10Hz)
+  ButterworthFilter filter{2.0f, 10.0f};
+
   bool in_movement = false;
-  // FIX: Changé de uint32_t à uint64_t pour éviter débordement après ~50 jours
-  // Nouvelle capacité: ~584 millions d'années (au lieu de 49.7 jours)
   uint64_t active_time_ms = 0;
   uint32_t debounce_time = 0;
 };
@@ -57,22 +58,31 @@ public:
   uint32_t update(const std::array<float, 3>& gravity_corrected_xl, uint32_t delta_time_ms);
   bool isMoving() const { return in_movement; }
   void reset();
-  
+
   // FIX: Getter sécurisé pour accéder au temps total en secondes
   uint32_t getActiveTotalSeconds() const {
     return static_cast<uint32_t>((active_time_ms / 1000) % 0xFFFFFFFFULL);
   }
 
 private:
-  static constexpr float MOVEMENT_THRESHOLD = 0.02547f; // gs
-  static constexpr uint32_t DEBOUNCE_THRESHOLD = 90;    // milliseconds
-  // FIX: Cap pour debounce_time afin d'éviter débordement en oscillation prolongée
-  static constexpr uint32_t MAX_DEBOUNCE_TIME = DEBOUNCE_THRESHOLD + 10000; // 10 secondes de marge
-  
-  ButterworthFilter filter{3.83f, 100.0f}; // 3.83Hz cutoff, 100Hz sample rate
-  
+  // Seuil sur la dérivée (variation entre échantillons)
+  // 0.03g de variation = mouvement détectable
+  static constexpr float MOVEMENT_THRESHOLD = 0.03f; // g/sample
+  static constexpr uint32_t DEBOUNCE_THRESHOLD = 300;    // milliseconds
+  static constexpr uint32_t MAX_DEBOUNCE_TIME = DEBOUNCE_THRESHOLD + 10000;
+
+  // Valeurs précédentes pour calculer la dérivée
+  std::array<float, 3> prev_values = {0.0f, 0.0f, 0.0f};
+  bool initialized = false;
+
+  // Filtres envelope pour lisser la dérivée (2Hz @ 10Hz)
+  std::array<ButterworthFilter, 3> filters {{
+    ButterworthFilter{2.0f, 10.0f},
+    ButterworthFilter{2.0f, 10.0f},
+    ButterworthFilter{2.0f, 10.0f}
+  }};
+
   bool in_movement = false;
-  // FIX: Changé de uint32_t à uint64_t
   uint64_t active_time_ms = 0;
   uint32_t debounce_time = 0;
 };
@@ -87,14 +97,23 @@ public:
   void reset();
 
 private:
-  static constexpr float ACTIVE_THRESHOLD = 0.189f;      // g
-  static constexpr float INACTIVE_THRESHOLD = 0.01f;     // g
-  static constexpr uint32_t REFRACTORY_PERIOD = 38;      // milliseconds
-  // FIX: Cap pour refractory_tick afin d'éviter débordement
-  static constexpr uint32_t MAX_REFRACTORY_TICK = REFRACTORY_PERIOD + 10000; // 10 secondes de marge
-  
-  ButterworthFilter filter{7.8f, 100.0f}; // 7.8Hz cutoff
-  
+  // Seuils sur la dérivée (variation entre échantillons)
+  static constexpr float ACTIVE_THRESHOLD = 0.05f;      // g/sample - seuil pour déclencher
+  static constexpr float INACTIVE_THRESHOLD = 0.01f;    // g/sample - seuil pour réarmer
+  static constexpr uint32_t REFRACTORY_PERIOD = 150;    // milliseconds
+  static constexpr uint32_t MAX_REFRACTORY_TICK = REFRACTORY_PERIOD + 10000;
+
+  // Valeurs précédentes pour calculer la dérivée
+  std::array<float, 3> prev_values = {0.0f, 0.0f, 0.0f};
+  bool initialized = false;
+
+  // Filtres envelope (2Hz @ 10Hz)
+  std::array<ButterworthFilter, 3> filters {{
+    ButterworthFilter{2.0f, 10.0f},
+    ButterworthFilter{2.0f, 10.0f},
+    ButterworthFilter{2.0f, 10.0f}
+  }};
+
   std::array<bool, 3> axis_armed = {true, true, true};
   bool in_refractory = false;
   uint32_t refractory_tick = 0;

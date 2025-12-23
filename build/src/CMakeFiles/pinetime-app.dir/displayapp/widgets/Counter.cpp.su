@@ -1,0 +1,15 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/widgets/Counter.cpp:173:21:Pinetime::Applications::Widgets::Counter::Create()::<lambda()>	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/widgets/Counter.cpp:32:1:Pinetime::Applications::Widgets::Counter::Counter(int, int, lv_font_t&)	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/widgets/Counter.cpp:64:6:void Pinetime::Applications::Widgets::Counter::HideControls()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/widgets/Counter.cpp:72:6:void Pinetime::Applications::Widgets::Counter::ShowControls()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/widgets/Counter.cpp:80:6:void Pinetime::Applications::Widgets::Counter::UpdateLabel()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/widgets/Counter.cpp:35:6:void Pinetime::Applications::Widgets::Counter::UpBtnPressed()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/widgets/Counter.cpp:8:8:void {anonymous}::upBtnEventHandler(lv_obj_t*, lv_event_t)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/widgets/Counter.cpp:47:6:void Pinetime::Applications::Widgets::Counter::DownBtnPressed()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/widgets/Counter.cpp:15:8:void {anonymous}::downBtnEventHandler(lv_obj_t*, lv_event_t)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/widgets/Counter.cpp:59:6:void Pinetime::Applications::Widgets::Counter::SetValue(int)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/widgets/Counter.cpp:98:6:void Pinetime::Applications::Widgets::Counter::EnableTwelveHourMode()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/widgets/Counter.cpp:104:6:void Pinetime::Applications::Widgets::Counter::EnableMonthMode()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/widgets/Counter.cpp:110:6:void Pinetime::Applications::Widgets::Counter::SetMax(int)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/widgets/Counter.cpp:118:6:void Pinetime::Applications::Widgets::Counter::SetValueChangedEventCallback(void*, void (*)(void*))	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/widgets/Counter.cpp:123:6:void Pinetime::Applications::Widgets::Counter::Create()	40	static

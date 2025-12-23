@@ -1,0 +1,14 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/Bma421.cpp:22:8:void {anonymous}::user_delay(uint32_t, void*)	0	static
+/Users/deladem/pinetime-dev/nRF5_SDK/components/libraries/delay/nrf_delay.h:64:22:0(uint32_t)	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/Bma421.cpp:37:1:Pinetime::Drivers::Bma421::Bma421(Pinetime::Drivers::TwiMaster&, uint8_t)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/Bma421.cpp:129:6:void Pinetime::Drivers::Bma421::Reset()	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/Bma421.cpp:134:6:void Pinetime::Drivers::Bma421::Read(uint8_t, uint8_t*, size_t)	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/Bma421.cpp:10:10:int8_t {anonymous}::user_i2c_read(uint8_t, uint8_t*, uint32_t, void*)	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/Bma421.cpp:138:6:void Pinetime::Drivers::Bma421::Write(uint8_t, const uint8_t*, size_t)	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/Bma421.cpp:16:10:int8_t {anonymous}::user_i2c_write(uint8_t, const uint8_t*, uint32_t, void*)	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/Bma421.cpp:142:16:Pinetime::Drivers::Bma421::Values Pinetime::Drivers::Bma421::Process()	40	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/Bma421.cpp:178:6:bool Pinetime::Drivers::Bma421::IsOk() const	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/Bma421.cpp:182:6:void Pinetime::Drivers::Bma421::ResetStepCounter()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/Bma421.cpp:186:6:void Pinetime::Drivers::Bma421::SoftReset()	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/Bma421.cpp:47:6:void Pinetime::Drivers::Bma421::Init()	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/Bma421.cpp:211:21:Pinetime::Drivers::Bma421::DeviceTypes Pinetime::Drivers::Bma421::DeviceType() const	0	static

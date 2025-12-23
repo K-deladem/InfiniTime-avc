@@ -1,0 +1,13 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/motion/MovementBLEService.h:32:27:std::array<unsigned char, 22> MovementData::serialize() const	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/motion/MovementBLEService.cpp:37:1:MovementBLEService::MovementBLEService(Pinetime::Controllers::NimbleController&)	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/motion/MovementBLEService.cpp:51:6:void MovementBLEService::Init()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/motion/MovementBLEService.cpp:71:5:int MovementBLEService::OnCharacteristicAccess(uint16_t, ble_gatt_access_ctxt*)	32	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/motion/MovementBLEService.cpp:28:12:int MovementServiceCallback(uint16_t, uint16_t, ble_gatt_access_ctxt*, void*)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/motion/MovementBLEService.cpp:82:6:bool MovementBLEService::sendMovementData(const MovementData&)	48	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/motion/MovementBLEService.cpp:117:6:void MovementBLEService::SubscribeNotification(uint16_t)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/motion/MovementBLEService.cpp:124:6:void MovementBLEService::UnsubscribeNotification(uint16_t)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/motion/MovementBLEService.cpp:137:18:static MovementService& MovementService::getInstance()	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/motion/MovementBLEService.cpp:145:6:void MovementService::init(MovementBLEService&)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/motion/MovementBLEService.cpp:154:6:void MovementService::updateAccelerometer(const std::array<float, 3>&, uint32_t)	48	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/motion/MovementBLEService.cpp:199:32:MovementService::CurrentStatus MovementService::getCurrentStatus() const	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/motion/MovementBLEService.cpp:203:6:void MovementService::resetStatistics()	8	static

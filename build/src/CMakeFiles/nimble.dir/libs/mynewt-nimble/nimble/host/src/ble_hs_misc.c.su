@@ -1,0 +1,6 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_hs_misc.c:120:1:ble_hs_misc_restore_one_irk	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_hs_misc.c:28:1:ble_hs_misc_conn_chan_find	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_hs_misc.c:60:1:ble_hs_misc_conn_chan_find_reqd	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_hs_misc.c:84:1:ble_hs_misc_own_addr_type_to_id	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_hs_misc.c:102:1:ble_hs_misc_peer_addr_type_to_id	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_hs_misc.c:141:1:ble_hs_misc_restore_irks	0	static

@@ -1,0 +1,3 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/services/gatt/src/ble_svc_gatt.c:55:1:ble_svc_gatt_access	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/services/gatt/include/services/gatt/ble_svc_gatt.h:33:6:ble_svc_gatt_changed	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/services/gatt/include/services/gatt/ble_svc_gatt.h:34:6:ble_svc_gatt_init	8	static

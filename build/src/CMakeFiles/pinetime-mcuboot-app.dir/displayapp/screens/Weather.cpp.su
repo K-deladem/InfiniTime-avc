@@ -1,0 +1,9 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:29:22:virtual bool Pinetime::Applications::Screens::Screen::OnButtonPushed()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:35:22:virtual bool Pinetime::Applications::Screens::Screen::OnTouchEvent(Pinetime::Applications::TouchEvents)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:39:22:virtual bool Pinetime::Applications::Screens::Screen::OnTouchEvent(uint16_t, uint16_t)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_core/lv_disp.h:158:26:lv_obj_t* lv_scr_act()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Weather.cpp:111:1:Pinetime::Applications::Screens::Weather::~Weather()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Weather.cpp:111:1:virtual Pinetime::Applications::Screens::Weather::~Weather()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/SimpleWeatherService.h:81:31:int16_t Pinetime::Controllers::SimpleWeatherService::Temperature::Fahrenheit() const	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Weather.cpp:116:6:virtual void Pinetime::Applications::Screens::Weather::Refresh()	120	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Weather.cpp:38:1:Pinetime::Applications::Screens::Weather::Weather(Pinetime::Controllers::Settings&, Pinetime::Controllers::SimpleWeatherService&)	40	static

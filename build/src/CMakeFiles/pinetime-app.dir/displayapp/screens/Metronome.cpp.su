@@ -1,0 +1,11 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:29:22:virtual bool Pinetime::Applications::Screens::Screen::OnButtonPushed()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:39:22:virtual bool Pinetime::Applications::Screens::Screen::OnTouchEvent(uint16_t, uint16_t)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_core/lv_disp.h:158:26:lv_obj_t* lv_scr_act()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Metronome.cpp:73:1:Pinetime::Applications::Screens::Metronome::~Metronome()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Metronome.cpp:73:1:virtual Pinetime::Applications::Screens::Metronome::~Metronome()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Metronome.cpp:145:6:virtual bool Pinetime::Applications::Screens::Metronome::OnTouchEvent(Pinetime::Applications::TouchEvents)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Metronome.cpp:78:6:virtual void Pinetime::Applications::Screens::Metronome::Refresh()	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Metronome.cpp:13:13:lv_obj_t* {anonymous}::createLabel(const char*, lv_obj_t*, lv_align_t, lv_font_t*, uint8_t, uint8_t)	32	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Metronome.cpp:24:1:Pinetime::Applications::Screens::Metronome::Metronome(Pinetime::Controllers::MotorController&, Pinetime::System::SystemTask&)	32	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Metronome.cpp:93:6:void Pinetime::Applications::Screens::Metronome::OnEvent(lv_obj_t*, lv_event_t)	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Metronome.cpp:8:8:void {anonymous}::eventHandler(lv_obj_t*, lv_event_t)	0	static

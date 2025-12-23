@@ -1,0 +1,21 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/fs/FS.cpp:117:5:static int Pinetime::Controllers::FS::SectorSync(const lfs_config*)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/fs/FS.cpp:121:5:static int Pinetime::Controllers::FS::SectorErase(const lfs_config*, lfs_block_t)	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/fs/FS.cpp:128:5:static int Pinetime::Controllers::FS::SectorProg(const lfs_config*, lfs_block_t, lfs_off_t, const void*, lfs_size_t)	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/fs/FS.cpp:135:5:static int Pinetime::Controllers::FS::SectorRead(const lfs_config*, lfs_block_t, lfs_off_t, void*, lfs_size_t)	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/fs/FS.cpp:8:1:Pinetime::Controllers::FS::FS(Pinetime::Drivers::SpiNorFlash&)	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/fs/FS.cpp:31:6:void Pinetime::Controllers::FS::Init()	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/fs/FS.cpp:51:6:void Pinetime::Controllers::FS::VerifyResource()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/fs/FS.cpp:56:5:int Pinetime::Controllers::FS::FileOpen(lfs_file_t*, const char*, int)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/fs/FS.cpp:60:5:int Pinetime::Controllers::FS::FileClose(lfs_file_t*)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/fs/FS.cpp:64:5:int Pinetime::Controllers::FS::FileRead(lfs_file_t*, uint8_t*, uint32_t)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/fs/FS.cpp:68:5:int Pinetime::Controllers::FS::FileWrite(lfs_file_t*, const uint8_t*, uint32_t)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/fs/FS.cpp:72:5:int Pinetime::Controllers::FS::FileSeek(lfs_file_t*, uint32_t)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/fs/FS.cpp:76:5:int Pinetime::Controllers::FS::FileDelete(const char*)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/fs/FS.cpp:80:5:int Pinetime::Controllers::FS::DirOpen(const char*, lfs_dir_t*)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/fs/FS.cpp:84:5:int Pinetime::Controllers::FS::DirClose(lfs_dir_t*)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/fs/FS.cpp:88:5:int Pinetime::Controllers::FS::DirRead(lfs_dir_t*, lfs_info*)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/fs/FS.cpp:92:5:int Pinetime::Controllers::FS::DirRewind(lfs_dir_t*)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/fs/FS.cpp:96:5:int Pinetime::Controllers::FS::DirCreate(const char*)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/fs/FS.cpp:100:5:int Pinetime::Controllers::FS::Rename(const char*, const char*)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/fs/FS.cpp:104:5:int Pinetime::Controllers::FS::Stat(const char*, lfs_info*)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/fs/FS.cpp:108:13:lfs_ssize_t Pinetime::Controllers::FS::GetFSSize()	0	static

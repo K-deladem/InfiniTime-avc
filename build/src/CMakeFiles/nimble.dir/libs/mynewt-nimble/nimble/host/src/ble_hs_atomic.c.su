@@ -1,0 +1,5 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_hs_atomic.c:23:1:ble_hs_atomic_conn_delete	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_hs_atomic.c:45:1:ble_hs_atomic_conn_insert	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_hs_atomic.c:53:1:ble_hs_atomic_conn_flags	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_hs_atomic.c:76:1:ble_hs_atomic_conn_set_flags	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_hs_atomic.c:103:1:ble_hs_atomic_first_conn_handle	8	static

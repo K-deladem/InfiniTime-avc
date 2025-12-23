@@ -1,0 +1,16 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_sm_sc.c:372:1:ble_sm_sc_random_advance	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_sm_sc.c:347:1:ble_sm_sc_gen_numcmp	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_sm_sc.c:175:1:ble_sm_sc_ensure_keys_generated	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_sm_sc.c:662:1:ble_sm_sc_dhkey_addrs.isra	48	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_sm_sc.c:100:1:ble_sm_sc_io_action	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_sm_sc.c:263:1:ble_sm_sc_oob_confirm	40	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_sm_sc.c:300:1:ble_sm_sc_confirm_exec	32	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_sm_sc.c:392:1:ble_sm_sc_random_exec	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_sm_sc.c:440:1:ble_sm_sc_random_rx	96	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_sm_sc.c:534:1:ble_sm_sc_public_key_exec	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_sm_sc.c:592:1:ble_sm_sc_public_key_rx	32	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_sm_sc.c:677:1:ble_sm_sc_dhkey_check_exec	72	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_sm_sc.c:826:1:ble_sm_sc_dhkey_check_rx	96	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_sm_sc.c:853:1:ble_sm_sc_oob_data_check	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/include/host/ble_sm.h:111:5:ble_sm_sc_oob_generate_data	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_sm_sc.c:903:1:ble_sm_sc_init	8	static

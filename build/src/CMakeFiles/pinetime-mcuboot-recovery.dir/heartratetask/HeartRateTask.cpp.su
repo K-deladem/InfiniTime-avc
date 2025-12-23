@@ -1,0 +1,7 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/heartratetask/HeartRateTask.cpp:8:1:Pinetime::Applications::HeartRateTask::HeartRateTask(Pinetime::Drivers::Hrs3300&, Pinetime::Controllers::HeartRateController&)	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/heartratetask/HeartRateTask.cpp:12:6:void Pinetime::Applications::HeartRateTask::Start()	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/heartratetask/HeartRateTask.cpp:104:6:void Pinetime::Applications::HeartRateTask::PushMessage(Messages)	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/heartratetask/HeartRateTask.cpp:110:6:void Pinetime::Applications::HeartRateTask::StartMeasurement()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/heartratetask/HeartRateTask.cpp:116:6:void Pinetime::Applications::HeartRateTask::StopMeasurement()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/heartratetask/HeartRateTask.cpp:26:6:void Pinetime::Applications::HeartRateTask::Work()	40	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/heartratetask/HeartRateTask.cpp:21:6:static void Pinetime::Applications::HeartRateTask::Process(void*)	8	static

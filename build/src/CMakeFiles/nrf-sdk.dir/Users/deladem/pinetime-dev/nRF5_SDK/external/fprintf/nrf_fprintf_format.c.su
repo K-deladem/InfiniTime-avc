@@ -1,0 +1,3 @@
+/Users/deladem/pinetime-dev/nRF5_SDK/external/fprintf/nrf_fprintf_format.c:72:13:buffer_add	16	static
+/Users/deladem/pinetime-dev/nRF5_SDK/external/fprintf/nrf_fprintf_format.c:133:13:unsigned_print	40	static
+/Users/deladem/pinetime-dev/nRF5_SDK/external/fprintf/nrf_fprintf_format.c:320:6:nrf_fprintf_fmt	48	static

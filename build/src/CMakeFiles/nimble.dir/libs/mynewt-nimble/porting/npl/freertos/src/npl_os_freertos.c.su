@@ -1,0 +1,16 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/porting/npl/freertos/src/npl_os_freertos.c:28:1:in_isr	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/porting/npl/freertos/include/nimble/npl_freertos.h:29:23:npl_freertos_eventq_get	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/porting/npl/freertos/include/nimble/npl_freertos.h:32:6:npl_freertos_eventq_put	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/porting/npl/freertos/src/npl_os_freertos.c:255:1:os_callout_timer_cb	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/porting/npl/freertos/include/nimble/npl_freertos.h:35:6:npl_freertos_eventq_remove	32	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/porting/npl/freertos/include/nimble/npl_freertos.h:38:17:npl_freertos_mutex_init	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/porting/npl/freertos/include/nimble/npl_freertos.h:40:17:npl_freertos_mutex_pend	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/porting/npl/freertos/include/nimble/npl_freertos.h:43:17:npl_freertos_mutex_release	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/porting/npl/freertos/include/nimble/npl_freertos.h:45:17:npl_freertos_sem_init	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/porting/npl/freertos/include/nimble/npl_freertos.h:47:17:npl_freertos_sem_pend	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/porting/npl/freertos/include/nimble/npl_freertos.h:50:17:npl_freertos_sem_release	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/porting/npl/freertos/include/nimble/npl_freertos.h:52:6:npl_freertos_callout_init	32	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/porting/npl/freertos/include/nimble/npl_freertos.h:56:17:npl_freertos_callout_reset	48	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/porting/npl/freertos/include/nimble/npl_freertos.h:59:16:npl_freertos_callout_remaining_ticks	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/porting/npl/freertos/include/nimble/npl_freertos.h:62:17:npl_freertos_time_ms_to_ticks	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/porting/npl/freertos/include/nimble/npl_freertos.h:65:17:npl_freertos_time_ticks_to_ms	0	static

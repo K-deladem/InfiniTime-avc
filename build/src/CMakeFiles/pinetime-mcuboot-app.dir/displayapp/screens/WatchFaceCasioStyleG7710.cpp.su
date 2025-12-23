@@ -1,0 +1,9 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:29:22:virtual bool Pinetime::Applications::Screens::Screen::OnButtonPushed()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:35:22:virtual bool Pinetime::Applications::Screens::Screen::OnTouchEvent(Pinetime::Applications::TouchEvents)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:39:22:virtual bool Pinetime::Applications::Screens::Screen::OnTouchEvent(uint16_t, uint16_t)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_core/lv_disp.h:158:26:lv_obj_t* lv_scr_act()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/WatchFaceCasioStyleG7710.cpp:175:1:Pinetime::Applications::Screens::WatchFaceCasioStyleG7710::~WatchFaceCasioStyleG7710()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/WatchFaceCasioStyleG7710.cpp:175:1:virtual Pinetime::Applications::Screens::WatchFaceCasioStyleG7710::~WatchFaceCasioStyleG7710()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/WatchFaceCasioStyleG7710.cpp:196:6:virtual void Pinetime::Applications::Screens::WatchFaceCasioStyleG7710::Refresh()	48	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/WatchFaceCasioStyleG7710.cpp:17:1:Pinetime::Applications::Screens::WatchFaceCasioStyleG7710::WatchFaceCasioStyleG7710(Pinetime::Controllers::DateTime&, const Pinetime::Controllers::Battery&, const Pinetime::Controllers::Ble&, Pinetime::Controllers::NotificationManager&, Pinetime::Controllers::Settings&, Pinetime::Controllers::HeartRateController&, Pinetime::Controllers::MotionController&, Pinetime::Controllers::FS&)	144	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/WatchFaceCasioStyleG7710.cpp:315:6:static bool Pinetime::Applications::Screens::WatchFaceCasioStyleG7710::IsAvailable(Pinetime::Controllers::FS&)	96	static

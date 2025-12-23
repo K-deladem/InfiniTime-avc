@@ -1,0 +1,7 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/services/gap/src/ble_svc_gap.c:180:1:ble_svc_gap_access	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/services/gap/include/services/gap/ble_svc_gap.h:44:13:ble_svc_gap_device_name	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/services/gap/include/services/gap/ble_svc_gap.h:45:5:ble_svc_gap_device_name_set	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/services/gap/include/services/gap/ble_svc_gap.h:46:10:ble_svc_gap_device_appearance	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/services/gap/include/services/gap/ble_svc_gap.h:47:5:ble_svc_gap_device_appearance_set	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/services/gap/include/services/gap/ble_svc_gap.h:42:6:ble_svc_gap_set_chr_changed_cb	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/services/gap/include/services/gap/ble_svc_gap.h:49:6:ble_svc_gap_init	8	static

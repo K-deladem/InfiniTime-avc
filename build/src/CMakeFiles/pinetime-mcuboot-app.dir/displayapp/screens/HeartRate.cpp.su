@@ -1,0 +1,11 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:29:22:virtual bool Pinetime::Applications::Screens::Screen::OnButtonPushed()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:35:22:virtual bool Pinetime::Applications::Screens::Screen::OnTouchEvent(Pinetime::Applications::TouchEvents)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:39:22:virtual bool Pinetime::Applications::Screens::Screen::OnTouchEvent(uint16_t, uint16_t)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_core/lv_disp.h:158:26:lv_obj_t* lv_scr_act()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/HeartRate.cpp:72:1:Pinetime::Applications::Screens::HeartRate::~HeartRate()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/HeartRate.cpp:72:1:virtual Pinetime::Applications::Screens::HeartRate::~HeartRate()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/HeartRate.cpp:77:6:virtual void Pinetime::Applications::Screens::HeartRate::Refresh()	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/HeartRate.cpp:114:6:void Pinetime::Applications::Screens::HeartRate::UpdateStartStopButton(bool)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/HeartRate.cpp:31:1:Pinetime::Applications::Screens::HeartRate::HeartRate(Pinetime::Controllers::HeartRateController&, Pinetime::System::SystemTask&)	32	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/HeartRate.cpp:98:6:void Pinetime::Applications::Screens::HeartRate::OnStartStopEvent(lv_event_t)	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/HeartRate.cpp:25:8:void {anonymous}::btnStartStopEventHandler(lv_obj_t*, lv_event_t)	0	static

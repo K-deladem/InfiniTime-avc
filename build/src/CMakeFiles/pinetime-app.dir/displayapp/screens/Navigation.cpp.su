@@ -1,0 +1,14 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:29:22:virtual bool Pinetime::Applications::Screens::Screen::OnButtonPushed()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:35:22:virtual bool Pinetime::Applications::Screens::Screen::OnTouchEvent(Pinetime::Applications::TouchEvents)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:39:22:virtual bool Pinetime::Applications::Screens::Screen::OnTouchEvent(uint16_t, uint16_t)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_core/lv_disp.h:158:26:lv_obj_t* lv_scr_act()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Navigation.cpp:179:8:{anonymous}::Icon {anonymous}::GetIcon(const std::string&)	32	static
+/opt/homebrew/arm-toolchain/arm-none-eabi/include/c++/13.2.1/bits/basic_string.h:280:7:constexpr void std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::_M_dispose() [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Navigation.cpp:235:1:Pinetime::Applications::Screens::Navigation::~Navigation()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Navigation.cpp:235:1:virtual Pinetime::Applications::Screens::Navigation::~Navigation()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Navigation.cpp:271:6:static bool Pinetime::Applications::Screens::Navigation::IsAvailable(Pinetime::Controllers::FS&)	96	static
+/opt/homebrew/arm-toolchain/arm-none-eabi/include/c++/13.2.1/bits/basic_string.h:3698:5:constexpr bool std::operator==(const __cxx11::basic_string<_CharT, _Traits, _Allocator>&, const __cxx11::basic_string<_CharT, _Traits, _Allocator>&) [with _CharT = char; _Traits = char_traits<char>; _Alloc = allocator<char>]	8	static
+/opt/homebrew/arm-toolchain/arm-none-eabi/include/c++/13.2.1/bits/basic_string.h:415:7:static constexpr void std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::_S_copy(_CharT*, const _CharT*, size_type) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Navigation.cpp:193:1:Pinetime::Applications::Screens::Navigation::Navigation(Pinetime::Controllers::NavigationService&)	72	static
+/opt/homebrew/arm-toolchain/arm-none-eabi/include/c++/13.2.1/bits/basic_string.h:841:7:constexpr std::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Navigation.cpp:240:6:virtual void Pinetime::Applications::Screens::Navigation::Refresh()	40	static

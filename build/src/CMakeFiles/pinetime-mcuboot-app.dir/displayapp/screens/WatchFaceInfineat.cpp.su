@@ -1,0 +1,14 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:39:22:virtual bool Pinetime::Applications::Screens::Screen::OnTouchEvent(uint16_t, uint16_t)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_core/lv_disp.h:158:26:lv_obj_t* lv_scr_act()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/WatchFaceInfineat.cpp:303:1:Pinetime::Applications::Screens::WatchFaceInfineat::~WatchFaceInfineat()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/WatchFaceInfineat.cpp:303:1:virtual Pinetime::Applications::Screens::WatchFaceInfineat::~WatchFaceInfineat()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/WatchFaceInfineat.cpp:316:6:virtual bool Pinetime::Applications::Screens::WatchFaceInfineat::OnTouchEvent(Pinetime::Applications::TouchEvents)	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/WatchFaceInfineat.cpp:329:6:void Pinetime::Applications::Screens::WatchFaceInfineat::CloseMenu()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/WatchFaceInfineat.cpp:337:6:virtual bool Pinetime::Applications::Screens::WatchFaceInfineat::OnButtonPushed()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/WatchFaceInfineat.cpp:473:6:void Pinetime::Applications::Screens::WatchFaceInfineat::SetBatteryLevel(uint8_t)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/WatchFaceInfineat.cpp:393:6:virtual void Pinetime::Applications::Screens::WatchFaceInfineat::Refresh()	40	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/WatchFaceInfineat.cpp:479:6:void Pinetime::Applications::Screens::WatchFaceInfineat::ToggleBatteryIndicatorColor(bool)	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/WatchFaceInfineat.cpp:345:6:void Pinetime::Applications::Screens::WatchFaceInfineat::UpdateSelected(lv_obj_t*, lv_event_t)	32	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/WatchFaceInfineat.cpp:16:8:void {anonymous}::event_handler(lv_obj_t*, lv_event_t)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/WatchFaceInfineat.cpp:122:1:Pinetime::Applications::Screens::WatchFaceInfineat::WatchFaceInfineat(Pinetime::Controllers::DateTime&, const Pinetime::Controllers::Battery&, const Pinetime::Controllers::Ble&, Pinetime::Controllers::NotificationManager&, Pinetime::Controllers::Settings&, Pinetime::Controllers::MotionController&, Pinetime::Controllers::FS&)	128	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/WatchFaceInfineat.cpp:493:6:static bool Pinetime::Applications::Screens::WatchFaceInfineat::IsAvailable(Pinetime::Controllers::FS&)	96	static

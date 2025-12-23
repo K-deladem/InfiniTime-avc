@@ -1,0 +1,2 @@
+/opt/homebrew/arm-toolchain/bin/arm-none-eabi-ar qc liblittlefs.a CMakeFiles/littlefs.dir/libs/littlefs/lfs_util.c.obj CMakeFiles/littlefs.dir/libs/littlefs/lfs.c.obj
+/opt/homebrew/arm-toolchain/bin/arm-none-eabi-ranlib liblittlefs.a

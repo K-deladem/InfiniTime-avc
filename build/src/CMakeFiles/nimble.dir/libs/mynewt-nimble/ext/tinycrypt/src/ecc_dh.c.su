@@ -1,0 +1,3 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/ext/tinycrypt/src/ecc_dh.c:68:5:uECC_make_key_with_d	112	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/ext/tinycrypt/include/tinycrypt/ecc_dh.h:94:5:uECC_make_key	184	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/ext/tinycrypt/include/tinycrypt/ecc_dh.h:124:5:uECC_shared_secret	176	static

@@ -1,0 +1,11 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/include/nimble/ble_hci_trans.h:174:6:ble_hci_trans_cfg_hs	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/include/nimble/ble_hci_trans.h:156:6:ble_hci_trans_cfg_ll	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/include/nimble/ble_hci_trans.h:99:5:ble_hci_trans_hs_cmd_tx	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/include/nimble/ble_hci_trans.h:78:5:ble_hci_trans_ll_evt_tx	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/include/nimble/ble_hci_trans.h:109:5:ble_hci_trans_hs_acl_tx	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/include/nimble/ble_hci_trans.h:88:5:ble_hci_trans_ll_acl_tx	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/include/nimble/ble_hci_trans.h:120:10:ble_hci_trans_buf_alloc	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/include/nimble/ble_hci_trans.h:128:6:ble_hci_trans_buf_free	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/include/nimble/ble_hci_trans.h:141:5:ble_hci_trans_set_acl_free_cb	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/include/nimble/ble_hci_trans.h:186:5:ble_hci_trans_reset	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/transport/ram/include/transport/ram/ble_hci_ram.h:29:6:ble_hci_ram_init	16	static

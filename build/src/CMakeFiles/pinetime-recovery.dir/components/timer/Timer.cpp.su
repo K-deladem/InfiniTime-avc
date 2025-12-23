@@ -1,0 +1,5 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/timer/Timer.cpp:5:1:Pinetime::Controllers::Timer::Timer(void*, TimerCallbackFunction_t)	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/timer/Timer.cpp:9:6:void Pinetime::Controllers::Timer::StartTimer(std::chrono::milliseconds)	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/timer/Timer.cpp:22:6:void Pinetime::Controllers::Timer::StopTimer()	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/timer/Timer.cpp:26:6:bool Pinetime::Controllers::Timer::IsRunning()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/timer/Timer.cpp:14:27:std::chrono::milliseconds Pinetime::Controllers::Timer::GetTimeRemaining()	16	static

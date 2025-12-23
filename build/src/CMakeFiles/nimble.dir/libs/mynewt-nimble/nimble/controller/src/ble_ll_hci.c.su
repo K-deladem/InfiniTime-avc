@@ -1,0 +1,10 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/controller/include/controller/ble_ll_hci.h:66:6:ble_ll_hci_adv_mode_ext	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/controller/include/controller/ble_ll_hci.h:56:5:ble_ll_hci_event_send	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/controller/src/ble_ll_hci.c:1534:1:ble_ll_hci_cmd_proc	80	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/controller/include/controller/ble_ll_hci.h:59:6:ble_ll_hci_send_noop	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/controller/include/controller/ble_ll_hci.h:50:6:ble_ll_hci_is_le_event_enabled	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/controller/include/controller/ble_ll_hci.h:53:6:ble_ll_hci_is_event_enabled	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/controller/include/controller/ble_ll_hci.h:69:8:ble_ll_get_tx_pwr_compensation	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/controller/src/ble_ll_hci.c:1647:1:ble_ll_hci_cmd_rx	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/controller/src/ble_ll_hci.c:1690:1:ble_ll_hci_acl_rx	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/controller/include/controller/ble_ll_hci.h:47:6:ble_ll_hci_init	8	static

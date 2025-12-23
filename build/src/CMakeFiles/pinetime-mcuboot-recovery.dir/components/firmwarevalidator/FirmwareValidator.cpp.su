@@ -1,0 +1,3 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/firmwarevalidator/FirmwareValidator.cpp:8:6:bool Pinetime::Controllers::FirmwareValidator::IsValidated() const	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/firmwarevalidator/FirmwareValidator.cpp:13:6:void Pinetime::Controllers::FirmwareValidator::Validate()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/firmwarevalidator/FirmwareValidator.cpp:18:6:void Pinetime::Controllers::FirmwareValidator::Reset()	0	static

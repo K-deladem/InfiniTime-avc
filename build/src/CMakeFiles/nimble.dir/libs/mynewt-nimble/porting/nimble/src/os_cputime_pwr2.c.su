@@ -1,0 +1,2 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/porting/nimble/include/os/os_cputime.h:157:10:os_cputime_usecs_to_ticks	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/porting/nimble/include/os/os_cputime.h:166:10:os_cputime_ticks_to_usecs	0	static

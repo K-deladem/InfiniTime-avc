@@ -1,0 +1,14 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:29:22:virtual bool Pinetime::Applications::Screens::Screen::OnButtonPushed()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:39:22:virtual bool Pinetime::Applications::Screens::Screen::OnTouchEvent(uint16_t, uint16_t)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_core/lv_disp.h:158:26:lv_obj_t* lv_scr_act()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Music.cpp:251:6:virtual bool Pinetime::Applications::Screens::Music::OnTouchEvent(Pinetime::Applications::TouchEvents)	8	static
+/opt/homebrew/arm-toolchain/arm-none-eabi/include/c++/13.2.1/bits/basic_string.h:841:7:constexpr std::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]	16	static
+/opt/homebrew/arm-toolchain/arm-none-eabi/include/c++/13.2.1/bits/basic_string.h:280:7:constexpr void std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::_M_dispose() [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Music.cpp:146:1:Pinetime::Applications::Screens::Music::~Music()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Music.cpp:146:1:virtual Pinetime::Applications::Screens::Music::~Music()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Music.cpp:51:1:Pinetime::Applications::Screens::Music::Music(Pinetime::Controllers::MusicService&)	32	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Music.cpp:204:6:void Pinetime::Applications::Screens::Music::UpdateLength()	32	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Music.cpp:224:6:void Pinetime::Applications::Screens::Music::OnObjectEvent(lv_obj_t*, lv_event_t)	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Music.cpp:30:13:void event_handler(lv_obj_t*, lv_event_t)	0	static
+/opt/homebrew/arm-toolchain/arm-none-eabi/include/c++/13.2.1/bits/basic_string.h:3698:5:constexpr bool std::operator==(const __cxx11::basic_string<_CharT, _Traits, _Allocator>&, const __cxx11::basic_string<_CharT, _Traits, _Allocator>&) [with _CharT = char; _Traits = char_traits<char>; _Alloc = allocator<char>]	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Music.cpp:152:6:virtual void Pinetime::Applications::Screens::Music::Refresh()	40	static

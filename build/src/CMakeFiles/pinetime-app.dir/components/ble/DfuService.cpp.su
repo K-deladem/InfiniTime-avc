@@ -1,0 +1,23 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/DfuService.cpp:73:6:void Pinetime::Controllers::DfuService::Init()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/DfuService.cpp:124:5:int Pinetime::Controllers::DfuService::SendDfuRevision(os_mbuf*) const	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/DfuService.cpp:333:1:Pinetime::Controllers::DfuService::NotificationManager::NotificationManager()	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/DfuService.cpp:32:1:Pinetime::Controllers::DfuService::DfuService(Pinetime::System::SystemTask&, Pinetime::Controllers::Ble&, Pinetime::Drivers::SpiNorFlash&)	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/DfuService.cpp:337:6:bool Pinetime::Controllers::DfuService::NotificationManager::AsyncSend(uint16_t, uint16_t, uint8_t*, size_t)	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/DfuService.cpp:356:6:void Pinetime::Controllers::DfuService::NotificationManager::Send(uint16_t, uint16_t, const uint8_t*, size_t)	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/DfuService.cpp:349:6:void Pinetime::Controllers::DfuService::NotificationManager::OnNotificationTimer()	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/DfuService.cpp:22:6:void NotificationTimerCallback(TimerHandle_t)	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/DfuService.cpp:362:6:void Pinetime::Controllers::DfuService::NotificationManager::Reset()	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/DfuService.cpp:319:6:void Pinetime::Controllers::DfuService::Reset()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/DfuService.cpp:314:6:void Pinetime::Controllers::DfuService::OnTimeout()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/DfuService.cpp:27:6:void TimeoutTimerCallback(TimerHandle_t)	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/DfuService.cpp:369:6:void Pinetime::Controllers::DfuService::DfuImage::Init(size_t, size_t, uint16_t)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/DfuService.cpp:402:6:void Pinetime::Controllers::DfuService::DfuImage::WriteMagicNumber()	32	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/DfuService.cpp:380:6:void Pinetime::Controllers::DfuService::DfuImage::Append(uint8_t*, size_t)	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/DfuService.cpp:415:6:void Pinetime::Controllers::DfuService::DfuImage::Erase()	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/DfuService.cpp:442:10:uint16_t Pinetime::Controllers::DfuService::DfuImage::ComputeCrc(const uint8_t*, uint32_t, const uint16_t*)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/DfuService.cpp:421:6:bool Pinetime::Controllers::DfuService::DfuImage::Validate()	32	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/DfuService.cpp:210:5:int Pinetime::Controllers::DfuService::ControlPointHandler(uint16_t, os_mbuf*)	32	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/DfuService.cpp:456:6:bool Pinetime::Controllers::DfuService::DfuImage::IsComplete()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/DfuService.cpp:129:5:int Pinetime::Controllers::DfuService::WritePacketHandler(uint16_t, os_mbuf*)	40	dynamic
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/DfuService.cpp:82:5:int Pinetime::Controllers::DfuService::OnServiceData(uint16_t, uint16_t, ble_gatt_access_ctxt*)	144	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/DfuService.cpp:17:5:int DfuServiceCallback(uint16_t, uint16_t, ble_gatt_access_ctxt*, void*)	4	static

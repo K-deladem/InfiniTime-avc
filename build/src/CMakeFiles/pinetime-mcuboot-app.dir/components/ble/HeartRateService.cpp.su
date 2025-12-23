@@ -1,0 +1,7 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/HeartRateService.cpp:19:1:Pinetime::Controllers::HeartRateService::HeartRateService(Pinetime::Controllers::NimbleController&, Pinetime::Controllers::HeartRateController&)	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/HeartRateService.cpp:39:6:void Pinetime::Controllers::HeartRateService::Init()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/HeartRateService.cpp:48:5:int Pinetime::Controllers::HeartRateService::OnHeartRateRequested(uint16_t, ble_gatt_access_ctxt*)	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/HeartRateService.cpp:12:7:int {anonymous}::HeartRateServiceCallback(uint16_t, uint16_t, ble_gatt_access_ctxt*, void*)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/HeartRateService.cpp:59:6:void Pinetime::Controllers::HeartRateService::OnNewHeartRateValue(uint8_t)	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/HeartRateService.cpp:75:6:void Pinetime::Controllers::HeartRateService::SubscribeNotification(uint16_t)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/HeartRateService.cpp:80:6:void Pinetime::Controllers::HeartRateService::UnsubscribeNotification(uint16_t)	0	static

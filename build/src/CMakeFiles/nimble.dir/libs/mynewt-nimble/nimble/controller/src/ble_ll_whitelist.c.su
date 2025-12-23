@@ -1,0 +1,9 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/controller/src/ble_ll_whitelist.c:49:1:ble_ll_whitelist_chg_allowed	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/controller/src/ble_ll_whitelist.c:130:1:ble_ll_whitelist_search	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/controller/include/controller/ble_ll_whitelist.h:28:5:ble_ll_whitelist_clear	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/controller/include/controller/ble_ll_whitelist.h:31:5:ble_ll_whitelist_read_size	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/controller/include/controller/ble_ll_whitelist.h:46:5:ble_ll_whitelist_match	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/controller/include/controller/ble_ll_whitelist.h:34:5:ble_ll_whitelist_add	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/controller/include/controller/ble_ll_whitelist.h:37:5:ble_ll_whitelist_rmv	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/controller/include/controller/ble_ll_whitelist.h:40:6:ble_ll_whitelist_enable	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/controller/include/controller/ble_ll_whitelist.h:43:6:ble_ll_whitelist_disable	0	static

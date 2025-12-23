@@ -1,0 +1,12 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/logging/DummyLogger.h:8:12:virtual void Pinetime::Logging::DummyLogger::Init()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/logging/DummyLogger.h:11:12:virtual void Pinetime::Logging::DummyLogger::Resume()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/recoveryLoader.cpp:57:6:void vApplicationIdleHook()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/recoveryLoader.cpp:60:6:void SPIM0_SPIS0_TWIM0_TWIS0_SPI0_TWI0_IRQHandler()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/recoveryLoader.cpp:77:6:void RefreshWatchdog()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/recoveryLoader.cpp:120:6:void DisplayLogo()	72	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/recoveryLoader.cpp:128:6:void DisplayProgressBar(uint8_t, uint16_t)	48	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/recoveryLoader.cpp:83:6:void Process(void*)	232	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/recoveryLoader.cpp:140:6:void vApplicationMallocFailedHook()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/recoveryLoader.cpp:144:6:void vApplicationStackOverflowHook(TaskHandle_t, char*)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/recoveryLoader.cpp:149:5:int main()	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/recoveryLoader.cpp:163:1:cpp)	24	static

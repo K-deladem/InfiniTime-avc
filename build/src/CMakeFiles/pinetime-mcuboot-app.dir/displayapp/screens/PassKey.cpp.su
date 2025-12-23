@@ -1,0 +1,7 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:14:22:virtual void Pinetime::Applications::Screens::Screen::Refresh()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:29:22:virtual bool Pinetime::Applications::Screens::Screen::OnButtonPushed()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:35:22:virtual bool Pinetime::Applications::Screens::Screen::OnTouchEvent(Pinetime::Applications::TouchEvents)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:39:22:virtual bool Pinetime::Applications::Screens::Screen::OnTouchEvent(uint16_t, uint16_t)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/PassKey.cpp:14:1:Pinetime::Applications::Screens::PassKey::~PassKey()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/PassKey.cpp:14:1:virtual Pinetime::Applications::Screens::PassKey::~PassKey()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/PassKey.cpp:6:1:Pinetime::Applications::Screens::PassKey::PassKey(uint32_t)	24	static

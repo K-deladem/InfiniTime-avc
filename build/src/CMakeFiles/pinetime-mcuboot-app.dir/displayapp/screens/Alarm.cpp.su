@@ -1,0 +1,22 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:14:22:virtual void Pinetime::Applications::Screens::Screen::Refresh()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:39:22:virtual bool Pinetime::Applications::Screens::Screen::OnTouchEvent(uint16_t, uint16_t)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Alarm.cpp:183:6:virtual bool Pinetime::Applications::Screens::Alarm::OnTouchEvent(Pinetime::Applications::TouchEvents)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_core/lv_disp.h:158:26:lv_obj_t* lv_scr_act()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Alarm.cpp:135:6:void Pinetime::Applications::Screens::Alarm::DisableAlarm()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Alarm.cpp:193:6:void Pinetime::Applications::Screens::Alarm::UpdateAlarmTime()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Alarm.cpp:188:6:void Pinetime::Applications::Screens::Alarm::OnValueChanged()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Alarm.cpp:31:8:void {anonymous}::ValueChangedHandler(void*)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Alarm.cpp:204:6:void Pinetime::Applications::Screens::Alarm::SetAlerting()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Alarm.cpp:233:6:void Pinetime::Applications::Screens::Alarm::SetSwitchState(lv_anim_enable_t)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Alarm.cpp:216:6:void Pinetime::Applications::Screens::Alarm::StopAlerting()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Alarm.cpp:127:1:Pinetime::Applications::Screens::Alarm::~Alarm()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Alarm.cpp:127:1:virtual Pinetime::Applications::Screens::Alarm::~Alarm()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Alarm.cpp:42:13:void StopAlarmTaskCallback(lv_task_t*)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Alarm.cpp:241:6:void Pinetime::Applications::Screens::Alarm::ShowInfo()	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Alarm.cpp:273:6:void Pinetime::Applications::Screens::Alarm::HideInfo()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Alarm.cpp:171:6:virtual bool Pinetime::Applications::Screens::Alarm::OnButtonPushed()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Alarm.cpp:279:6:void Pinetime::Applications::Screens::Alarm::SetRecurButtonState()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Alarm.cpp:47:1:Pinetime::Applications::Screens::Alarm::Alarm(Pinetime::Controllers::AlarmController&, Pinetime::Controllers::Settings::ClockType, Pinetime::System::SystemTask&, Pinetime::Controllers::MotorController&)	40	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Alarm.cpp:293:6:void Pinetime::Applications::Screens::Alarm::ToggleRecurrence()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Alarm.cpp:142:6:void Pinetime::Applications::Screens::Alarm::OnButtonEvent(lv_obj_t*, lv_event_t)	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Alarm.cpp:37:13:void btnEventHandler(lv_obj_t*, lv_event_t)	0	static

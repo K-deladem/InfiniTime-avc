@@ -1,0 +1,6 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/FSService.cpp:19:1:Pinetime::Controllers::FSService::FSService(Pinetime::System::SystemTask&, Pinetime::Controllers::FS&)	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/FSService.cpp:44:6:void Pinetime::Controllers::FSService::Init()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/FSService.cpp:77:5:int Pinetime::Controllers::FSService::FSCommandHandler(uint16_t, os_mbuf*)	472	dynamic
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/FSService.cpp:53:5:int Pinetime::Controllers::FSService::OnFSServiceRequested(uint16_t, uint16_t, ble_gatt_access_ctxt*)	128	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/FSService.cpp:14:5:int FSServiceCallback(uint16_t, uint16_t, ble_gatt_access_ctxt*, void*)	4	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/FSService.cpp:324:6:void Pinetime::Controllers::FSService::prepareReadDataResp(ReadHeader*, ReadResponse*)	376	static

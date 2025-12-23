@@ -1,0 +1,14 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/datetime/DateTimeController.cpp:69:6:void Pinetime::Controllers::DateTime::SetTimeZone(int8_t, int8_t)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/datetime/DateTimeController.cpp:81:6:void Pinetime::Controllers::DateTime::UpdateTime(uint32_t, bool)	32	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/datetime/DateTimeController.cpp:37:6:void Pinetime::Controllers::DateTime::SetCurrentTime(std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long long int, std::ratio<1, 1000000000> > >)	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/datetime/DateTimeController.cpp:44:6:void Pinetime::Controllers::DateTime::SetTime(uint16_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t)	56	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/datetime/DateTimeController.cpp:28:1:Pinetime::Controllers::DateTime::DateTime(Pinetime::Controllers::Settings&)	32	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/datetime/DateTimeController.cpp:74:78:std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long long int, std::ratio<1, 1000000000> > > Pinetime::Controllers::DateTime::CurrentDateTime()	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/datetime/DateTimeController.cpp:141:13:const char* Pinetime::Controllers::DateTime::MonthShortToString() const	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/datetime/DateTimeController.cpp:145:13:const char* Pinetime::Controllers::DateTime::DayOfWeekShortToString() const	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/datetime/DateTimeController.cpp:149:13:const char* Pinetime::Controllers::DateTime::DayOfWeekToString() const	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/datetime/DateTimeController.cpp:153:13:static const char* Pinetime::Controllers::DateTime::MonthShortToStringLow(Months)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/datetime/DateTimeController.cpp:157:13:static const char* Pinetime::Controllers::DateTime::DayOfWeekShortToStringLow(Days)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/datetime/DateTimeController.cpp:161:13:static const char* Pinetime::Controllers::DateTime::DayOfWeekToStringLow(Days)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/datetime/DateTimeController.cpp:165:6:void Pinetime::Controllers::DateTime::Register(Pinetime::System::SystemTask*)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/datetime/DateTimeController.cpp:171:13:std::string Pinetime::Controllers::DateTime::FormattedTime()	40	static

@@ -1,0 +1,8 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:29:22:virtual bool Pinetime::Applications::Screens::Screen::OnButtonPushed()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Paddle.cpp:82:6:virtual bool Pinetime::Applications::Screens::Paddle::OnTouchEvent(Pinetime::Applications::TouchEvents)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Paddle.cpp:86:6:virtual bool Pinetime::Applications::Screens::Paddle::OnTouchEvent(uint16_t, uint16_t)	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_core/lv_disp.h:158:26:lv_obj_t* lv_scr_act()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Paddle.cpp:36:1:Pinetime::Applications::Screens::Paddle::~Paddle()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Paddle.cpp:36:1:virtual Pinetime::Applications::Screens::Paddle::~Paddle()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Paddle.cpp:41:6:virtual void Pinetime::Applications::Screens::Paddle::Refresh()	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Paddle.cpp:9:1:Pinetime::Applications::Screens::Paddle::Paddle(Pinetime::Components::LittleVgl&)	32	static

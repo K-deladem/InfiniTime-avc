@@ -1,0 +1,13 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/alarm/AlarmController.cpp:27:1:Pinetime::Controllers::AlarmController::AlarmController(Pinetime::Controllers::DateTime&, Pinetime::Controllers::FS&)	12	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/alarm/AlarmController.cpp:56:6:void Pinetime::Controllers::AlarmController::SetAlarmTime(uint8_t, uint8_t)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/alarm/AlarmController.cpp:65:6:void Pinetime::Controllers::AlarmController::ScheduleAlarm()	48	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/alarm/AlarmController.cpp:108:10:uint32_t Pinetime::Controllers::AlarmController::SecondsToAlarm() const	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/alarm/AlarmController.cpp:112:6:void Pinetime::Controllers::AlarmController::DisableAlarm()	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/alarm/AlarmController.cpp:120:6:void Pinetime::Controllers::AlarmController::SetOffAlarmNow()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/alarm/AlarmController.cpp:32:8:void {anonymous}::SetOffAlarm(TimerHandle_t)	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/alarm/AlarmController.cpp:125:6:void Pinetime::Controllers::AlarmController::StopAlerting()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/alarm/AlarmController.cpp:137:6:void Pinetime::Controllers::AlarmController::SetRecurrence(RecurType)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/alarm/AlarmController.cpp:144:6:void Pinetime::Controllers::AlarmController::LoadSettingsFromFile()	112	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/alarm/AlarmController.cpp:38:6:void Pinetime::Controllers::AlarmController::Init(Pinetime::System::SystemTask*)	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/alarm/AlarmController.cpp:166:6:void Pinetime::Controllers::AlarmController::SaveSettingsToFile() const	144	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/alarm/AlarmController.cpp:48:6:void Pinetime::Controllers::AlarmController::SaveAlarm()	8	static

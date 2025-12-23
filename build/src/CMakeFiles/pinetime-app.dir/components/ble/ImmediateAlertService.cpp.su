@@ -1,0 +1,4 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/ImmediateAlertService.cpp:31:1:Pinetime::Controllers::ImmediateAlertService::ImmediateAlertService(Pinetime::System::SystemTask&, Pinetime::Controllers::NotificationManager&)	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/ImmediateAlertService.cpp:50:6:void Pinetime::Controllers::ImmediateAlertService::Init()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/ImmediateAlertService.cpp:59:5:int Pinetime::Controllers::ImmediateAlertService::OnAlertLevelChanged(uint16_t, ble_gatt_access_ctxt*)	128	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/ImmediateAlertService.cpp:12:7:int {anonymous}::AlertLevelCallback(uint16_t, uint16_t, ble_gatt_access_ctxt*, void*)	0	static

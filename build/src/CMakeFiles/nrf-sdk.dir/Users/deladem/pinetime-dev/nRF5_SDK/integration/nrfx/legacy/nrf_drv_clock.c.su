@@ -1,0 +1,14 @@
+/Users/deladem/pinetime-dev/nRF5_SDK/integration/nrfx/legacy/nrf_drv_clock.c:479:22:clock_clk_started_notify	16	static
+/Users/deladem/pinetime-dev/nRF5_SDK/integration/nrfx/legacy/nrf_drv_clock.c:503:13:clock_irq_handler	0	static
+/Users/deladem/pinetime-dev/nRF5_SDK/integration/nrfx/legacy/nrf_drv_clock.c:156:6:nrf_drv_clock_init_check	0	static
+/Users/deladem/pinetime-dev/nRF5_SDK/integration/nrfx/legacy/nrf_drv_clock.c:161:12:nrf_drv_clock_init	16	static
+/Users/deladem/pinetime-dev/nRF5_SDK/integration/nrfx/legacy/nrf_drv_clock.c:195:6:nrf_drv_clock_uninit	8	static
+/Users/deladem/pinetime-dev/nRF5_SDK/integration/nrfx/legacy/nrf_drv_clock.c:231:6:nrf_drv_clock_lfclk_request	16	static
+/Users/deladem/pinetime-dev/nRF5_SDK/integration/nrfx/legacy/nrf_drv_clock.c:264:6:nrf_drv_clock_lfclk_release	16	static
+/Users/deladem/pinetime-dev/nRF5_SDK/integration/nrfx/legacy/nrf_drv_clock.c:278:6:nrf_drv_clock_lfclk_is_running	0	static
+/Users/deladem/pinetime-dev/nRF5_SDK/integration/nrfx/legacy/nrf_drv_clock.c:292:6:nrf_drv_clock_hfclk_request	16	static
+/Users/deladem/pinetime-dev/nRF5_SDK/integration/nrfx/legacy/nrf_drv_clock.c:325:6:nrf_drv_clock_hfclk_release	16	static
+/Users/deladem/pinetime-dev/nRF5_SDK/integration/nrfx/legacy/nrf_drv_clock.c:339:6:nrf_drv_clock_hfclk_is_running	0	static
+/Users/deladem/pinetime-dev/nRF5_SDK/integration/nrfx/legacy/nrf_drv_clock.c:378:12:nrf_drv_clock_calibration_start	0	static
+/Users/deladem/pinetime-dev/nRF5_SDK/integration/nrfx/legacy/nrf_drv_clock.c:421:12:nrf_drv_clock_calibration_abort	0	static
+/Users/deladem/pinetime-dev/nRF5_SDK/integration/nrfx/legacy/nrf_drv_clock.c:459:12:nrf_drv_clock_is_calibrating	0	static

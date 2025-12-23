@@ -1,0 +1,13 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_l2cap_sig.c:332:1:ble_l2cap_sig_rx_noop	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_l2cap_sig.c:363:1:ble_l2cap_sig_update_call_cb	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_l2cap_sig.c:305:1:ble_l2cap_sig_proc_extract	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_l2cap_sig.c:1746:1:ble_l2cap_sig_rx	40	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_l2cap_sig.c:236:1:ble_l2cap_sig_proc_free	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_l2cap_sig.c:1716:1:ble_l2cap_sig_rx_reject	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_l2cap_sig.c:446:1:ble_l2cap_sig_update_rsp_rx	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_l2cap_sig.c:377:1:ble_l2cap_sig_update_req_rx	48	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/include/host/ble_l2cap.h:103:5:ble_l2cap_sig_update	48	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_l2cap_sig.c:1796:1:ble_l2cap_sig_create_chan	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_l2cap_sig.c:1864:1:ble_l2cap_sig_conn_broken	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_l2cap_sig.c:1902:1:ble_l2cap_sig_timer	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_l2cap_sig.c:1939:1:ble_l2cap_sig_init	16	static

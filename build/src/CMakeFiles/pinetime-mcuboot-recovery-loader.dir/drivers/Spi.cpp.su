@@ -1,0 +1,7 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/Spi.cpp:7:1:Pinetime::Drivers::Spi::Spi(Pinetime::Drivers::SpiMaster&, uint8_t)	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/Spi.cpp:12:6:bool Pinetime::Drivers::Spi::Write(const uint8_t*, size_t, const std::function<void()>&)	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/Spi.cpp:16:6:bool Pinetime::Drivers::Spi::Read(uint8_t*, size_t, uint8_t*, size_t)	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/Spi.cpp:20:6:void Pinetime::Drivers::Spi::Sleep()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/Spi.cpp:25:6:bool Pinetime::Drivers::Spi::WriteCmdAndBuffer(const uint8_t*, size_t, const uint8_t*, size_t)	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/Spi.cpp:29:6:bool Pinetime::Drivers::Spi::Init()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/Spi.cpp:35:6:void Pinetime::Drivers::Spi::Wakeup()	0	static

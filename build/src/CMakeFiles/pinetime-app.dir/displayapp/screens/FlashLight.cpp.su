@@ -1,0 +1,13 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:14:22:virtual void Pinetime::Applications::Screens::Screen::Refresh()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:29:22:virtual bool Pinetime::Applications::Screens::Screen::OnButtonPushed()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/Screen.h:39:22:virtual bool Pinetime::Applications::Screens::Screen::OnTouchEvent(uint16_t, uint16_t)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_core/lv_disp.h:158:26:lv_obj_t* lv_scr_act()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/FlashLight.cpp:53:1:Pinetime::Applications::Screens::FlashLight::~FlashLight()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/FlashLight.cpp:53:1:virtual Pinetime::Applications::Screens::FlashLight::~FlashLight()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/FlashLight.cpp:59:6:void Pinetime::Applications::Screens::FlashLight::SetColors()	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/FlashLight.cpp:72:6:void Pinetime::Applications::Screens::FlashLight::SetIndicators()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/FlashLight.cpp:17:1:Pinetime::Applications::Screens::FlashLight::FlashLight(Pinetime::System::SystemTask&, Pinetime::Controllers::BrightnessController&)	32	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/FlashLight.cpp:100:19:Pinetime::Applications::Screens::FlashLight::OnTouchEvent(Pinetime::Applications::TouchEvents)::<lambda()>	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/FlashLight.cpp:97:6:virtual bool Pinetime::Applications::Screens::FlashLight::OnTouchEvent(Pinetime::Applications::TouchEvents)	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/FlashLight.cpp:87:6:void Pinetime::Applications::Screens::FlashLight::Toggle()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/FlashLight.cpp:9:8:void {anonymous}::EventHandler(lv_obj_t*, lv_event_t)	0	static

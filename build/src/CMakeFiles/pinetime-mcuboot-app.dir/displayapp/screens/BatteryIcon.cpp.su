@@ -1,0 +1,6 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/BatteryIcon.cpp:9:1:Pinetime::Applications::Screens::BatteryIcon::BatteryIcon(bool)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/BatteryIcon.cpp:11:6:void Pinetime::Applications::Screens::BatteryIcon::Create(lv_obj_t*)	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/BatteryIcon.cpp:22:11:lv_obj_t* Pinetime::Applications::Screens::BatteryIcon::GetObject()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/BatteryIcon.cpp:42:6:void Pinetime::Applications::Screens::BatteryIcon::SetColor(lv_color_t)	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/BatteryIcon.cpp:26:6:void Pinetime::Applications::Screens::BatteryIcon::SetBatteryPercentage(uint8_t)	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/displayapp/screens/BatteryIcon.cpp:48:13:static const char* Pinetime::Applications::Screens::BatteryIcon::GetPlugIcon(bool)	0	static

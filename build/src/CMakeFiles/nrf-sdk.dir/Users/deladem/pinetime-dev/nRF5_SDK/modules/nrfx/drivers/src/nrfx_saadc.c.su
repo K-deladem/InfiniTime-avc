@@ -1,0 +1,14 @@
+/Users/deladem/pinetime-dev/nRF5_SDK/modules/nrfx/hal/nrf_saadc.h:590:22:nrf_saadc_event_clear	8	static
+/Users/deladem/pinetime-dev/nRF5_SDK/modules/nrfx/drivers/src/nrfx_saadc.c:102:6:SAADC_IRQHandler	40	static
+/Users/deladem/pinetime-dev/nRF5_SDK/modules/nrfx/drivers/include/nrfx_saadc.h:187:12:nrfx_saadc_init	16	static
+/Users/deladem/pinetime-dev/nRF5_SDK/modules/nrfx/drivers/include/nrfx_saadc.h:214:12:nrfx_saadc_channel_init	8	static
+/Users/deladem/pinetime-dev/nRF5_SDK/modules/nrfx/drivers/include/nrfx_saadc.h:203:10:nrfx_saadc_sample_task_get	0	static
+/Users/deladem/pinetime-dev/nRF5_SDK/modules/nrfx/drivers/include/nrfx_saadc.h:248:12:nrfx_saadc_sample_convert	16	static
+/Users/deladem/pinetime-dev/nRF5_SDK/modules/nrfx/drivers/include/nrfx_saadc.h:268:12:nrfx_saadc_buffer_convert	16	static
+/Users/deladem/pinetime-dev/nRF5_SDK/modules/nrfx/drivers/include/nrfx_saadc.h:232:12:nrfx_saadc_sample	0	static
+/Users/deladem/pinetime-dev/nRF5_SDK/modules/nrfx/drivers/include/nrfx_saadc.h:281:12:nrfx_saadc_calibrate_offset	8	static
+/Users/deladem/pinetime-dev/nRF5_SDK/modules/nrfx/drivers/include/nrfx_saadc.h:289:6:nrfx_saadc_is_busy	0	static
+/Users/deladem/pinetime-dev/nRF5_SDK/modules/nrfx/drivers/include/nrfx_saadc.h:296:6:nrfx_saadc_abort	8	static
+/Users/deladem/pinetime-dev/nRF5_SDK/modules/nrfx/drivers/include/nrfx_saadc.h:313:6:nrfx_saadc_limits_set	20	static
+/Users/deladem/pinetime-dev/nRF5_SDK/modules/nrfx/drivers/include/nrfx_saadc.h:224:12:nrfx_saadc_channel_uninit	8	static
+/Users/deladem/pinetime-dev/nRF5_SDK/modules/nrfx/drivers/include/nrfx_saadc.h:195:6:nrfx_saadc_uninit	16	static

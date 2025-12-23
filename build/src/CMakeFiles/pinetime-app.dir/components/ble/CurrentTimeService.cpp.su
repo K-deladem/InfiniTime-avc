@@ -1,0 +1,6 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/CurrentTimeService.cpp:26:6:void Pinetime::Controllers::CurrentTimeService::Init()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/CurrentTimeService.cpp:36:5:int Pinetime::Controllers::CurrentTimeService::OnCurrentTimeAccessed(ble_gatt_access_ctxt*)	48	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/CurrentTimeService.cpp:72:5:int Pinetime::Controllers::CurrentTimeService::OnLocalTimeAccessed(ble_gatt_access_ctxt*)	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/CurrentTimeService.cpp:16:5:int Pinetime::Controllers::CurrentTimeService::OnCurrentTimeServiceAccessed(ble_gatt_access_ctxt*)	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/CurrentTimeService.cpp:10:5:int CTSCallback(uint16_t, uint16_t, ble_gatt_access_ctxt*, void*)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/CurrentTimeService.cpp:100:1:Pinetime::Controllers::CurrentTimeService::CurrentTimeService(Pinetime::Controllers::DateTime&)	16	static

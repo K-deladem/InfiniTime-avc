@@ -1,0 +1,4 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/Watchdog.cpp:109:6:void Pinetime::Drivers::Watchdog::Setup(uint8_t, SleepBehaviour, HaltBehaviour)	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/Watchdog.cpp:117:6:void Pinetime::Drivers::Watchdog::Start()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/Watchdog.cpp:122:6:void Pinetime::Drivers::Watchdog::Reload()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/Watchdog.cpp:128:13:const char* Pinetime::Drivers::ResetReasonToString(Watchdog::ResetReason)	0	static

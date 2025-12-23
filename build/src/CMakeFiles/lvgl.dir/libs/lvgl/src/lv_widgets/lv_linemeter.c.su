@@ -1,0 +1,16 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_widgets/lv_linemeter.c:538:17:lv_linemeter_signal	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_widgets/lv_linemeter.c:53:12:lv_linemeter_create	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_widgets/lv_linemeter.c:118:6:lv_linemeter_set_value	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_widgets/lv_linemeter.c:146:6:lv_linemeter_set_range	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_widgets/lv_linemeter.c:172:6:lv_linemeter_set_scale	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_widgets/lv_linemeter.c:190:6:lv_linemeter_set_angle_offset	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_widgets/lv_linemeter.c:205:6:lv_linemeter_set_mirror	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_widgets/lv_linemeter.c:224:9:lv_linemeter_get_value	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_widgets/lv_linemeter.c:237:9:lv_linemeter_get_min_value	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_widgets/lv_linemeter.c:250:9:lv_linemeter_get_max_value	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_widgets/lv_linemeter.c:263:10:lv_linemeter_get_line_count	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_widgets/lv_linemeter.c:276:10:lv_linemeter_get_scale_angle	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_widgets/lv_linemeter.c:289:10:lv_linemeter_get_angle_offset	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_widgets/lv_linemeter.c:301:6:lv_linemeter_get_mirror	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_widgets/lv_linemeter.c:308:6:lv_linemeter_draw_scale	160	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_widgets/lv_linemeter.c:510:24:lv_linemeter_design	104	static

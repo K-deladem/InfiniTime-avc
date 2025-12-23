@@ -1,0 +1,9 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/porting/nimble/include/os/os_mempool.h:173:12:os_mempool_init	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/porting/nimble/include/os/os_mempool.h:189:12:os_mempool_ext_init	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/porting/nimble/include/os/os_mempool.h:199:12:os_mempool_clear	12	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/porting/nimble/include/os/os_mempool.h:222:5:os_memblock_from	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/porting/nimble/include/os/os_mempool.h:211:6:os_mempool_is_sane	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/porting/nimble/include/os/os_mempool.h:231:7:os_memblock_get	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/porting/nimble/include/os/os_mempool.h:243:12:os_memblock_put_from_cb	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/porting/nimble/include/os/os_mempool.h:253:12:os_memblock_put	4	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/porting/nimble/include/os/os_mempool.h:142:20:os_mempool_info_get_next	8	static

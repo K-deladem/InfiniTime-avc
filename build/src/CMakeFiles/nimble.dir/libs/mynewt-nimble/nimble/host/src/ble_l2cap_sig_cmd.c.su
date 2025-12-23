@@ -1,0 +1,5 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_l2cap_sig_cmd.c:24:1:ble_l2cap_sig_tx	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_l2cap_sig_cmd.c:42:1:ble_l2cap_sig_hdr_parse	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_l2cap_sig_cmd.c:92:1:ble_l2cap_sig_cmd_get	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_l2cap_sig_cmd.c:55:1:ble_l2cap_sig_reject_tx	32	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/host/src/ble_l2cap_sig_cmd.c:75:1:ble_l2cap_sig_reject_invalid_cid_tx	24	static

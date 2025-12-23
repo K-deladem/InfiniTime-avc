@@ -1,0 +1,15 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/motion/MovementAnalyzer.cpp:12:1:ButterworthFilter::ButterworthFilter(float, float)	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/motion/MovementAnalyzer.cpp:36:7:float ButterworthFilter::apply(float)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/motion/MovementAnalyzer.cpp:59:6:void ButterworthFilter::reset()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/motion/MovementAnalyzer.cpp:67:1:MagnitudeActiveTimeCounter::MagnitudeActiveTimeCounter()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/motion/MovementAnalyzer.cpp:69:10:uint32_t MagnitudeActiveTimeCounter::update(const std::array<float, 3>&, uint32_t)	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/motion/MovementAnalyzer.cpp:137:6:void MagnitudeActiveTimeCounter::reset()	12	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/motion/MovementAnalyzer.cpp:148:1:ActiveTimeCounter::ActiveTimeCounter()	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/motion/MovementAnalyzer.cpp:150:10:uint32_t ActiveTimeCounter::update(const std::array<float, 3>&, uint32_t)	32	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/motion/MovementAnalyzer.cpp:236:6:void ActiveTimeCounter::reset()	12	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/motion/MovementAnalyzer.cpp:252:1:MovementDetector::MovementDetector()	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/motion/MovementAnalyzer.cpp:254:6:bool MovementDetector::detect(const std::array<float, 3>&, uint32_t)	40	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/motion/MovementAnalyzer.cpp:330:6:void MovementDetector::reset()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/motion/MovementAnalyzer.cpp:346:1:MovementAnalyzer::MovementAnalyzer()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/motion/MovementAnalyzer.cpp:348:34:MovementAnalyzer::AnalysisResult MovementAnalyzer::analyze(const std::array<float, 3>&, uint32_t)	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/motion/MovementAnalyzer.cpp:360:6:void MovementAnalyzer::reset()	8	static

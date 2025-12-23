@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/deladem/pinetime-dev/InfiniTime-avc/build/cmake_install.cmake",
+		"/Users/deladem/pinetime-dev/InfiniTime-avc/build/src/cmake_install.cmake",
+		"/Users/deladem/pinetime-dev/InfiniTime-avc/build/src/displayapp/fonts/cmake_install.cmake",
+		"/Users/deladem/pinetime-dev/InfiniTime-avc/build/src/displayapp/apps/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

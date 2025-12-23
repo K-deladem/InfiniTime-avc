@@ -1,0 +1,18 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/motion/MovementTrackerIntegration.cpp:106:6:0(uint32_t, char*, size_t)	32	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/motion/MovementTrackerIntegration.cpp:12:18:static Pinetime::Controllers::MovementTracker& Pinetime::Controllers::MovementTracker::getInstance()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/motion/MovementTrackerIntegration.cpp:17:6:void Pinetime::Controllers::MovementTracker::init()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/motion/MovementTrackerIntegration.cpp:26:6:void Pinetime::Controllers::MovementTracker::handleMotionDataRaw(int16_t, int16_t, int16_t, uint32_t)	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/motion/MovementTrackerIntegration.cpp:44:6:void Pinetime::Controllers::MovementTracker::handleMotionDataViaPointer(void*)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/motion/MovementTrackerIntegration.cpp:53:32:MovementService::CurrentStatus Pinetime::Controllers::MovementTracker::getStatus() const	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/motion/MovementTrackerIntegration.cpp:57:6:void Pinetime::Controllers::MovementTracker::reset()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/motion/MovementTrackerIntegration.cpp:70:26:static Pinetime::Drivers::MovementWatchFaceHelper& Pinetime::Drivers::MovementWatchFaceHelper::getInstance()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/motion/MovementTrackerIntegration.cpp:75:21:Pinetime::Drivers::MovementDisplayData Pinetime::Drivers::MovementWatchFaceHelper::getDisplayData() const	48	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/motion/MovementTrackerIntegration.cpp:95:9:uint8_t Pinetime::Drivers::MovementWatchFaceHelper::getProgressBarLevel() const	48	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/motion/MovementTrackerIntegration.cpp:101:6:bool Pinetime::Drivers::MovementWatchFaceHelper::shouldShowActivityIndicator() const	40	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/motion/MovementTrackerIntegration.cpp:106:6:static void Pinetime::Drivers::MovementWatchFaceHelper::formatActiveTime(uint32_t, char*, size_t)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/motion/MovementTrackerIntegration.cpp:127:24:static Pinetime::System::MovementSystemService& Pinetime::System::MovementSystemService::getInstance()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/motion/MovementTrackerIntegration.cpp:132:6:void Pinetime::System::MovementSystemService::init()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/motion/MovementTrackerIntegration.cpp:137:6:void Pinetime::System::MovementSystemService::update()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/motion/MovementTrackerIntegration.cpp:142:6:void Pinetime::System::MovementSystemService::onBleConnect()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/motion/MovementTrackerIntegration.cpp:146:6:void Pinetime::System::MovementSystemService::onBleDisconnect()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/components/motion/MovementTrackerIntegration.cpp:150:6:void Pinetime::System::MovementSystemService::setBatterySavingMode(bool)	0	static

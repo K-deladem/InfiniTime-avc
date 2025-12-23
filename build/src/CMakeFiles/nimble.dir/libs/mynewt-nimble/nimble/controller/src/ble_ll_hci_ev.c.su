@@ -1,0 +1,11 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/controller/include/controller/ble_ll_ctrl.h:297:6:ble_ll_hci_ev_datalen_chg	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/controller/include/controller/ble_ll_ctrl.h:298:6:ble_ll_hci_ev_rem_conn_parm_req	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/controller/include/controller/ble_ll_ctrl.h:300:6:ble_ll_hci_ev_conn_update	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/controller/include/controller/ble_ll_ctrl.h:304:6:ble_ll_hci_ev_encrypt_chg	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/controller/include/controller/ble_ll_ctrl.h:305:5:ble_ll_hci_ev_ltk_req	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/controller/include/controller/ble_ll_ctrl.h:301:6:ble_ll_hci_ev_rd_rem_used_feat	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/controller/include/controller/ble_ll_ctrl.h:303:6:ble_ll_hci_ev_rd_rem_ver	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/controller/include/controller/ble_ll_ctrl.h:306:5:ble_ll_hci_ev_hw_err	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/controller/include/controller/ble_ll_ctrl.h:307:6:ble_ll_hci_ev_databuf_overflow	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/controller/include/controller/ble_ll_ctrl.h:308:6:ble_ll_hci_ev_le_csa	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/nimble/controller/include/controller/ble_ll_ctrl.h:318:6:ble_ll_hci_ev_send_vendor_err	24	static

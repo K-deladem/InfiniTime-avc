@@ -1,0 +1,7 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/porting/nimble/src/mem.c:28:1:mem_malloc_mempool_gen	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/porting/nimble/include/mem/mem.h:30:5:mem_malloc_mempool	48	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/porting/nimble/include/mem/mem.h:32:5:mem_malloc_mempool_ext	48	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/porting/nimble/include/mem/mem.h:35:5:mem_malloc_mbuf_pool	48	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/porting/nimble/include/mem/mem.h:39:5:mem_malloc_mbufpkt_pool	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/porting/nimble/include/mem/mem.h:43:5:mem_init_mbuf_pool	32	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/mynewt-nimble/porting/nimble/include/mem/mem.h:61:17:mem_split_frag	16	static

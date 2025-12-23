@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/deladem/pinetime-dev/nRF5_SDK/modules/nrfx/mdk/gcc_startup_nrf52.S
+startup_config.h
+/Users/deladem/pinetime-dev/nRF5_SDK/modules/nrfx/mdk/startup_config.h
+
+/Users/deladem/pinetime-dev/nRF5_SDK/modules/nrfx/mdk/startup_config.h
+

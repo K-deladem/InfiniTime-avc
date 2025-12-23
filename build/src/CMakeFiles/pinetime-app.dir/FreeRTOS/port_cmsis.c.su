@@ -1,0 +1,8 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/FreeRTOS/port_cmsis.c:150:13:prvTaskExitError	0	static
+/Users/deladem/pinetime-dev/nRF5_SDK/external/freertos/source/include/portable.h:103:15:pxPortInitialiseStack	0	static
+/Users/deladem/pinetime-dev/nRF5_SDK/external/freertos/source/include/portable.h:140:12:xPortStartScheduler	8	static
+/Users/deladem/pinetime-dev/nRF5_SDK/external/freertos/source/include/portable.h:147:6:vPortEndScheduler	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/FreeRTOS/portmacro_cmsis.h:105:13:vPortEnterCritical	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/FreeRTOS/portmacro_cmsis.h:106:13:vPortExitCritical	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/FreeRTOS/portmacro_cmsis.h:107:17:ulSetInterruptMaskFromISR	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/FreeRTOS/portmacro_cmsis.h:108:13:vClearInterruptMaskFromISR	0	static

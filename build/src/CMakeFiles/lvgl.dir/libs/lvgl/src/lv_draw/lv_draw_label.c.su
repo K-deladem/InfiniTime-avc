@@ -1,0 +1,3 @@
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_draw/lv_draw_label.c:819:16:hex_char_to_num	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_draw/lv_draw_label.c:92:28:lv_draw_label_dsc_init	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/libs/lvgl/src/lv_draw/lv_draw_label.c:114:28:lv_draw_label	336	static

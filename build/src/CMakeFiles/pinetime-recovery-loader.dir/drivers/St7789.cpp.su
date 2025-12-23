@@ -1,0 +1,42 @@
+/opt/homebrew/arm-toolchain/arm-none-eabi/include/c++/13.2.1/bits/std_function.h:267:7:), _Functor>::_M_manager(std::_Any_data&, const std::_Any_data&, std::_Manager_operation) [with _Res = void; _Functor = Pinetime::Drivers::St7789::WriteCommand(const uint8_t*, size_t)::<lambda()>; _ArgTypes = {}]	0	static
+/opt/homebrew/arm-toolchain/arm-none-eabi/include/c++/13.2.1/bits/std_function.h:267:7:), _Functor>::_M_manager(std::_Any_data&, const std::_Any_data&, std::_Manager_operation) [with _Res = void; _Functor = Pinetime::Drivers::St7789::WriteData(const uint8_t*, size_t)::<lambda()>; _ArgTypes = {}]	0	static
+/opt/homebrew/arm-toolchain/arm-none-eabi/include/c++/13.2.1/bits/std_function.h:288:7:) [with _Res = void; _Functor = Pinetime::Drivers::St7789::WriteCommand(const uint8_t*, size_t)::<lambda()>; _ArgTypes = {}]	0	static
+/opt/homebrew/arm-toolchain/arm-none-eabi/include/c++/13.2.1/bits/std_function.h:288:7:) [with _Res = void; _Functor = Pinetime::Drivers::St7789::WriteData(const uint8_t*, size_t)::<lambda()>; _ArgTypes = {}]	0	static
+/opt/homebrew/arm-toolchain/arm-none-eabi/include/c++/13.2.1/bits/std_function.h:241:5:std::_Function_base::~_Function_base()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/St7789.cpp:10:1:Pinetime::Drivers::St7789::St7789(Pinetime::Drivers::Spi&, uint8_t, uint8_t)	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/St7789.cpp:58:6:void Pinetime::Drivers::St7789::WriteSpi(const uint8_t*, size_t, const std::function<void()>&)	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/St7789.cpp:42:6:void Pinetime::Drivers::St7789::WriteData(const uint8_t*, size_t)	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/St7789.cpp:38:6:void Pinetime::Drivers::St7789::WriteData(uint8_t)	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/St7789.cpp:52:6:void Pinetime::Drivers::St7789::WriteCommand(const uint8_t*, size_t)	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/St7789.cpp:48:6:void Pinetime::Drivers::St7789::WriteCommand(uint8_t)	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/St7789.cpp:72:6:void Pinetime::Drivers::St7789::Command2Enable()	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/St7789.cpp:83:6:void Pinetime::Drivers::St7789::SleepOut()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/St7789.cpp:96:6:void Pinetime::Drivers::St7789::EnsureSleepOutPostDelay()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/St7789.cpp:62:6:void Pinetime::Drivers::St7789::SoftwareReset()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/St7789.cpp:105:6:void Pinetime::Drivers::St7789::SleepIn()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/St7789.cpp:117:6:void Pinetime::Drivers::St7789::PixelFormat()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/St7789.cpp:123:6:void Pinetime::Drivers::St7789::MemoryDataAccessControl()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/St7789.cpp:139:6:void Pinetime::Drivers::St7789::DisplayInversionOn()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/St7789.cpp:143:6:void Pinetime::Drivers::St7789::NormalModeOn()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/St7789.cpp:147:6:void Pinetime::Drivers::St7789::IdleModeOn()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/St7789.cpp:151:6:void Pinetime::Drivers::St7789::IdleModeOff()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/St7789.cpp:155:6:void Pinetime::Drivers::St7789::PorchSet()	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/St7789.cpp:167:6:void Pinetime::Drivers::St7789::FrameRateNormalSet()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/St7789.cpp:173:6:void Pinetime::Drivers::St7789::IdleFrameRateOn()	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/St7789.cpp:186:6:void Pinetime::Drivers::St7789::IdleFrameRateOff()	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/St7789.cpp:196:6:void Pinetime::Drivers::St7789::DisplayOn()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/St7789.cpp:200:6:void Pinetime::Drivers::St7789::PowerControl()	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/St7789.cpp:213:6:void Pinetime::Drivers::St7789::GateControl()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/St7789.cpp:219:6:void Pinetime::Drivers::St7789::SetAddrWindow(uint16_t, uint16_t, uint16_t, uint16_t)	32	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/St7789.cpp:240:6:void Pinetime::Drivers::St7789::WriteToRam(const uint8_t*, size_t)	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/St7789.cpp:245:6:void Pinetime::Drivers::St7789::SetVdv()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/St7789.cpp:252:6:void Pinetime::Drivers::St7789::DisplayOff()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/St7789.cpp:256:6:void Pinetime::Drivers::St7789::VerticalScrollStartAddress(uint16_t)	24	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/St7789.cpp:267:6:void Pinetime::Drivers::St7789::Uninit()	0	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/St7789.cpp:270:6:void Pinetime::Drivers::St7789::DrawBuffer(uint16_t, uint16_t, uint16_t, uint16_t, const uint8_t*, size_t)	32	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/St7789.cpp:275:6:void Pinetime::Drivers::St7789::HardwareReset()	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/St7789.cpp:13:6:void Pinetime::Drivers::St7789::Init()	16	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/St7789.cpp:286:6:void Pinetime::Drivers::St7789::LowPowerOn()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/St7789.cpp:292:6:void Pinetime::Drivers::St7789::LowPowerOff()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/St7789.cpp:298:6:void Pinetime::Drivers::St7789::Sleep()	8	static
+/Users/deladem/pinetime-dev/InfiniTime-avc/src/drivers/St7789.cpp:304:6:void Pinetime::Drivers::St7789::Wakeup()	8	static

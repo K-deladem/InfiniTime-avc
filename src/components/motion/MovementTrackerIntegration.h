@@ -4,7 +4,7 @@
 #include <array>
 #include <cstdint>
 
-// Forward declaration - pas besoin de l'en-tête complet
+// Forward declarations
 namespace Pinetime::Controllers {
 class MotionController;
 }
@@ -31,7 +31,7 @@ public:
   // Get current status for any watchface
   MovementService::CurrentStatus getStatus() const;
 
-  // Initialize on system startup
+  // Initialize on system startup (MovementService is already initialized by NimbleController)
   void init();
 
   // Reset statistics (button press, app command)
@@ -43,7 +43,6 @@ private:
   MovementTracker& operator=(const MovementTracker&) = delete;
 
   uint32_t last_update_ms = 0;
-  MovementService& movement_service = MovementService::getInstance();
 };
 
 } // namespace Pinetime::Controllers

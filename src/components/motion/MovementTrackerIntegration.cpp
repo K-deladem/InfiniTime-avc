@@ -15,7 +15,8 @@ MovementTracker& MovementTracker::getInstance() {
 }
 
 void MovementTracker::init() {
-  movement_service.init();
+  // MovementService is already initialized by NimbleController::Init()
+  // This function just resets the tracker state
   last_update_ms = 0;
 }
 
@@ -24,7 +25,7 @@ void MovementTracker::init() {
 
 void MovementTracker::handleMotionDataRaw(int16_t x, int16_t y, int16_t z, uint32_t delta_time_ms) {
 
-  constexpr float ACCEL_SCALE = 1.0f / 1024.0f; 
+  constexpr float ACCEL_SCALE = 1.0f / 1024.0f;
   // Récupérer les valeurs d'accélération actuelles en g
   float accel_x = static_cast<float>(x) * ACCEL_SCALE;
   float accel_y = static_cast<float>(y) * ACCEL_SCALE;
@@ -35,7 +36,7 @@ void MovementTracker::handleMotionDataRaw(int16_t x, int16_t y, int16_t z, uint3
 
   // Mettre à jour le service de mouvement avec les nouvelles données
   if (delta_time_ms > 0) {
-    movement_service.updateAccelerometer(gravity_corrected_xl, delta_time_ms);
+    MovementService::getInstance().updateAccelerometer(gravity_corrected_xl, delta_time_ms);
   }
 }
 
@@ -50,11 +51,11 @@ void MovementTracker::handleMotionDataViaPointer(void* motion_controller_ptr) {
 }
 
 MovementService::CurrentStatus MovementTracker::getStatus() const {
-  return movement_service.getCurrentStatus();
+  return MovementService::getInstance().getCurrentStatus();
 }
 
 void MovementTracker::reset() {
-  movement_service.resetStatistics();
+  MovementService::getInstance().resetStatistics();
   last_update_ms = 0;
 }
 
@@ -129,7 +130,8 @@ MovementSystemService& MovementSystemService::getInstance() {
 }
 
 void MovementSystemService::init() {
-  Pinetime::Controllers::MovementTracker::getInstance().init();
+  // MovementTracker is now initialized in SystemTask with NimbleController
+  // This function is kept for potential future system-level init
 }
 
 void MovementSystemService::update() {

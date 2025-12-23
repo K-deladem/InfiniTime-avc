@@ -136,7 +136,7 @@ void SystemTask::Work() {
 
   motionSensor.Init();
   motionController.Init(motionSensor.DeviceType());
-  Pinetime::Controllers::MovementTracker::getInstance().init();
+  // MovementTracker is now initialized in NimbleController::Init()
   Pinetime::System::MovementSystemService::getInstance().init();
   settingsController.Init();
 

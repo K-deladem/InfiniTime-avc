@@ -1,0 +1,1842 @@
+Archive member included to satisfy reference by file (symbol)
+
+libnrf-sdk.a(gcc_startup_nrf52.S.obj)
+                              CMakeFiles/pinetime-mcuboot-recovery-loader.dir/FreeRTOS/heap_4_infinitime.c.obj (__StackLimit)
+libnrf-sdk.a(nrf_drv_clock.c.obj)
+                              CMakeFiles/pinetime-mcuboot-recovery-loader.dir/recoveryLoader.cpp.obj (nrf_drv_clock_init)
+libnrf-sdk.a(nrfx_clock.c.obj)
+                              libnrf-sdk.a(nrf_drv_clock.c.obj) (nrfx_clock_init)
+libnrf-sdk.a(nrfx_gpiote.c.obj)
+                              CMakeFiles/pinetime-mcuboot-recovery-loader.dir/components/brightness/BrightnessController.cpp.obj (nrfx_gpiote_out_init)
+libnrf-sdk.a(queue.c.obj)     CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/SpiMaster.cpp.obj (xQueueGenericCreate)
+libnrf-sdk.a(tasks.c.obj)     CMakeFiles/pinetime-mcuboot-recovery-loader.dir/FreeRTOS/port.c.obj (pxCurrentTCB)
+libnrf-sdk.a(timers.c.obj)    libnrf-sdk.a(tasks.c.obj) (xTimerCreateTimerTask)
+libnrf-sdk.a(app_error.c.obj)
+                              CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/SpiMaster.cpp.obj (app_error_handler_bare)
+libnrf-sdk.a(app_error_weak.c.obj)
+                              libnrf-sdk.a(app_error.c.obj) (app_error_fault_handler)
+libnrf-sdk.a(app_util_platform.c.obj)
+                              libnrf-sdk.a(nrf_drv_clock.c.obj) (app_util_critical_region_enter)
+libnrf-sdk.a(app_gpiote.c.obj)
+                              CMakeFiles/pinetime-mcuboot-recovery-loader.dir/recoveryLoader.cpp.obj (app_gpiote_init)
+libnrf-sdk.a(system_nrf52.c.obj)
+                              libnrf-sdk.a(gcc_startup_nrf52.S.obj) (SystemInit)
+libnrf-sdk.a(list.c.obj)      libnrf-sdk.a(queue.c.obj) (vListInitialise)
+/opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-exit.o)
+                              /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o (exit)
+/opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-findfp.o)
+                              /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-exit.o) (__stdio_exit_handler)
+/opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-fwalk.o)
+                              /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-findfp.o) (_fwalk_sglue)
+/opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memset.o)
+                              /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o (memset)
+/opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-impure.o)
+                              /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-findfp.o) (_impure_data)
+/opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-init.o)
+                              /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o (__libc_init_array)
+/opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lock.o)
+                              /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-findfp.o) (__retarget_lock_init_recursive)
+/opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memcpy-stub.o)
+                              CMakeFiles/pinetime-mcuboot-recovery-loader.dir/FreeRTOS/heap_4_infinitime.c.obj (memcpy)
+/opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-fflush.o)
+                              /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-findfp.o) (_fflush_r)
+/opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-stdio.o)
+                              /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-findfp.o) (__sread)
+/opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-closer.o)
+                              /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-stdio.o) (_close_r)
+/opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-reent.o)
+                              /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-closer.o) (errno)
+/opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lseekr.o)
+                              /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-stdio.o) (_lseek_r)
+/opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-readr.o)
+                              /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-stdio.o) (_read_r)
+/opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-writer.o)
+                              /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-stdio.o) (_write_r)
+/opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-freer.o)
+                              /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-fflush.o) (_free_r)
+/opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mallocr.o)
+                              /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-freer.o) (__malloc_free_list)
+/opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mlock.o)
+                              /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-freer.o) (__malloc_lock)
+/opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-sbrkr.o)
+                              /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mallocr.o) (_sbrk_r)
+/opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(close.o)
+                              /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-closer.o) (_close)
+/opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(lseek.o)
+                              /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lseekr.o) (_lseek)
+/opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(read.o)
+                              /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-readr.o) (_read)
+/opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(write.o)
+                              /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-writer.o) (_write)
+/opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(_exit.o)
+                              /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-exit.o) (_exit)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crti.o
+ .data          0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crti.o
+ .bss           0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crti.o
+ .text          0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .data          0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .bss           0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .rodata.all_implied_fbits
+                0x00000000       0x24 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .data.__dso_handle
+                0x00000000        0x4 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .data          0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .bss           0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .ARM.extab     0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .text          0x00000000        0x0 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/stdlib.c.obj
+ .data          0x00000000        0x0 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/stdlib.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/stdlib.c.obj
+ .text.malloc   0x00000000        0x4 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/stdlib.c.obj
+ .text.__wrap_malloc
+                0x00000000        0x4 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/stdlib.c.obj
+ .text.__wrap__malloc_r
+                0x00000000        0x6 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/stdlib.c.obj
+ .text.free     0x00000000        0x4 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/stdlib.c.obj
+ .text.__wrap_free
+                0x00000000        0x4 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/stdlib.c.obj
+ .text.calloc   0x00000000       0x1c CMakeFiles/pinetime-mcuboot-recovery-loader.dir/stdlib.c.obj
+ .text.__wrap_calloc
+                0x00000000        0x4 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/stdlib.c.obj
+ .text.realloc  0x00000000        0x4 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/stdlib.c.obj
+ .text.__wrap_realloc
+                0x00000000        0x4 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/stdlib.c.obj
+ .comment       0x00000000       0x45 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/stdlib.c.obj
+ .ARM.attributes
+                0x00000000       0x34 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/stdlib.c.obj
+ .text          0x00000000        0x0 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/FreeRTOS/heap_4_infinitime.c.obj
+ .data          0x00000000        0x0 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/FreeRTOS/heap_4_infinitime.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/FreeRTOS/heap_4_infinitime.c.obj
+ .text.xPortGetFreeHeapSize
+                0x00000000        0xc CMakeFiles/pinetime-mcuboot-recovery-loader.dir/FreeRTOS/heap_4_infinitime.c.obj
+ .text.xPortGetMinimumEverFreeHeapSize
+                0x00000000        0xc CMakeFiles/pinetime-mcuboot-recovery-loader.dir/FreeRTOS/heap_4_infinitime.c.obj
+ .text.xPortGetHeapSize
+                0x00000000        0xc CMakeFiles/pinetime-mcuboot-recovery-loader.dir/FreeRTOS/heap_4_infinitime.c.obj
+ .text.vPortInitialiseBlocks
+                0x00000000        0x2 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/FreeRTOS/heap_4_infinitime.c.obj
+ .text.pvPortRealloc
+                0x00000000       0x54 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/FreeRTOS/heap_4_infinitime.c.obj
+ .text          0x00000000        0x0 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/FreeRTOS/port.c.obj
+ .data          0x00000000        0x0 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/FreeRTOS/port.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/FreeRTOS/port.c.obj
+ .text          0x00000000        0x0 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/FreeRTOS/port_cmsis_systick.c.obj
+ .data          0x00000000        0x0 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/FreeRTOS/port_cmsis_systick.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/FreeRTOS/port_cmsis_systick.c.obj
+ .text          0x00000000        0x0 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/FreeRTOS/port_cmsis.c.obj
+ .data          0x00000000        0x0 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/FreeRTOS/port_cmsis.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/FreeRTOS/port_cmsis.c.obj
+ .text.vPortEndScheduler
+                0x00000000        0x2 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/FreeRTOS/port_cmsis.c.obj
+ .text          0x00000000        0x0 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/SpiNorFlash.cpp.obj
+ .data          0x00000000        0x0 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/SpiNorFlash.cpp.obj
+ .bss           0x00000000        0x0 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/SpiNorFlash.cpp.obj
+ .text._ZN8Pinetime7Drivers11SpiNorFlash6UninitEv
+                0x00000000        0x2 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/SpiNorFlash.cpp.obj
+ .text._ZN8Pinetime7Drivers11SpiNorFlash5SleepEv
+                0x00000000       0x32 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/SpiNorFlash.cpp.obj
+ .text._ZN8Pinetime7Drivers11SpiNorFlash25ReadConfigurationRegisterEv
+                0x00000000       0x24 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/SpiNorFlash.cpp.obj
+ .text._ZN8Pinetime7Drivers11SpiNorFlash4ReadEmPhj
+                0x00000000       0x26 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/SpiNorFlash.cpp.obj
+ .text._ZN8Pinetime7Drivers11SpiNorFlash20ReadSecurityRegisterEv
+                0x00000000       0x24 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/SpiNorFlash.cpp.obj
+ .text._ZN8Pinetime7Drivers11SpiNorFlash13ProgramFailedEv
+                0x00000000        0xc CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/SpiNorFlash.cpp.obj
+ .text._ZN8Pinetime7Drivers11SpiNorFlash11EraseFailedEv
+                0x00000000        0xc CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/SpiNorFlash.cpp.obj
+ .text._ZNK8Pinetime7Drivers11SpiNorFlash17GetIdentificationEv
+                0x00000000       0x20 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/SpiNorFlash.cpp.obj
+ .text          0x00000000        0x0 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/SpiMaster.cpp.obj
+ .data          0x00000000        0x0 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/SpiMaster.cpp.obj
+ .bss           0x00000000        0x0 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/SpiMaster.cpp.obj
+ .text._ZN8Pinetime7Drivers9SpiMaster5SleepEv
+                0x00000000       0x36 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/SpiMaster.cpp.obj
+ .text._ZN8Pinetime7Drivers9SpiMaster6WakeupEv
+                0x00000000        0x4 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/SpiMaster.cpp.obj
+ .text          0x00000000        0x0 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/Spi.cpp.obj
+ .data          0x00000000        0x0 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/Spi.cpp.obj
+ .bss           0x00000000        0x0 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/Spi.cpp.obj
+ .text._ZN8Pinetime7Drivers3Spi5SleepEv
+                0x00000000       0x12 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/Spi.cpp.obj
+ .text._ZN8Pinetime7Drivers3Spi4InitEv
+                0x00000000       0x1e CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/Spi.cpp.obj
+ .text._ZN8Pinetime7Drivers3Spi6WakeupEv
+                0x00000000       0x1c CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/Spi.cpp.obj
+ .text          0x00000000        0x0 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/logging/NrfLogger.cpp.obj
+ .data          0x00000000        0x0 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/logging/NrfLogger.cpp.obj
+ .bss           0x00000000        0x0 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/logging/NrfLogger.cpp.obj
+ .text._ZN8Pinetime7Logging9NrfLogger7ProcessEPv
+                0x00000000        0xa CMakeFiles/pinetime-mcuboot-recovery-loader.dir/logging/NrfLogger.cpp.obj
+ .text._ZN8Pinetime7Logging9NrfLogger6ResumeEv
+                0x00000000        0x6 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/logging/NrfLogger.cpp.obj
+ .rodata._ZN8Pinetime7Logging9NrfLogger4InitEv.str1.1
+                0x00000000        0x7 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/logging/NrfLogger.cpp.obj
+ .text._ZN8Pinetime7Logging9NrfLogger4InitEv
+                0x00000000       0x34 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/logging/NrfLogger.cpp.obj
+ .rodata._ZTVN8Pinetime7Logging9NrfLoggerE
+                0x00000000       0x10 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/logging/NrfLogger.cpp.obj
+ .comment       0x00000000       0x45 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/logging/NrfLogger.cpp.obj
+ .ARM.attributes
+                0x00000000       0x34 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/logging/NrfLogger.cpp.obj
+ .text          0x00000000        0x0 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/components/rle/RleDecoder.cpp.obj
+ .data          0x00000000        0x0 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/components/rle/RleDecoder.cpp.obj
+ .bss           0x00000000        0x0 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/components/rle/RleDecoder.cpp.obj
+ .text._ZN8Pinetime5Tools10RleDecoderC2EPKhjtt
+                0x00000000       0x14 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/components/rle/RleDecoder.cpp.obj
+ .group         0x00000000        0x8 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/St7789.cpp.obj
+ .text          0x00000000        0x0 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/St7789.cpp.obj
+ .data          0x00000000        0x0 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/St7789.cpp.obj
+ .bss           0x00000000        0x0 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/St7789.cpp.obj
+ .text._ZN8Pinetime7Drivers6St77897SleepInEv
+                0x00000000       0x20 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/St7789.cpp.obj
+ .text._ZN8Pinetime7Drivers6St778910IdleModeOnEv
+                0x00000000        0x6 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/St7789.cpp.obj
+ .text._ZN8Pinetime7Drivers6St778911IdleModeOffEv
+                0x00000000        0x6 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/St7789.cpp.obj
+ .rodata._ZN8Pinetime7Drivers6St778915IdleFrameRateOnEv.str1.1
+                0x00000000        0x4 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/St7789.cpp.obj
+ .text._ZN8Pinetime7Drivers6St778915IdleFrameRateOnEv
+                0x00000000       0x2c CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/St7789.cpp.obj
+ .text._ZN8Pinetime7Drivers6St778910DisplayOffEv
+                0x00000000        0x6 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/St7789.cpp.obj
+ .text._ZN8Pinetime7Drivers6St778926VerticalScrollStartAddressEt
+                0x00000000       0x30 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/St7789.cpp.obj
+ .text._ZN8Pinetime7Drivers6St77896UninitEv
+                0x00000000        0x2 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/St7789.cpp.obj
+ .text._ZN8Pinetime7Drivers6St778910LowPowerOnEv
+                0x00000000       0x12 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/St7789.cpp.obj
+ .text._ZN8Pinetime7Drivers6St778911LowPowerOffEv
+                0x00000000       0x12 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/St7789.cpp.obj
+ .text._ZN8Pinetime7Drivers6St77895SleepEv
+                0x00000000       0x1a CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/St7789.cpp.obj
+ .text._ZN8Pinetime7Drivers6St77896WakeupEv
+                0x00000000       0x2a CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/St7789.cpp.obj
+ .text          0x00000000        0x0 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/components/brightness/BrightnessController.cpp.obj
+ .data          0x00000000        0x0 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/components/brightness/BrightnessController.cpp.obj
+ .bss           0x00000000        0x0 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/components/brightness/BrightnessController.cpp.obj
+ .text._ZN8Pinetime11Controllers20BrightnessController5LowerEv
+                0x00000000       0x1e CMakeFiles/pinetime-mcuboot-recovery-loader.dir/components/brightness/BrightnessController.cpp.obj
+ .text._ZN8Pinetime11Controllers20BrightnessController6HigherEv
+                0x00000000       0x1c CMakeFiles/pinetime-mcuboot-recovery-loader.dir/components/brightness/BrightnessController.cpp.obj
+ .text._ZNK8Pinetime11Controllers20BrightnessController5LevelEv
+                0x00000000        0x4 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/components/brightness/BrightnessController.cpp.obj
+ .text._ZN8Pinetime11Controllers20BrightnessController4StepEv
+                0x00000000       0x1e CMakeFiles/pinetime-mcuboot-recovery-loader.dir/components/brightness/BrightnessController.cpp.obj
+ .rodata._ZN8Pinetime11Controllers20BrightnessController7GetIconEv.str1.1
+                0x00000000        0xc CMakeFiles/pinetime-mcuboot-recovery-loader.dir/components/brightness/BrightnessController.cpp.obj
+ .text._ZN8Pinetime11Controllers20BrightnessController7GetIconEv
+                0x00000000       0x24 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/components/brightness/BrightnessController.cpp.obj
+ .rodata._ZN8Pinetime11Controllers20BrightnessController8ToStringEv.str1.1
+                0x00000000        0x4 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/components/brightness/BrightnessController.cpp.obj
+ .text._ZN8Pinetime11Controllers20BrightnessController8ToStringEv
+                0x00000000       0x18 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/components/brightness/BrightnessController.cpp.obj
+ .rodata.str1.1
+                0x00000000       0x14 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/components/brightness/BrightnessController.cpp.obj
+ .rodata.CSWTCH.26
+                0x00000000       0x14 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/components/brightness/BrightnessController.cpp.obj
+ .group         0x00000000        0x8 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/recoveryLoader.cpp.obj
+ .group         0x00000000        0x8 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/recoveryLoader.cpp.obj
+ .group         0x00000000        0xc CMakeFiles/pinetime-mcuboot-recovery-loader.dir/recoveryLoader.cpp.obj
+ .text          0x00000000        0x0 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/recoveryLoader.cpp.obj
+ .data          0x00000000        0x0 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/recoveryLoader.cpp.obj
+ .bss           0x00000000        0x0 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/recoveryLoader.cpp.obj
+ .text._ZN8Pinetime7Logging11DummyLogger4InitEv
+                0x00000000        0x2 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/recoveryLoader.cpp.obj
+ .text._ZN8Pinetime7Logging11DummyLogger6ResumeEv
+                0x00000000        0x2 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/recoveryLoader.cpp.obj
+ .text.vApplicationIdleHook
+                0x00000000        0x2 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/recoveryLoader.cpp.obj
+ .text._Z15RefreshWatchdogv
+                0x00000000       0x14 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/recoveryLoader.cpp.obj
+ .rodata._ZTVN8Pinetime7Logging11DummyLoggerE
+                0x00000000       0x10 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/recoveryLoader.cpp.obj
+ .data.logger   0x00000000        0x4 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/recoveryLoader.cpp.obj
+ .data          0x00000000        0x0 libnrf-sdk.a(gcc_startup_nrf52.S.obj)
+ .bss           0x00000000        0x0 libnrf-sdk.a(gcc_startup_nrf52.S.obj)
+ .text          0x00000000        0x0 libnrf-sdk.a(nrf_drv_clock.c.obj)
+ .data          0x00000000        0x0 libnrf-sdk.a(nrf_drv_clock.c.obj)
+ .bss           0x00000000        0x0 libnrf-sdk.a(nrf_drv_clock.c.obj)
+ .text.nrf_drv_clock_init_check
+                0x00000000        0xc libnrf-sdk.a(nrf_drv_clock.c.obj)
+ .text.nrf_drv_clock_uninit
+                0x00000000       0x18 libnrf-sdk.a(nrf_drv_clock.c.obj)
+ .text.nrf_drv_clock_lfclk_release
+                0x00000000       0x28 libnrf-sdk.a(nrf_drv_clock.c.obj)
+ .text.nrf_drv_clock_lfclk_is_running
+                0x00000000        0xe libnrf-sdk.a(nrf_drv_clock.c.obj)
+ .text.nrf_drv_clock_hfclk_request
+                0x00000000       0x54 libnrf-sdk.a(nrf_drv_clock.c.obj)
+ .text.nrf_drv_clock_hfclk_release
+                0x00000000       0x28 libnrf-sdk.a(nrf_drv_clock.c.obj)
+ .text.nrf_drv_clock_hfclk_is_running
+                0x00000000       0x16 libnrf-sdk.a(nrf_drv_clock.c.obj)
+ .text.nrf_drv_clock_calibration_start
+                0x00000000        0x4 libnrf-sdk.a(nrf_drv_clock.c.obj)
+ .text.nrf_drv_clock_calibration_abort
+                0x00000000        0x4 libnrf-sdk.a(nrf_drv_clock.c.obj)
+ .text.nrf_drv_clock_is_calibrating
+                0x00000000        0x4 libnrf-sdk.a(nrf_drv_clock.c.obj)
+ .text          0x00000000        0x0 libnrf-sdk.a(nrfx_clock.c.obj)
+ .data          0x00000000        0x0 libnrf-sdk.a(nrfx_clock.c.obj)
+ .bss           0x00000000        0x0 libnrf-sdk.a(nrfx_clock.c.obj)
+ .text.nrfx_clock_disable
+                0x00000000       0x18 libnrf-sdk.a(nrfx_clock.c.obj)
+ .text.nrfx_clock_lfclk_stop
+                0x00000000       0x12 libnrf-sdk.a(nrfx_clock.c.obj)
+ .text.nrfx_clock_hfclk_start
+                0x00000000       0x20 libnrf-sdk.a(nrfx_clock.c.obj)
+ .text.nrfx_clock_hfclk_stop
+                0x00000000       0x24 libnrf-sdk.a(nrfx_clock.c.obj)
+ .text.nrfx_clock_uninit
+                0x00000000       0x18 libnrf-sdk.a(nrfx_clock.c.obj)
+ .text.nrfx_clock_calibration_start
+                0x00000000        0x4 libnrf-sdk.a(nrfx_clock.c.obj)
+ .text.nrfx_clock_is_calibrating
+                0x00000000        0x4 libnrf-sdk.a(nrfx_clock.c.obj)
+ .text.nrfx_clock_calibration_timer_start
+                0x00000000        0x2 libnrf-sdk.a(nrfx_clock.c.obj)
+ .text.nrfx_clock_calibration_timer_stop
+                0x00000000        0x2 libnrf-sdk.a(nrfx_clock.c.obj)
+ .text          0x00000000        0x0 libnrf-sdk.a(nrfx_gpiote.c.obj)
+ .data          0x00000000        0x0 libnrf-sdk.a(nrfx_gpiote.c.obj)
+ .bss           0x00000000        0x0 libnrf-sdk.a(nrfx_gpiote.c.obj)
+ .text.nrfx_gpiote_out_set
+                0x00000000        0xe libnrf-sdk.a(nrfx_gpiote.c.obj)
+ .text.nrfx_gpiote_out_clear
+                0x00000000        0xe libnrf-sdk.a(nrfx_gpiote.c.obj)
+ .text.nrfx_gpiote_out_toggle
+                0x00000000       0x1e libnrf-sdk.a(nrfx_gpiote.c.obj)
+ .text.nrfx_gpiote_out_task_disable
+                0x00000000       0x24 libnrf-sdk.a(nrfx_gpiote.c.obj)
+ .text.nrfx_gpiote_set_task_addr_get
+                0x00000000       0x1c libnrf-sdk.a(nrfx_gpiote.c.obj)
+ .text.nrfx_gpiote_clr_task_addr_get
+                0x00000000       0x1c libnrf-sdk.a(nrfx_gpiote.c.obj)
+ .text.nrfx_gpiote_out_task_trigger
+                0x00000000       0x20 libnrf-sdk.a(nrfx_gpiote.c.obj)
+ .text.nrfx_gpiote_set_task_trigger
+                0x00000000       0x20 libnrf-sdk.a(nrfx_gpiote.c.obj)
+ .text.nrfx_gpiote_clr_task_trigger
+                0x00000000       0x20 libnrf-sdk.a(nrfx_gpiote.c.obj)
+ .text.nrfx_gpiote_uninit
+                0x00000000       0x38 libnrf-sdk.a(nrfx_gpiote.c.obj)
+ .text.nrfx_gpiote_in_is_set
+                0x00000000       0x12 libnrf-sdk.a(nrfx_gpiote.c.obj)
+ .text          0x00000000        0x0 libnrf-sdk.a(queue.c.obj)
+ .data          0x00000000        0x0 libnrf-sdk.a(queue.c.obj)
+ .bss           0x00000000        0x0 libnrf-sdk.a(queue.c.obj)
+ .text.xQueueCreateCountingSemaphore
+                0x00000000       0x12 libnrf-sdk.a(queue.c.obj)
+ .text.xQueueCreateMutex
+                0x00000000       0x24 libnrf-sdk.a(queue.c.obj)
+ .text.xQueueGiveMutexRecursive
+                0x00000000       0x2a libnrf-sdk.a(queue.c.obj)
+ .text.xQueueTakeMutexRecursive
+                0x00000000       0x2e libnrf-sdk.a(queue.c.obj)
+ .text.xQueuePeek
+                0x00000000       0xf4 libnrf-sdk.a(queue.c.obj)
+ .text.xQueueReceiveFromISR
+                0x00000000       0x5c libnrf-sdk.a(queue.c.obj)
+ .text.xQueuePeekFromISR
+                0x00000000       0x2c libnrf-sdk.a(queue.c.obj)
+ .text.uxQueueMessagesWaiting
+                0x00000000       0x12 libnrf-sdk.a(queue.c.obj)
+ .text.uxQueueSpacesAvailable
+                0x00000000       0x16 libnrf-sdk.a(queue.c.obj)
+ .text.uxQueueMessagesWaitingFromISR
+                0x00000000        0x4 libnrf-sdk.a(queue.c.obj)
+ .text.uxQueueGetQueueNumber
+                0x00000000        0x4 libnrf-sdk.a(queue.c.obj)
+ .text.vQueueSetQueueNumber
+                0x00000000        0x4 libnrf-sdk.a(queue.c.obj)
+ .text.ucQueueGetQueueType
+                0x00000000        0x6 libnrf-sdk.a(queue.c.obj)
+ .text.xQueueIsQueueEmptyFromISR
+                0x00000000        0xa libnrf-sdk.a(queue.c.obj)
+ .text.xQueueIsQueueFullFromISR
+                0x00000000        0xc libnrf-sdk.a(queue.c.obj)
+ .text.pcQueueGetName
+                0x00000000       0x24 libnrf-sdk.a(queue.c.obj)
+ .text.vQueueUnregisterQueue
+                0x00000000       0x28 libnrf-sdk.a(queue.c.obj)
+ .text.vQueueDelete
+                0x00000000        0xe libnrf-sdk.a(queue.c.obj)
+ .text          0x00000000        0x0 libnrf-sdk.a(tasks.c.obj)
+ .data          0x00000000        0x0 libnrf-sdk.a(tasks.c.obj)
+ .bss           0x00000000        0x0 libnrf-sdk.a(tasks.c.obj)
+ .text.vTaskDelete
+                0x00000000       0xc0 libnrf-sdk.a(tasks.c.obj)
+ .text.eTaskGetState
+                0x00000000       0x68 libnrf-sdk.a(tasks.c.obj)
+ .text.uxTaskPriorityGet
+                0x00000000       0x1c libnrf-sdk.a(tasks.c.obj)
+ .text.uxTaskPriorityGetFromISR
+                0x00000000       0x1c libnrf-sdk.a(tasks.c.obj)
+ .text.vTaskPrioritySet
+                0x00000000       0xc8 libnrf-sdk.a(tasks.c.obj)
+ .text.vTaskResume
+                0x00000000       0x88 libnrf-sdk.a(tasks.c.obj)
+ .text.xTaskResumeFromISR
+                0x00000000       0x84 libnrf-sdk.a(tasks.c.obj)
+ .text.vTaskEndScheduler
+                0x00000000       0x10 libnrf-sdk.a(tasks.c.obj)
+ .text.xTaskGetTickCountFromISR
+                0x00000000        0xc libnrf-sdk.a(tasks.c.obj)
+ .text.uxTaskGetNumberOfTasks
+                0x00000000        0xc libnrf-sdk.a(tasks.c.obj)
+ .text.pcTaskGetName
+                0x00000000       0x10 libnrf-sdk.a(tasks.c.obj)
+ .text.xTaskGetIdleTaskHandle
+                0x00000000        0xc libnrf-sdk.a(tasks.c.obj)
+ .text.vTaskDelayUntil
+                0x00000000       0x50 libnrf-sdk.a(tasks.c.obj)
+ .text.vTaskSuspend
+                0x00000000       0xb0 libnrf-sdk.a(tasks.c.obj)
+ .text.vTaskPlaceOnUnorderedEventList
+                0x00000000       0x28 libnrf-sdk.a(tasks.c.obj)
+ .text.vTaskRemoveFromUnorderedEventList
+                0x00000000       0x58 libnrf-sdk.a(tasks.c.obj)
+ .text.vTaskSetTimeOutState
+                0x00000000       0x24 libnrf-sdk.a(tasks.c.obj)
+ .text.uxTaskGetTaskNumber
+                0x00000000        0x6 libnrf-sdk.a(tasks.c.obj)
+ .text.vTaskSetTaskNumber
+                0x00000000        0x6 libnrf-sdk.a(tasks.c.obj)
+ .text.vTaskGetInfo
+                0x00000000       0x78 libnrf-sdk.a(tasks.c.obj)
+ .text.prvListTasksWithinSingleList
+                0x00000000       0x5e libnrf-sdk.a(tasks.c.obj)
+ .text.uxTaskGetSystemState
+                0x00000000       0xa8 libnrf-sdk.a(tasks.c.obj)
+ .text.uxTaskGetStackHighWaterMark
+                0x00000000       0x20 libnrf-sdk.a(tasks.c.obj)
+ .text.xTaskGetCurrentTaskHandle
+                0x00000000        0xc libnrf-sdk.a(tasks.c.obj)
+ .text.uxTaskResetEventItemValue
+                0x00000000       0x18 libnrf-sdk.a(tasks.c.obj)
+ .text          0x00000000        0x0 libnrf-sdk.a(timers.c.obj)
+ .data          0x00000000        0x0 libnrf-sdk.a(timers.c.obj)
+ .bss           0x00000000        0x0 libnrf-sdk.a(timers.c.obj)
+ .text.xTimerCreate
+                0x00000000       0x34 libnrf-sdk.a(timers.c.obj)
+ .text.xTimerGetTimerDaemonTaskHandle
+                0x00000000        0xc libnrf-sdk.a(timers.c.obj)
+ .text.xTimerGetPeriod
+                0x00000000        0x4 libnrf-sdk.a(timers.c.obj)
+ .text.xTimerGetExpiryTime
+                0x00000000        0x4 libnrf-sdk.a(timers.c.obj)
+ .text.pcTimerGetName
+                0x00000000        0x4 libnrf-sdk.a(timers.c.obj)
+ .text.xTimerIsTimerActive
+                0x00000000       0x18 libnrf-sdk.a(timers.c.obj)
+ .text.pvTimerGetTimerID
+                0x00000000       0x12 libnrf-sdk.a(timers.c.obj)
+ .text.vTimerSetTimerID
+                0x00000000       0x14 libnrf-sdk.a(timers.c.obj)
+ .text.xTimerPendFunctionCallFromISR
+                0x00000000       0x28 libnrf-sdk.a(timers.c.obj)
+ .text.xTimerPendFunctionCall
+                0x00000000       0x28 libnrf-sdk.a(timers.c.obj)
+ .text.uxTimerGetTimerNumber
+                0x00000000        0x4 libnrf-sdk.a(timers.c.obj)
+ .text.vTimerSetTimerNumber
+                0x00000000        0x4 libnrf-sdk.a(timers.c.obj)
+ .text          0x00000000        0x0 libnrf-sdk.a(app_error.c.obj)
+ .data          0x00000000        0x0 libnrf-sdk.a(app_error.c.obj)
+ .bss           0x00000000        0x0 libnrf-sdk.a(app_error.c.obj)
+ .text.app_error_save_and_stop
+                0x00000000       0x58 libnrf-sdk.a(app_error.c.obj)
+ .bss.m_error_data.0
+                0x00000000       0x20 libnrf-sdk.a(app_error.c.obj)
+ .text          0x00000000        0x0 libnrf-sdk.a(app_error_weak.c.obj)
+ .data          0x00000000        0x0 libnrf-sdk.a(app_error_weak.c.obj)
+ .bss           0x00000000        0x0 libnrf-sdk.a(app_error_weak.c.obj)
+ .text          0x00000000        0x0 libnrf-sdk.a(app_util_platform.c.obj)
+ .data          0x00000000        0x0 libnrf-sdk.a(app_util_platform.c.obj)
+ .bss           0x00000000        0x0 libnrf-sdk.a(app_util_platform.c.obj)
+ .text.privilege_level_get
+                0x00000000       0x1a libnrf-sdk.a(app_util_platform.c.obj)
+ .text.current_int_priority_get
+                0x00000000       0x38 libnrf-sdk.a(app_util_platform.c.obj)
+ .text          0x00000000        0x0 libnrf-sdk.a(app_gpiote.c.obj)
+ .data          0x00000000        0x0 libnrf-sdk.a(app_gpiote.c.obj)
+ .bss           0x00000000        0x0 libnrf-sdk.a(app_gpiote.c.obj)
+ .text.nrf_bitmask_bit_is_set
+                0x00000000       0x12 libnrf-sdk.a(app_gpiote.c.obj)
+ .text.nrf_bitmask_bit_set
+                0x00000000       0x12 libnrf-sdk.a(app_gpiote.c.obj)
+ .text.gpiote_handler
+                0x00000000       0x94 libnrf-sdk.a(app_gpiote.c.obj)
+ .text.user_enable
+                0x00000000       0x90 libnrf-sdk.a(app_gpiote.c.obj)
+ .text.app_gpiote_user_register
+                0x00000000      0x100 libnrf-sdk.a(app_gpiote.c.obj)
+ .text.app_gpiote_user_register_ex
+                0x00000000      0x104 libnrf-sdk.a(app_gpiote.c.obj)
+ .text.app_gpiote_user_enable
+                0x00000000       0x30 libnrf-sdk.a(app_gpiote.c.obj)
+ .text.app_gpiote_user_disable
+                0x00000000       0x20 libnrf-sdk.a(app_gpiote.c.obj)
+ .text.app_gpiote_pins_state_get
+                0x00000000       0x50 libnrf-sdk.a(app_gpiote.c.obj)
+ .bss.m_last_pins_state
+                0x00000000        0x4 libnrf-sdk.a(app_gpiote.c.obj)
+ .rodata        0x00000000        0x3 libnrf-sdk.a(app_gpiote.c.obj)
+ .text          0x00000000        0x0 libnrf-sdk.a(system_nrf52.c.obj)
+ .data          0x00000000        0x0 libnrf-sdk.a(system_nrf52.c.obj)
+ .bss           0x00000000        0x0 libnrf-sdk.a(system_nrf52.c.obj)
+ .text.SystemCoreClockUpdate
+                0x00000000       0x10 libnrf-sdk.a(system_nrf52.c.obj)
+ .text          0x00000000        0x0 libnrf-sdk.a(list.c.obj)
+ .data          0x00000000        0x0 libnrf-sdk.a(list.c.obj)
+ .bss           0x00000000        0x0 libnrf-sdk.a(list.c.obj)
+ .text          0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-exit.o)
+ .data          0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-exit.o)
+ .bss           0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-exit.o)
+ .text          0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-findfp.o)
+ .data          0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-findfp.o)
+ .bss           0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-findfp.o)
+ .text.std      0x00000000       0x6c /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-findfp.o)
+ .text.stdio_exit_handler
+                0x00000000       0x18 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-findfp.o)
+ .text.cleanup_stdio
+                0x00000000       0x40 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-findfp.o)
+ .text.__fp_lock
+                0x00000000       0x18 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-findfp.o)
+ .text.__fp_unlock
+                0x00000000       0x18 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-findfp.o)
+ .text.global_stdio_init.part.0
+                0x00000000       0x3c /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-findfp.o)
+ .text.__sfp_lock_acquire
+                0x00000000        0xc /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-findfp.o)
+ .text.__sfp_lock_release
+                0x00000000        0xc /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-findfp.o)
+ .text.__sfp    0x00000000       0xa4 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-findfp.o)
+ .text.__sinit  0x00000000       0x30 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-findfp.o)
+ .text.__fp_lock_all
+                0x00000000       0x1c /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-findfp.o)
+ .text.__fp_unlock_all
+                0x00000000       0x1c /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-findfp.o)
+ .data.__sglue  0x00000000        0xc /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-findfp.o)
+ .bss.__sf      0x00000000      0x138 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-findfp.o)
+ .text          0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-fwalk.o)
+ .data          0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-fwalk.o)
+ .bss           0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-fwalk.o)
+ .text._fwalk_sglue
+                0x00000000       0x3c /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-fwalk.o)
+ .debug_frame   0x00000000       0x34 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-fwalk.o)
+ .ARM.attributes
+                0x00000000       0x34 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-fwalk.o)
+ .text          0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memset.o)
+ .data          0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memset.o)
+ .bss           0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memset.o)
+ .text          0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-impure.o)
+ .data          0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-impure.o)
+ .bss           0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-impure.o)
+ .data._impure_ptr
+                0x00000000        0x4 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-impure.o)
+ .data._impure_data
+                0x00000000       0x4c /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-impure.o)
+ .ARM.attributes
+                0x00000000       0x34 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-impure.o)
+ .text          0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-init.o)
+ .data          0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-init.o)
+ .bss           0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-init.o)
+ .text          0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lock.o)
+ .data          0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lock.o)
+ .bss           0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_init
+                0x00000000        0x2 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_init_recursive
+                0x00000000        0x2 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_close
+                0x00000000        0x2 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_close_recursive
+                0x00000000        0x2 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_acquire
+                0x00000000        0x2 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_acquire_recursive
+                0x00000000        0x2 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_try_acquire
+                0x00000000        0x4 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_try_acquire_recursive
+                0x00000000        0x4 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_release
+                0x00000000        0x2 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_release_recursive
+                0x00000000        0x2 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lock.o)
+ .bss.__lock___arc4random_mutex
+                0x00000000        0x1 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lock.o)
+ .bss.__lock___dd_hash_mutex
+                0x00000000        0x1 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lock.o)
+ .bss.__lock___tz_mutex
+                0x00000000        0x1 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lock.o)
+ .bss.__lock___env_recursive_mutex
+                0x00000000        0x1 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lock.o)
+ .bss.__lock___malloc_recursive_mutex
+                0x00000000        0x1 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lock.o)
+ .bss.__lock___at_quick_exit_mutex
+                0x00000000        0x1 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lock.o)
+ .bss.__lock___atexit_recursive_mutex
+                0x00000000        0x1 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lock.o)
+ .bss.__lock___sfp_recursive_mutex
+                0x00000000        0x1 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lock.o)
+ .debug_frame   0x00000000       0xb0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lock.o)
+ .ARM.attributes
+                0x00000000       0x34 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lock.o)
+ .text          0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memcpy-stub.o)
+ .data          0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memcpy-stub.o)
+ .bss           0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memcpy-stub.o)
+ .text          0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-fflush.o)
+ .data          0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-fflush.o)
+ .bss           0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-fflush.o)
+ .text.__sflush_r
+                0x00000000      0x108 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-fflush.o)
+ .text._fflush_r
+                0x00000000       0x50 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-fflush.o)
+ .text.fflush   0x00000000       0x28 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-fflush.o)
+ .debug_frame   0x00000000       0x5c /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-fflush.o)
+ .ARM.attributes
+                0x00000000       0x34 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-fflush.o)
+ .text          0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-stdio.o)
+ .data          0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-stdio.o)
+ .bss           0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-stdio.o)
+ .text.__sread  0x00000000       0x22 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-stdio.o)
+ .text.__seofread
+                0x00000000        0x4 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-stdio.o)
+ .text.__swrite
+                0x00000000       0x38 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-stdio.o)
+ .text.__sseek  0x00000000       0x24 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-stdio.o)
+ .text.__sclose
+                0x00000000        0x8 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-stdio.o)
+ .debug_frame   0x00000000       0x88 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-stdio.o)
+ .ARM.attributes
+                0x00000000       0x34 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-stdio.o)
+ .text          0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-closer.o)
+ .data          0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-closer.o)
+ .bss           0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-closer.o)
+ .text._close_r
+                0x00000000       0x20 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-closer.o)
+ .debug_frame   0x00000000       0x2c /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-closer.o)
+ .ARM.attributes
+                0x00000000       0x34 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-closer.o)
+ .text          0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-reent.o)
+ .data          0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-reent.o)
+ .bss           0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-reent.o)
+ .text._reclaim_reent
+                0x00000000       0xac /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-reent.o)
+ .bss.errno     0x00000000        0x4 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-reent.o)
+ .debug_frame   0x00000000       0x38 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-reent.o)
+ .ARM.attributes
+                0x00000000       0x34 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-reent.o)
+ .text          0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lseekr.o)
+ .data          0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lseekr.o)
+ .bss           0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lseekr.o)
+ .text._lseek_r
+                0x00000000       0x24 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lseekr.o)
+ .debug_frame   0x00000000       0x2c /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lseekr.o)
+ .ARM.attributes
+                0x00000000       0x34 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lseekr.o)
+ .text          0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-readr.o)
+ .data          0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-readr.o)
+ .bss           0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-readr.o)
+ .text._read_r  0x00000000       0x24 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-readr.o)
+ .debug_frame   0x00000000       0x2c /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-readr.o)
+ .ARM.attributes
+                0x00000000       0x34 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-readr.o)
+ .text          0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-writer.o)
+ .data          0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-writer.o)
+ .bss           0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-writer.o)
+ .text._write_r
+                0x00000000       0x24 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-writer.o)
+ .debug_frame   0x00000000       0x2c /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-writer.o)
+ .ARM.attributes
+                0x00000000       0x34 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-writer.o)
+ .text          0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-freer.o)
+ .data          0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-freer.o)
+ .bss           0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-freer.o)
+ .text._free_r  0x00000000       0x94 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-freer.o)
+ .debug_frame   0x00000000       0x38 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-freer.o)
+ .ARM.attributes
+                0x00000000       0x34 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-freer.o)
+ .text          0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mallocr.o)
+ .data          0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mallocr.o)
+ .bss           0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mallocr.o)
+ .text.sbrk_aligned
+                0x00000000       0x44 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mallocr.o)
+ .text._malloc_r
+                0x00000000      0x100 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mallocr.o)
+ .bss.__malloc_sbrk_start
+                0x00000000        0x4 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mallocr.o)
+ .bss.__malloc_free_list
+                0x00000000        0x4 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mallocr.o)
+ .debug_frame   0x00000000       0x50 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mallocr.o)
+ .ARM.attributes
+                0x00000000       0x34 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mallocr.o)
+ .text          0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mlock.o)
+ .data          0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mlock.o)
+ .bss           0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mlock.o)
+ .text.__malloc_lock
+                0x00000000        0xc /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mlock.o)
+ .text.__malloc_unlock
+                0x00000000        0xc /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mlock.o)
+ .debug_frame   0x00000000       0x30 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mlock.o)
+ .ARM.attributes
+                0x00000000       0x34 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mlock.o)
+ .text          0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-sbrkr.o)
+ .data          0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-sbrkr.o)
+ .bss           0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-sbrkr.o)
+ .text._sbrk_r  0x00000000       0x20 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-sbrkr.o)
+ .debug_frame   0x00000000       0x2c /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-sbrkr.o)
+ .ARM.attributes
+                0x00000000       0x34 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-sbrkr.o)
+ .text          0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crtend.o
+ .data          0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crtend.o
+ .bss           0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crtend.o
+ .rodata.all_implied_fbits
+                0x00000000       0x24 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crtend.o
+ .text          0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crtn.o
+ .data          0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crtn.o
+ .bss           0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crtn.o
+ .text          0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(close.o)
+ .data          0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(close.o)
+ .bss           0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(close.o)
+ .text._close   0x00000000       0x10 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(close.o)
+ .gnu.warning._close
+                0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(close.o)
+ .debug_frame   0x00000000       0x20 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(close.o)
+ .ARM.attributes
+                0x00000000       0x34 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(close.o)
+ .text          0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(lseek.o)
+ .data          0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(lseek.o)
+ .bss           0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(lseek.o)
+ .text._lseek   0x00000000       0x10 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(lseek.o)
+ .gnu.warning._lseek
+                0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(lseek.o)
+ .debug_frame   0x00000000       0x20 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(lseek.o)
+ .ARM.attributes
+                0x00000000       0x34 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(lseek.o)
+ .text          0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(read.o)
+ .data          0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(read.o)
+ .bss           0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(read.o)
+ .text._read    0x00000000       0x10 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(read.o)
+ .gnu.warning._read
+                0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(read.o)
+ .debug_frame   0x00000000       0x20 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(read.o)
+ .ARM.attributes
+                0x00000000       0x34 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(read.o)
+ .text          0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(write.o)
+ .data          0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(write.o)
+ .bss           0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(write.o)
+ .text._write   0x00000000       0x10 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(write.o)
+ .gnu.warning._write
+                0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(write.o)
+ .debug_frame   0x00000000       0x20 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(write.o)
+ .ARM.attributes
+                0x00000000       0x34 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(write.o)
+ .text          0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(_exit.o)
+ .data          0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(_exit.o)
+ .bss           0x00000000        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(_exit.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x00008020         0x00073e08         xr
+SPARE_SPACE      0x0007d000         0x00003000         r
+RAM              0x20000000         0x00010000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+
+.text           0x00008020    0x2e6fc
+ *(.isr_vector)
+ .isr_vector    0x00008020      0x200 libnrf-sdk.a(gcc_startup_nrf52.S.obj)
+                0x00008020                __isr_vector
+ *(.text*)
+ .text.deregister_tm_clones
+                0x00008220       0x1c /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .text.register_tm_clones
+                0x0000823c       0x24 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .text.__do_global_dtors_aux
+                0x00008260       0x28 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .text.frame_dummy
+                0x00008288       0x24 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .text          0x000082ac       0x7c /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+                0x000082ac                _stack_init
+                0x000082b4                _mainCRTStartup
+                0x000082b4                _start
+ .text.prvInsertBlockIntoFreeList
+                0x00008328       0x4c CMakeFiles/pinetime-mcuboot-recovery-loader.dir/FreeRTOS/heap_4_infinitime.c.obj
+ .text.pvPortMalloc
+                0x00008374      0x104 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/FreeRTOS/heap_4_infinitime.c.obj
+                0x00008374                pvPortMalloc
+ .text.vPortFree
+                0x00008478       0x4c CMakeFiles/pinetime-mcuboot-recovery-loader.dir/FreeRTOS/heap_4_infinitime.c.obj
+                0x00008478                vPortFree
+ .text.vPortStartFirstTask
+                0x000084c4       0x1c CMakeFiles/pinetime-mcuboot-recovery-loader.dir/FreeRTOS/port.c.obj
+                0x000084c4                vPortStartFirstTask
+ .text.SVC_Handler
+                0x000084e0       0x20 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/FreeRTOS/port.c.obj
+                0x000084e0                SVC_Handler
+ .text.PendSV_Handler
+                0x00008500       0x60 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/FreeRTOS/port.c.obj
+                0x00008500                PendSV_Handler
+ .text.RTC1_IRQHandler
+                0x00008560       0x78 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/FreeRTOS/port_cmsis_systick.c.obj
+                0x00008560                RTC1_IRQHandler
+ .text.vPortSetupTimerInterrupt
+                0x000085d8       0x38 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/FreeRTOS/port_cmsis_systick.c.obj
+                0x000085d8                vPortSetupTimerInterrupt
+ .text.vPortSuppressTicksAndSleep
+                0x00008610       0xc4 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/FreeRTOS/port_cmsis_systick.c.obj
+                0x00008610                vPortSuppressTicksAndSleep
+ .text.prvTaskExitError
+                0x000086d4        0x4 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/FreeRTOS/port_cmsis.c.obj
+ .text.pxPortInitialiseStack
+                0x000086d8       0x24 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/FreeRTOS/port_cmsis.c.obj
+                0x000086d8                pxPortInitialiseStack
+ .text.xPortStartScheduler
+                0x000086fc       0x48 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/FreeRTOS/port_cmsis.c.obj
+                0x000086fc                xPortStartScheduler
+ .text.vPortEnterCritical
+                0x00008744       0x10 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/FreeRTOS/port_cmsis.c.obj
+                0x00008744                vPortEnterCritical
+ .text.vPortExitCritical
+                0x00008754       0x14 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/FreeRTOS/port_cmsis.c.obj
+                0x00008754                vPortExitCritical
+ .text.ulSetInterruptMaskFromISR
+                0x00008768        0x8 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/FreeRTOS/port_cmsis.c.obj
+                0x00008768                ulSetInterruptMaskFromISR
+ .text.vClearInterruptMaskFromISR
+                0x00008770        0x6 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/FreeRTOS/port_cmsis.c.obj
+                0x00008770                vClearInterruptMaskFromISR
+ .text._ZN8Pinetime7Drivers11SpiNorFlashC2ERNS0_3SpiE
+                0x00008776        0xc CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/SpiNorFlash.cpp.obj
+                0x00008776                Pinetime::Drivers::SpiNorFlash::SpiNorFlash(Pinetime::Drivers::Spi&)
+                0x00008776                Pinetime::Drivers::SpiNorFlash::SpiNorFlash(Pinetime::Drivers::Spi&)
+ .text._ZN8Pinetime7Drivers11SpiNorFlash18ReadIdentificationEv
+                0x00008782       0x44 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/SpiNorFlash.cpp.obj
+                0x00008782                Pinetime::Drivers::SpiNorFlash::ReadIdentification()
+ .text._ZN8Pinetime7Drivers11SpiNorFlash4InitEv
+                0x000087c6       0x18 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/SpiNorFlash.cpp.obj
+                0x000087c6                Pinetime::Drivers::SpiNorFlash::Init()
+ *fill*         0x000087de        0x2 
+ .text._ZN8Pinetime7Drivers11SpiNorFlash6WakeupEv
+                0x000087e0       0x3c CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/SpiNorFlash.cpp.obj
+                0x000087e0                Pinetime::Drivers::SpiNorFlash::Wakeup()
+ .text._ZN8Pinetime7Drivers11SpiNorFlash18ReadStatusRegisterEv
+                0x0000881c       0x24 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/SpiNorFlash.cpp.obj
+                0x0000881c                Pinetime::Drivers::SpiNorFlash::ReadStatusRegister()
+ .text._ZN8Pinetime7Drivers11SpiNorFlash15WriteInProgressEv
+                0x00008840        0xc CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/SpiNorFlash.cpp.obj
+                0x00008840                Pinetime::Drivers::SpiNorFlash::WriteInProgress()
+ .text._ZN8Pinetime7Drivers11SpiNorFlash12WriteEnabledEv
+                0x0000884c        0xc CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/SpiNorFlash.cpp.obj
+                0x0000884c                Pinetime::Drivers::SpiNorFlash::WriteEnabled()
+ .text._ZN8Pinetime7Drivers11SpiNorFlash11WriteEnableEv
+                0x00008858       0x1e CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/SpiNorFlash.cpp.obj
+                0x00008858                Pinetime::Drivers::SpiNorFlash::WriteEnable()
+ .text._ZN8Pinetime7Drivers11SpiNorFlash11SectorEraseEm
+                0x00008876       0x4c CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/SpiNorFlash.cpp.obj
+                0x00008876                Pinetime::Drivers::SpiNorFlash::SectorErase(unsigned long)
+ .text._ZN8Pinetime7Drivers11SpiNorFlash5WriteEmPKhj
+                0x000088c2       0x76 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/SpiNorFlash.cpp.obj
+                0x000088c2                Pinetime::Drivers::SpiNorFlash::Write(unsigned long, unsigned char const*, unsigned int)
+ .text._ZN8Pinetime7Drivers9SpiMasterC2ENS1_9SpiModuleERKNS1_10ParametersE
+                0x00008938       0x18 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/SpiMaster.cpp.obj
+                0x00008938                Pinetime::Drivers::SpiMaster::SpiMaster(Pinetime::Drivers::SpiMaster::SpiModule, Pinetime::Drivers::SpiMaster::Parameters const&)
+                0x00008938                Pinetime::Drivers::SpiMaster::SpiMaster(Pinetime::Drivers::SpiMaster::SpiModule, Pinetime::Drivers::SpiMaster::Parameters const&)
+ .text._ZN8Pinetime7Drivers9SpiMaster4InitEv
+                0x00008950      0x10c CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/SpiMaster.cpp.obj
+                0x00008950                Pinetime::Drivers::SpiMaster::Init()
+ .text._ZN8Pinetime7Drivers9SpiMaster27SetupWorkaroundForErratum58Ev
+                0x00008a5c       0x80 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/SpiMaster.cpp.obj
+                0x00008a5c                Pinetime::Drivers::SpiMaster::SetupWorkaroundForErratum58()
+ .text._ZN8Pinetime7Drivers9SpiMaster29DisableWorkaroundForErratum58Ev
+                0x00008adc       0x44 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/SpiMaster.cpp.obj
+                0x00008adc                Pinetime::Drivers::SpiMaster::DisableWorkaroundForErratum58()
+ .text._ZN8Pinetime7Drivers9SpiMaster14OnStartedEventEv
+                0x00008b20        0x2 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/SpiMaster.cpp.obj
+                0x00008b20                Pinetime::Drivers::SpiMaster::OnStartedEvent()
+ .text._ZN8Pinetime7Drivers9SpiMaster9PrepareTxEmj
+                0x00008b22       0x2e CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/SpiMaster.cpp.obj
+                0x00008b22                Pinetime::Drivers::SpiMaster::PrepareTx(unsigned long, unsigned int)
+ .text._ZN8Pinetime7Drivers9SpiMaster10OnEndEventEv
+                0x00008b50       0x68 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/SpiMaster.cpp.obj
+                0x00008b50                Pinetime::Drivers::SpiMaster::OnEndEvent()
+ .text._ZN8Pinetime7Drivers9SpiMaster9PrepareRxEmj
+                0x00008bb8       0x30 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/SpiMaster.cpp.obj
+                0x00008bb8                Pinetime::Drivers::SpiMaster::PrepareRx(unsigned long, unsigned int)
+ .text._ZN8Pinetime7Drivers9SpiMaster5WriteEhPKhjRKSt8functionIFvvEE
+                0x00008be8       0xae CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/SpiMaster.cpp.obj
+                0x00008be8                Pinetime::Drivers::SpiMaster::Write(unsigned char, unsigned char const*, unsigned int, std::function<void ()> const&)
+ .text._ZN8Pinetime7Drivers9SpiMaster4ReadEhPhjS2_j
+                0x00008c96       0x9e CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/SpiMaster.cpp.obj
+                0x00008c96                Pinetime::Drivers::SpiMaster::Read(unsigned char, unsigned char*, unsigned int, unsigned char*, unsigned int)
+ .text._ZN8Pinetime7Drivers9SpiMaster17WriteCmdAndBufferEhPKhjS3_j
+                0x00008d34       0x9e CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/SpiMaster.cpp.obj
+                0x00008d34                Pinetime::Drivers::SpiMaster::WriteCmdAndBuffer(unsigned char, unsigned char const*, unsigned int, unsigned char const*, unsigned int)
+ .text._ZN8Pinetime7Drivers3SpiC2ERNS0_9SpiMasterEh
+                0x00008dd2       0x1e CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/Spi.cpp.obj
+                0x00008dd2                Pinetime::Drivers::Spi::Spi(Pinetime::Drivers::SpiMaster&, unsigned char)
+                0x00008dd2                Pinetime::Drivers::Spi::Spi(Pinetime::Drivers::SpiMaster&, unsigned char)
+ .text._ZN8Pinetime7Drivers3Spi5WriteEPKhjRKSt8functionIFvvEE
+                0x00008df0       0x16 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/Spi.cpp.obj
+                0x00008df0                Pinetime::Drivers::Spi::Write(unsigned char const*, unsigned int, std::function<void ()> const&)
+ .text._ZN8Pinetime7Drivers3Spi4ReadEPhjS2_j
+                0x00008e06       0x18 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/Spi.cpp.obj
+                0x00008e06                Pinetime::Drivers::Spi::Read(unsigned char*, unsigned int, unsigned char*, unsigned int)
+ .text._ZN8Pinetime7Drivers3Spi17WriteCmdAndBufferEPKhjS3_j
+                0x00008e1e       0x18 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/Spi.cpp.obj
+                0x00008e1e                Pinetime::Drivers::Spi::WriteCmdAndBuffer(unsigned char const*, unsigned int, unsigned char const*, unsigned int)
+ *fill*         0x00008e36        0x2 
+ .text._ZN8Pinetime5Tools10RleDecoderC2EPKhj
+                0x00008e38       0x18 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/components/rle/RleDecoder.cpp.obj
+                0x00008e38                Pinetime::Tools::RleDecoder::RleDecoder(unsigned char const*, unsigned int)
+                0x00008e38                Pinetime::Tools::RleDecoder::RleDecoder(unsigned char const*, unsigned int)
+ .text._ZN8Pinetime5Tools10RleDecoder10DecodeNextEPhj
+                0x00008e50       0x5c CMakeFiles/pinetime-mcuboot-recovery-loader.dir/components/rle/RleDecoder.cpp.obj
+                0x00008e50                Pinetime::Tools::RleDecoder::DecodeNext(unsigned char*, unsigned int)
+ .text._ZNSt17_Function_handlerIFvvEZN8Pinetime7Drivers6St778912WriteCommandEPKhjEUlvE_E10_M_managerERSt9_Any_dataRKS8_St18_Manager_operation
+                0x00008eac       0x20 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/St7789.cpp.obj
+ .text._ZNSt17_Function_handlerIFvvEZN8Pinetime7Drivers6St77899WriteDataEPKhjEUlvE_E10_M_managerERSt9_Any_dataRKS8_St18_Manager_operation
+                0x00008ecc       0x20 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/St7789.cpp.obj
+ .text._ZNSt17_Function_handlerIFvvEZN8Pinetime7Drivers6St778912WriteCommandEPKhjEUlvE_E9_M_invokeERKSt9_Any_data
+                0x00008eec       0x10 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/St7789.cpp.obj
+ .text._ZNSt17_Function_handlerIFvvEZN8Pinetime7Drivers6St77899WriteDataEPKhjEUlvE_E9_M_invokeERKSt9_Any_data
+                0x00008efc       0x10 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/St7789.cpp.obj
+ .text._ZNSt14_Function_baseD2Ev
+                0x00008f0c       0x12 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/St7789.cpp.obj
+                0x00008f0c                std::_Function_base::~_Function_base()
+                0x00008f0c                std::_Function_base::~_Function_base()
+ .text._ZN8Pinetime7Drivers6St7789C2ERNS0_3SpiEhh
+                0x00008f1e        0xe CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/St7789.cpp.obj
+                0x00008f1e                Pinetime::Drivers::St7789::St7789(Pinetime::Drivers::Spi&, unsigned char, unsigned char)
+                0x00008f1e                Pinetime::Drivers::St7789::St7789(Pinetime::Drivers::Spi&, unsigned char, unsigned char)
+ .text._ZN8Pinetime7Drivers6St77898WriteSpiEPKhjRKSt8functionIFvvEE
+                0x00008f2c        0x6 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/St7789.cpp.obj
+                0x00008f2c                Pinetime::Drivers::St7789::WriteSpi(unsigned char const*, unsigned int, std::function<void ()> const&)
+ *fill*         0x00008f32        0x2 
+ .text._ZN8Pinetime7Drivers6St77899WriteDataEPKhj
+                0x00008f34       0x30 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/St7789.cpp.obj
+                0x00008f34                Pinetime::Drivers::St7789::WriteData(unsigned char const*, unsigned int)
+ .text._ZN8Pinetime7Drivers6St77899WriteDataEh
+                0x00008f64       0x16 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/St7789.cpp.obj
+                0x00008f64                Pinetime::Drivers::St7789::WriteData(unsigned char)
+ *fill*         0x00008f7a        0x2 
+ .text._ZN8Pinetime7Drivers6St778912WriteCommandEPKhj
+                0x00008f7c       0x30 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/St7789.cpp.obj
+                0x00008f7c                Pinetime::Drivers::St7789::WriteCommand(unsigned char const*, unsigned int)
+ .text._ZN8Pinetime7Drivers6St778912WriteCommandEh
+                0x00008fac       0x16 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/St7789.cpp.obj
+                0x00008fac                Pinetime::Drivers::St7789::WriteCommand(unsigned char)
+ *fill*         0x00008fc2        0x2 
+ .text._ZN8Pinetime7Drivers6St778914Command2EnableEv
+                0x00008fc4       0x24 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/St7789.cpp.obj
+                0x00008fc4                Pinetime::Drivers::St7789::Command2Enable()
+ .text._ZN8Pinetime7Drivers6St77898SleepOutEv
+                0x00008fe8       0x20 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/St7789.cpp.obj
+                0x00008fe8                Pinetime::Drivers::St7789::SleepOut()
+ .text._ZN8Pinetime7Drivers6St778923EnsureSleepOutPostDelayEv
+                0x00009008       0x1e CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/St7789.cpp.obj
+                0x00009008                Pinetime::Drivers::St7789::EnsureSleepOutPostDelay()
+ .text._ZN8Pinetime7Drivers6St778913SoftwareResetEv
+                0x00009026       0x24 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/St7789.cpp.obj
+                0x00009026                Pinetime::Drivers::St7789::SoftwareReset()
+ .text._ZN8Pinetime7Drivers6St778911PixelFormatEv
+                0x0000904a       0x16 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/St7789.cpp.obj
+                0x0000904a                Pinetime::Drivers::St7789::PixelFormat()
+ .text._ZN8Pinetime7Drivers6St778923MemoryDataAccessControlEv
+                0x00009060       0x16 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/St7789.cpp.obj
+                0x00009060                Pinetime::Drivers::St7789::MemoryDataAccessControl()
+ .text._ZN8Pinetime7Drivers6St778918DisplayInversionOnEv
+                0x00009076        0x6 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/St7789.cpp.obj
+                0x00009076                Pinetime::Drivers::St7789::DisplayInversionOn()
+ .text._ZN8Pinetime7Drivers6St778912NormalModeOnEv
+                0x0000907c        0x6 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/St7789.cpp.obj
+                0x0000907c                Pinetime::Drivers::St7789::NormalModeOn()
+ *fill*         0x00009082        0x2 
+ .text._ZN8Pinetime7Drivers6St77898PorchSetEv
+                0x00009084       0x28 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/St7789.cpp.obj
+                0x00009084                Pinetime::Drivers::St7789::PorchSet()
+ .text._ZN8Pinetime7Drivers6St778918FrameRateNormalSetEv
+                0x000090ac       0x16 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/St7789.cpp.obj
+                0x000090ac                Pinetime::Drivers::St7789::FrameRateNormalSet()
+ *fill*         0x000090c2        0x2 
+ .text._ZN8Pinetime7Drivers6St778916IdleFrameRateOffEv
+                0x000090c4       0x2c CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/St7789.cpp.obj
+                0x000090c4                Pinetime::Drivers::St7789::IdleFrameRateOff()
+ .text._ZN8Pinetime7Drivers6St77899DisplayOnEv
+                0x000090f0        0x6 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/St7789.cpp.obj
+                0x000090f0                Pinetime::Drivers::St7789::DisplayOn()
+ .text._ZN8Pinetime7Drivers6St778912PowerControlEv
+                0x000090f6       0x2e CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/St7789.cpp.obj
+                0x000090f6                Pinetime::Drivers::St7789::PowerControl()
+ .text._ZN8Pinetime7Drivers6St778911GateControlEv
+                0x00009124       0x16 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/St7789.cpp.obj
+                0x00009124                Pinetime::Drivers::St7789::GateControl()
+ .text._ZN8Pinetime7Drivers6St778913SetAddrWindowEtttt
+                0x0000913a       0x5c CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/St7789.cpp.obj
+                0x0000913a                Pinetime::Drivers::St7789::SetAddrWindow(unsigned short, unsigned short, unsigned short, unsigned short)
+ .text._ZN8Pinetime7Drivers6St778910WriteToRamEPKhj
+                0x00009196       0x1c CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/St7789.cpp.obj
+                0x00009196                Pinetime::Drivers::St7789::WriteToRam(unsigned char const*, unsigned int)
+ .text._ZN8Pinetime7Drivers6St77896SetVdvEv
+                0x000091b2       0x16 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/St7789.cpp.obj
+                0x000091b2                Pinetime::Drivers::St7789::SetVdv()
+ .text._ZN8Pinetime7Drivers6St778910DrawBufferEttttPKhj
+                0x000091c8       0x2e CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/St7789.cpp.obj
+                0x000091c8                Pinetime::Drivers::St7789::DrawBuffer(unsigned short, unsigned short, unsigned short, unsigned short, unsigned char const*, unsigned int)
+ .text._ZN8Pinetime7Drivers6St778913HardwareResetEv
+                0x000091f6       0x36 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/St7789.cpp.obj
+                0x000091f6                Pinetime::Drivers::St7789::HardwareReset()
+ .text._ZN8Pinetime7Drivers6St77894InitEv
+                0x0000922c       0x98 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/St7789.cpp.obj
+                0x0000922c                Pinetime::Drivers::St7789::Init()
+ .text._ZN8Pinetime11Controllers20BrightnessController15ApplyBrightnessEt
+                0x000092c4      0x194 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/components/brightness/BrightnessController.cpp.obj
+                0x000092c4                Pinetime::Controllers::BrightnessController::ApplyBrightness(unsigned short)
+ .text._ZN8Pinetime11Controllers20BrightnessController3SetENS1_6LevelsE
+                0x00009458       0x24 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/components/brightness/BrightnessController.cpp.obj
+                0x00009458                Pinetime::Controllers::BrightnessController::Set(Pinetime::Controllers::BrightnessController::Levels)
+ .text._ZN8Pinetime11Controllers20BrightnessController4InitEv
+                0x0000947c       0x54 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/components/brightness/BrightnessController.cpp.obj
+                0x0000947c                Pinetime::Controllers::BrightnessController::Init()
+ .text.SPIM0_SPIS0_TWIM0_TWIS0_SPI0_TWI0_IRQHandler
+                0x000094d0       0x60 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/recoveryLoader.cpp.obj
+                0x000094d0                SPIM0_SPIS0_TWIM0_TWIS0_SPI0_TWI0_IRQHandler
+ .text._Z11DisplayLogov
+                0x00009530       0x50 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/recoveryLoader.cpp.obj
+                0x00009530                DisplayLogo()
+ .text._Z18DisplayProgressBarht
+                0x00009580       0x84 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/recoveryLoader.cpp.obj
+                0x00009580                DisplayProgressBar(unsigned char, unsigned short)
+ .text._Z7ProcessPv
+                0x00009604       0xe8 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/recoveryLoader.cpp.obj
+                0x00009604                Process(void*)
+ .text.vApplicationMallocFailedHook
+                0x000096ec       0x10 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/recoveryLoader.cpp.obj
+                0x000096ec                vApplicationMallocFailedHook
+ .text.vApplicationStackOverflowHook
+                0x000096fc       0x10 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/recoveryLoader.cpp.obj
+                0x000096fc                vApplicationStackOverflowHook
+ .text.startup.main
+                0x0000970c       0x48 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/recoveryLoader.cpp.obj
+                0x0000970c                main
+ .text.startup._GLOBAL__sub_I_logger
+                0x00009754       0x64 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/recoveryLoader.cpp.obj
+ .text          0x000097b8       0x3c libnrf-sdk.a(gcc_startup_nrf52.S.obj)
+                0x000097b8                Reset_Handler
+                0x000097e0                NMI_Handler
+                0x000097e2                HardFault_Handler
+                0x000097e4                MemoryManagement_Handler
+                0x000097e6                BusFault_Handler
+                0x000097e8                UsageFault_Handler
+                0x000097ec                DebugMon_Handler
+                0x000097f0                SysTick_Handler
+                0x000097f2                QDEC_IRQHandler
+                0x000097f2                TIMER3_IRQHandler
+                0x000097f2                FPU_IRQHandler
+                0x000097f2                UARTE0_UART0_IRQHandler
+                0x000097f2                TIMER4_IRQHandler
+                0x000097f2                I2S_IRQHandler
+                0x000097f2                SWI4_EGU4_IRQHandler
+                0x000097f2                TIMER0_IRQHandler
+                0x000097f2                TIMER1_IRQHandler
+                0x000097f2                PWM2_IRQHandler
+                0x000097f2                ECB_IRQHandler
+                0x000097f2                SPIM1_SPIS1_TWIM1_TWIS1_SPI1_TWI1_IRQHandler
+                0x000097f2                Default_Handler
+                0x000097f2                SAADC_IRQHandler
+                0x000097f2                CCM_AAR_IRQHandler
+                0x000097f2                WDT_IRQHandler
+                0x000097f2                SWI5_EGU5_IRQHandler
+                0x000097f2                RNG_IRQHandler
+                0x000097f2                RTC2_IRQHandler
+                0x000097f2                PWM0_IRQHandler
+                0x000097f2                SWI3_EGU3_IRQHandler
+                0x000097f2                SWI1_EGU1_IRQHandler
+                0x000097f2                SPIM2_SPIS2_SPI2_IRQHandler
+                0x000097f2                NFCT_IRQHandler
+                0x000097f2                MWU_IRQHandler
+                0x000097f2                TIMER2_IRQHandler
+                0x000097f2                COMP_LPCOMP_IRQHandler
+                0x000097f2                RTC0_IRQHandler
+                0x000097f2                SWI0_EGU0_IRQHandler
+                0x000097f2                SWI2_EGU2_IRQHandler
+                0x000097f2                PWM1_IRQHandler
+                0x000097f2                RADIO_IRQHandler
+                0x000097f2                PDM_IRQHandler
+                0x000097f2                TEMP_IRQHandler
+ .text.clock_clk_started_notify
+                0x000097f4       0x24 libnrf-sdk.a(nrf_drv_clock.c.obj)
+ .text.clock_irq_handler
+                0x00009818       0x1c libnrf-sdk.a(nrf_drv_clock.c.obj)
+ .text.nrf_drv_clock_init
+                0x00009834       0x30 libnrf-sdk.a(nrf_drv_clock.c.obj)
+                0x00009834                nrf_drv_clock_init
+ .text.nrf_drv_clock_lfclk_request
+                0x00009864       0x54 libnrf-sdk.a(nrf_drv_clock.c.obj)
+                0x00009864                nrf_drv_clock_lfclk_request
+ .text.nrfx_clock_init
+                0x000098b8       0x18 libnrf-sdk.a(nrfx_clock.c.obj)
+                0x000098b8                nrfx_clock_init
+ .text.nrfx_clock_enable
+                0x000098d0       0x24 libnrf-sdk.a(nrfx_clock.c.obj)
+                0x000098d0                nrfx_clock_enable
+ .text.nrfx_clock_lfclk_start
+                0x000098f4       0x58 libnrf-sdk.a(nrfx_clock.c.obj)
+                0x000098f4                nrfx_clock_lfclk_start
+ .text.POWER_CLOCK_IRQHandler
+                0x0000994c       0x64 libnrf-sdk.a(nrfx_clock.c.obj)
+                0x0000994c                POWER_CLOCK_IRQHandler
+ .text.nrf_gpiote_event_clear
+                0x000099b0       0x18 libnrf-sdk.a(nrfx_gpiote.c.obj)
+ .text.nrf_gpio_cfg_sense_set
+                0x000099c8       0x20 libnrf-sdk.a(nrfx_gpiote.c.obj)
+ .text.nrf_bitmask_bit_set
+                0x000099e8       0x12 libnrf-sdk.a(nrfx_gpiote.c.obj)
+ *fill*         0x000099fa        0x2 
+ .text.channel_free
+                0x000099fc       0x1c libnrf-sdk.a(nrfx_gpiote.c.obj)
+ .text.nrfx_gpiote_init
+                0x00009a18       0x70 libnrf-sdk.a(nrfx_gpiote.c.obj)
+                0x00009a18                nrfx_gpiote_init
+ .text.nrfx_gpiote_is_init
+                0x00009a88       0x14 libnrf-sdk.a(nrfx_gpiote.c.obj)
+                0x00009a88                nrfx_gpiote_is_init
+ .text.nrfx_gpiote_out_init
+                0x00009a9c       0xb4 libnrf-sdk.a(nrfx_gpiote.c.obj)
+                0x00009a9c                nrfx_gpiote_out_init
+ .text.nrfx_gpiote_out_uninit
+                0x00009b50       0x64 libnrf-sdk.a(nrfx_gpiote.c.obj)
+                0x00009b50                nrfx_gpiote_out_uninit
+ .text.nrfx_gpiote_out_task_enable
+                0x00009bb4       0x24 libnrf-sdk.a(nrfx_gpiote.c.obj)
+                0x00009bb4                nrfx_gpiote_out_task_enable
+ .text.nrfx_gpiote_out_task_addr_get
+                0x00009bd8       0x1c libnrf-sdk.a(nrfx_gpiote.c.obj)
+                0x00009bd8                nrfx_gpiote_out_task_addr_get
+ .text.nrfx_gpiote_out_task_force
+                0x00009bf4       0x30 libnrf-sdk.a(nrfx_gpiote.c.obj)
+                0x00009bf4                nrfx_gpiote_out_task_force
+ .text.nrfx_gpiote_in_init
+                0x00009c24       0xec libnrf-sdk.a(nrfx_gpiote.c.obj)
+                0x00009c24                nrfx_gpiote_in_init
+ .text.nrfx_gpiote_in_event_enable
+                0x00009d10       0x84 libnrf-sdk.a(nrfx_gpiote.c.obj)
+                0x00009d10                nrfx_gpiote_in_event_enable
+ .text.nrfx_gpiote_in_event_disable
+                0x00009d94       0x44 libnrf-sdk.a(nrfx_gpiote.c.obj)
+                0x00009d94                nrfx_gpiote_in_event_disable
+ .text.nrfx_gpiote_in_uninit
+                0x00009dd8       0x6c libnrf-sdk.a(nrfx_gpiote.c.obj)
+                0x00009dd8                nrfx_gpiote_in_uninit
+ .text.nrfx_gpiote_in_event_addr_get
+                0x00009e44       0x28 libnrf-sdk.a(nrfx_gpiote.c.obj)
+                0x00009e44                nrfx_gpiote_in_event_addr_get
+ .text.GPIOTE_IRQHandler
+                0x00009e6c      0x178 libnrf-sdk.a(nrfx_gpiote.c.obj)
+                0x00009e6c                GPIOTE_IRQHandler
+ .text.prvIsQueueEmpty
+                0x00009fe4       0x16 libnrf-sdk.a(queue.c.obj)
+ .text.prvCopyDataToQueue
+                0x00009ffa       0x66 libnrf-sdk.a(queue.c.obj)
+ .text.prvCopyDataFromQueue
+                0x0000a060       0x2c libnrf-sdk.a(queue.c.obj)
+ .text.prvUnlockQueue
+                0x0000a08c       0x6c libnrf-sdk.a(queue.c.obj)
+ .text.xQueueGenericReset
+                0x0000a0f8       0x6c libnrf-sdk.a(queue.c.obj)
+                0x0000a0f8                xQueueGenericReset
+ .text.xQueueGenericCreate
+                0x0000a164       0x34 libnrf-sdk.a(queue.c.obj)
+                0x0000a164                xQueueGenericCreate
+ .text.xQueueGenericSend
+                0x0000a198      0x100 libnrf-sdk.a(queue.c.obj)
+                0x0000a198                xQueueGenericSend
+ .text.xQueueGenericSendFromISR
+                0x0000a298       0x62 libnrf-sdk.a(queue.c.obj)
+                0x0000a298                xQueueGenericSendFromISR
+ .text.xQueueGiveFromISR
+                0x0000a2fa       0x50 libnrf-sdk.a(queue.c.obj)
+                0x0000a2fa                xQueueGiveFromISR
+ *fill*         0x0000a34a        0x2 
+ .text.xQueueReceive
+                0x0000a34c       0xf4 libnrf-sdk.a(queue.c.obj)
+                0x0000a34c                xQueueReceive
+ .text.xQueueSemaphoreTake
+                0x0000a440      0x124 libnrf-sdk.a(queue.c.obj)
+                0x0000a440                xQueueSemaphoreTake
+ .text.vQueueAddToRegistry
+                0x0000a564       0x1c libnrf-sdk.a(queue.c.obj)
+                0x0000a564                vQueueAddToRegistry
+ .text.vQueueWaitForMessageRestricted
+                0x0000a580       0x46 libnrf-sdk.a(queue.c.obj)
+                0x0000a580                vQueueWaitForMessageRestricted
+ *fill*         0x0000a5c6        0x2 
+ .text.prvAddCurrentTaskToDelayedList
+                0x0000a5c8       0x88 libnrf-sdk.a(tasks.c.obj)
+ .text.prvGetExpectedIdleTime
+                0x0000a650       0x3c libnrf-sdk.a(tasks.c.obj)
+ .text.prvResetNextTaskUnblockTime
+                0x0000a68c       0x24 libnrf-sdk.a(tasks.c.obj)
+ .text.xTaskCreate
+                0x0000a6b0      0x1b0 libnrf-sdk.a(tasks.c.obj)
+                0x0000a6b0                xTaskCreate
+ .text.vTaskStartScheduler
+                0x0000a860       0x5c libnrf-sdk.a(tasks.c.obj)
+                0x0000a860                vTaskStartScheduler
+ .text.vTaskSuspendAll
+                0x0000a8bc       0x10 libnrf-sdk.a(tasks.c.obj)
+                0x0000a8bc                vTaskSuspendAll
+ .text.xTaskGetTickCount
+                0x0000a8cc        0xc libnrf-sdk.a(tasks.c.obj)
+                0x0000a8cc                xTaskGetTickCount
+ .text.vTaskStepTick
+                0x0000a8d8       0x10 libnrf-sdk.a(tasks.c.obj)
+                0x0000a8d8                vTaskStepTick
+ .text.xTaskIncrementTick
+                0x0000a8e8       0xec libnrf-sdk.a(tasks.c.obj)
+                0x0000a8e8                xTaskIncrementTick
+ .text.xTaskResumeAll
+                0x0000a9d4       0xd8 libnrf-sdk.a(tasks.c.obj)
+                0x0000a9d4                xTaskResumeAll
+ .text.vTaskDelay
+                0x0000aaac       0x30 libnrf-sdk.a(tasks.c.obj)
+                0x0000aaac                vTaskDelay
+ .text.prvIdleTask
+                0x0000aadc       0x84 libnrf-sdk.a(tasks.c.obj)
+ .text.vTaskSwitchContext
+                0x0000ab60       0x74 libnrf-sdk.a(tasks.c.obj)
+                0x0000ab60                vTaskSwitchContext
+ .text.vTaskPlaceOnEventList
+                0x0000abd4       0x20 libnrf-sdk.a(tasks.c.obj)
+                0x0000abd4                vTaskPlaceOnEventList
+ .text.vTaskPlaceOnEventListRestricted
+                0x0000abf4       0x28 libnrf-sdk.a(tasks.c.obj)
+                0x0000abf4                vTaskPlaceOnEventListRestricted
+ .text.xTaskRemoveFromEventList
+                0x0000ac1c       0x74 libnrf-sdk.a(tasks.c.obj)
+                0x0000ac1c                xTaskRemoveFromEventList
+ .text.vTaskInternalSetTimeOutState
+                0x0000ac90       0x18 libnrf-sdk.a(tasks.c.obj)
+                0x0000ac90                vTaskInternalSetTimeOutState
+ .text.xTaskCheckForTimeOut
+                0x0000aca8       0x50 libnrf-sdk.a(tasks.c.obj)
+                0x0000aca8                xTaskCheckForTimeOut
+ .text.vTaskMissedYield
+                0x0000acf8        0xc libnrf-sdk.a(tasks.c.obj)
+                0x0000acf8                vTaskMissedYield
+ .text.eTaskConfirmSleepModeStatus
+                0x0000ad04       0x34 libnrf-sdk.a(tasks.c.obj)
+                0x0000ad04                eTaskConfirmSleepModeStatus
+ .text.xTaskGetSchedulerState
+                0x0000ad38       0x20 libnrf-sdk.a(tasks.c.obj)
+                0x0000ad38                xTaskGetSchedulerState
+ .text.xTaskPriorityInherit
+                0x0000ad58       0xa0 libnrf-sdk.a(tasks.c.obj)
+                0x0000ad58                xTaskPriorityInherit
+ .text.xTaskPriorityDisinherit
+                0x0000adf8       0x70 libnrf-sdk.a(tasks.c.obj)
+                0x0000adf8                xTaskPriorityDisinherit
+ .text.vTaskPriorityDisinheritAfterTimeout
+                0x0000ae68       0x80 libnrf-sdk.a(tasks.c.obj)
+                0x0000ae68                vTaskPriorityDisinheritAfterTimeout
+ .text.pvTaskIncrementMutexHeldCount
+                0x0000aee8       0x18 libnrf-sdk.a(tasks.c.obj)
+                0x0000aee8                pvTaskIncrementMutexHeldCount
+ .text.prvInsertTimerInActiveList
+                0x0000af00       0x3c libnrf-sdk.a(timers.c.obj)
+ .text.prvCheckForValidListAndQueue
+                0x0000af3c       0x58 libnrf-sdk.a(timers.c.obj)
+ .text.xTimerCreateTimerTask
+                0x0000af94       0x38 libnrf-sdk.a(timers.c.obj)
+                0x0000af94                xTimerCreateTimerTask
+ .text.xTimerGenericCommand
+                0x0000afcc       0x44 libnrf-sdk.a(timers.c.obj)
+                0x0000afcc                xTimerGenericCommand
+ .text.prvSampleTimeNow
+                0x0000b010       0x8c libnrf-sdk.a(timers.c.obj)
+ .text.prvTimerTask
+                0x0000b09c      0x17c libnrf-sdk.a(timers.c.obj)
+ .text.app_error_handler_bare
+                0x0000b218       0x1a libnrf-sdk.a(app_error.c.obj)
+                0x0000b218                app_error_handler_bare
+ *fill*         0x0000b232        0x2 
+ .text.app_error_fault_handler
+                0x0000b234       0x30 libnrf-sdk.a(app_error_weak.c.obj)
+                0x0000b234                app_error_fault_handler
+ .text.app_util_disable_irq
+                0x0000b264       0x10 libnrf-sdk.a(app_util_platform.c.obj)
+                0x0000b264                app_util_disable_irq
+ .text.app_util_enable_irq
+                0x0000b274       0x14 libnrf-sdk.a(app_util_platform.c.obj)
+                0x0000b274                app_util_enable_irq
+ .text.app_util_critical_region_enter
+                0x0000b288        0x4 libnrf-sdk.a(app_util_platform.c.obj)
+                0x0000b288                app_util_critical_region_enter
+ .text.app_util_critical_region_exit
+                0x0000b28c        0x4 libnrf-sdk.a(app_util_platform.c.obj)
+                0x0000b28c                app_util_critical_region_exit
+ .text.app_gpiote_init
+                0x0000b290       0x54 libnrf-sdk.a(app_gpiote.c.obj)
+                0x0000b290                app_gpiote_init
+ .text.errata_12
+                0x0000b2e4       0x36 libnrf-sdk.a(system_nrf52.c.obj)
+ .text.errata_16
+                0x0000b31a       0x2a libnrf-sdk.a(system_nrf52.c.obj)
+ .text.SystemInit
+                0x0000b344      0x25c libnrf-sdk.a(system_nrf52.c.obj)
+                0x0000b344                SystemInit
+ .text.vListInitialise
+                0x0000b5a0       0x16 libnrf-sdk.a(list.c.obj)
+                0x0000b5a0                vListInitialise
+ .text.vListInitialiseItem
+                0x0000b5b6        0x6 libnrf-sdk.a(list.c.obj)
+                0x0000b5b6                vListInitialiseItem
+ .text.vListInsertEnd
+                0x0000b5bc       0x16 libnrf-sdk.a(list.c.obj)
+                0x0000b5bc                vListInsertEnd
+ .text.vListInsert
+                0x0000b5d2       0x2e libnrf-sdk.a(list.c.obj)
+                0x0000b5d2                vListInsert
+ .text.uxListRemove
+                0x0000b600       0x24 libnrf-sdk.a(list.c.obj)
+                0x0000b600                uxListRemove
+ .text.exit     0x0000b624       0x24 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-exit.o)
+                0x0000b624                exit
+ .text.memset   0x0000b648       0x10 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memset.o)
+                0x0000b648                memset
+ .text.__libc_init_array
+                0x0000b658       0x48 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-init.o)
+                0x0000b658                __libc_init_array
+ .text.memcpy   0x0000b6a0       0x1c /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memcpy-stub.o)
+                0x0000b6a0                memcpy
+ .text._exit    0x0000b6bc        0x4 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(_exit.o)
+                0x0000b6bc                _exit
+ *(.init)
+ .init          0x0000b6c0        0x4 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crti.o
+                0x0000b6c0                _init
+ .init          0x0000b6c4        0x8 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crtn.o
+ *(.fini)
+ .fini          0x0000b6cc        0x4 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crti.o
+                0x0000b6cc                _fini
+ .fini          0x0000b6d0        0x8 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crtn.o
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+ *(.rodata*)
+ .rodata        0x0000b6d8        0x3 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/SpiMaster.cpp.obj
+ .rodata._ZN8Pinetime7Drivers6St77898PorchSetEv.str1.1
+                0x0000b6db       0x1d CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/St7789.cpp.obj
+                                  0x6 (size before relaxing)
+ .rodata        0x0000b6f8        0x3 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/St7789.cpp.obj
+ *fill*         0x0000b6fb        0x5 
+ .rodata._ZZ21nrfx_coredep_delay_usE18delay_machine_code
+                0x0000b700        0x6 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/components/brightness/BrightnessController.cpp.obj
+ .rodata        0x0000b706        0x3 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/components/brightness/BrightnessController.cpp.obj
+ .rodata.main.str1.1
+                0x0000b709        0x5 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/recoveryLoader.cpp.obj
+ .rodata._ZL13infinitime_nb
+                0x0000b709      0x5a5 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/recoveryLoader.cpp.obj
+ .rodata._ZL13recoveryImage
+                0x0000bcae    0x2aa64 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/recoveryLoader.cpp.obj
+ .rodata        0x00036712        0x6 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/recoveryLoader.cpp.obj
+ .rodata.vTaskStartScheduler.str1.1
+                0x00036718        0x5 libnrf-sdk.a(tasks.c.obj)
+ .rodata.prvCheckForValidListAndQueue.str1.1
+                0x00036718        0x5 libnrf-sdk.a(timers.c.obj)
+ .rodata.xTimerCreateTimerTask.str1.1
+                0x00036718        0x8 libnrf-sdk.a(timers.c.obj)
+ *(.eh_frame*)
+ .eh_frame      0x00036718        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .eh_frame      0x00036718        0x4 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crtend.o
+
+.glue_7         0x0003671c        0x0
+ .glue_7        0x0003671c        0x0 linker stubs
+
+.glue_7t        0x0003671c        0x0
+ .glue_7t       0x0003671c        0x0 linker stubs
+
+.vfp11_veneer   0x0003671c        0x0
+ .vfp11_veneer  0x0003671c        0x0 linker stubs
+
+.v4_bx          0x0003671c        0x0
+ .v4_bx         0x0003671c        0x0 linker stubs
+
+.iplt           0x0003671c        0x0
+ .iplt          0x0003671c        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+
+.mem_section_dummy_rom
+
+.sdh_soc_observers
+                0x0003671c        0x0
+                [!provide]                        PROVIDE (__start_sdh_soc_observers = .)
+ *(SORT_BY_NAME(.sdh_soc_observers*))
+                [!provide]                        PROVIDE (__stop_sdh_soc_observers = .)
+
+.sdh_ble_observers
+                0x0003671c        0x0
+                [!provide]                        PROVIDE (__start_sdh_ble_observers = .)
+ *(SORT_BY_NAME(.sdh_ble_observers*))
+                [!provide]                        PROVIDE (__stop_sdh_ble_observers = .)
+
+.sdh_req_observers
+                0x0003671c        0x0
+                [!provide]                        PROVIDE (__start_sdh_req_observers = .)
+ *(SORT_BY_NAME(.sdh_req_observers*))
+                [!provide]                        PROVIDE (__stop_sdh_req_observers = .)
+
+.sdh_state_observers
+                0x0003671c        0x0
+                [!provide]                        PROVIDE (__start_sdh_state_observers = .)
+ *(SORT_BY_NAME(.sdh_state_observers*))
+                [!provide]                        PROVIDE (__stop_sdh_state_observers = .)
+
+.sdh_stack_observers
+                0x0003671c        0x0
+                [!provide]                        PROVIDE (__start_sdh_stack_observers = .)
+ *(SORT_BY_NAME(.sdh_stack_observers*))
+                [!provide]                        PROVIDE (__stop_sdh_stack_observers = .)
+
+.nrf_queue      0x0003671c        0x0
+                [!provide]                        PROVIDE (__start_nrf_queue = .)
+ *(.nrf_queue)
+                [!provide]                        PROVIDE (__stop_nrf_queue = .)
+
+.nrf_balloc     0x0003671c        0x0
+                [!provide]                        PROVIDE (__start_nrf_balloc = .)
+ *(.nrf_balloc)
+                [!provide]                        PROVIDE (__stop_nrf_balloc = .)
+
+.cli_command    0x0003671c        0x0
+                [!provide]                        PROVIDE (__start_cli_command = .)
+ *(.cli_command)
+                [!provide]                        PROVIDE (__stop_cli_command = .)
+
+.crypto_data    0x0003671c        0x0
+                [!provide]                        PROVIDE (__start_crypto_data = .)
+ *(SORT_BY_NAME(.crypto_data*))
+                [!provide]                        PROVIDE (__stop_crypto_data = .)
+
+.pwr_mgmt_data  0x0003671c        0x0
+                [!provide]                        PROVIDE (__start_pwr_mgmt_data = .)
+ *(SORT_BY_NAME(.pwr_mgmt_data*))
+                [!provide]                        PROVIDE (__stop_pwr_mgmt_data = .)
+
+.log_const_data
+                0x0003671c        0x0
+                [!provide]                        PROVIDE (__start_log_const_data = .)
+ *(SORT_BY_NAME(.log_const_data*))
+                [!provide]                        PROVIDE (__stop_log_const_data = .)
+
+.log_backends   0x0003671c        0x0
+                [!provide]                        PROVIDE (__start_log_backends = .)
+ *(SORT_BY_NAME(.log_backends*))
+                [!provide]                        PROVIDE (__stop_log_backends = .)
+
+.nrf_balloc     0x0003671c        0x0
+                [!provide]                        PROVIDE (__start_nrf_balloc = .)
+ *(.nrf_balloc)
+                [!provide]                        PROVIDE (__stop_nrf_balloc = .)
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x0003671c                        __exidx_start = .
+
+.ARM.exidx      0x0003671c        0x8
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+ .ARM.exidx     0x0003671c        0x8 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+                                 0x10 (size before relaxing)
+                0x00036724                        __exidx_end = .
+                0x00036724                        __etext = .
+
+.rel.dyn        0x00036724        0x0
+ .rel.iplt      0x00036724        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+
+.data           0x20000000       0x18 load address 0x00036724
+                0x20000000                        __data_start__ = .
+ *(vtable)
+ *(.data*)
+ .data.brightnessController
+                0x20000000        0x8 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/recoveryLoader.cpp.obj
+                0x20000000                brightnessController
+ .data.SystemCoreClock
+                0x20000008        0x4 libnrf-sdk.a(system_nrf52.c.obj)
+                0x20000008                SystemCoreClock
+                0x2000000c                        . = ALIGN (0x4)
+                0x2000000c                        PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                0x2000000c                        PROVIDE (__preinit_array_end = .)
+                0x2000000c                        . = ALIGN (0x4)
+                0x2000000c                        PROVIDE (__init_array_start = .)
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array)
+ .init_array    0x2000000c        0x4 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .init_array    0x20000010        0x4 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/recoveryLoader.cpp.obj
+                0x20000014                        PROVIDE (__init_array_end = .)
+                0x20000014                        . = ALIGN (0x4)
+                [!provide]                        PROVIDE (__fini_array_start = .)
+ *(SORT_BY_NAME(.fini_array.*))
+ *(.fini_array)
+ .fini_array    0x20000014        0x4 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+                [!provide]                        PROVIDE (__fini_array_end = .)
+ *(.jcr*)
+                0x20000018                        . = ALIGN (0x4)
+                0x20000018                        __data_end__ = .
+
+.tm_clone_table
+                0x20000018        0x0 load address 0x0003673c
+ .tm_clone_table
+                0x20000018        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .tm_clone_table
+                0x20000018        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crtend.o
+
+.igot.plt       0x20000018        0x0 load address 0x0003673c
+ .igot.plt      0x20000018        0x0 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+                0x20000018                        . = ALIGN (0x4)
+
+.mem_section_dummy_ram
+
+.cli_sorted_cmd_ptrs
+                0x20000018        0x0
+                [!provide]                        PROVIDE (__start_cli_sorted_cmd_ptrs = .)
+ *(.cli_sorted_cmd_ptrs)
+                [!provide]                        PROVIDE (__stop_cli_sorted_cmd_ptrs = .)
+
+.fs_data        0x20000018        0x0
+                [!provide]                        PROVIDE (__start_fs_data = .)
+ *(.fs_data)
+                [!provide]                        PROVIDE (__stop_fs_data = .)
+
+.log_dynamic_data
+                0x20000018        0x0
+                [!provide]                        PROVIDE (__start_log_dynamic_data = .)
+ *(SORT_BY_NAME(.log_dynamic_data*))
+                [!provide]                        PROVIDE (__stop_log_dynamic_data = .)
+
+.log_filter_data
+                0x20000018        0x0
+                [!provide]                        PROVIDE (__start_log_filter_data = .)
+ *(SORT_BY_NAME(.log_filter_data*))
+                [!provide]                        PROVIDE (__stop_log_filter_data = .)
+
+.bss            0x20000018      0x450 load address 0x0003673c
+                0x20000018                        . = ALIGN (0x4)
+                0x20000018                        __bss_start__ = .
+ *(.bss*)
+ .bss.completed.1
+                0x20000018        0x1 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ *fill*         0x20000019        0x3 
+ .bss.object.0  0x2000001c       0x18 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .bss.xHeapSize
+                0x20000034        0x4 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/FreeRTOS/heap_4_infinitime.c.obj
+ .bss.xBlockAllocatedBit
+                0x20000038        0x4 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/FreeRTOS/heap_4_infinitime.c.obj
+ .bss.xMinimumEverFreeBytesRemaining
+                0x2000003c        0x4 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/FreeRTOS/heap_4_infinitime.c.obj
+ .bss.xFreeBytesRemaining
+                0x20000040        0x4 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/FreeRTOS/heap_4_infinitime.c.obj
+ .bss.pxEnd     0x20000044        0x4 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/FreeRTOS/heap_4_infinitime.c.obj
+ .bss.xStart    0x20000048        0x8 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/FreeRTOS/heap_4_infinitime.c.obj
+ .bss.uxCriticalNesting
+                0x20000050        0x4 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/FreeRTOS/port_cmsis.c.obj
+ .bss.stackOverflowCount
+                0x20000054        0x4 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/recoveryLoader.cpp.obj
+                0x20000054                stackOverflowCount
+ .bss.mallocFailedCount
+                0x20000058        0x4 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/recoveryLoader.cpp.obj
+                0x20000058                mallocFailedCount
+ .bss._ZZ7ProcessPvE14app_gpiote_buf
+                0x2000005c       0x30 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/recoveryLoader.cpp.obj
+ .bss.displayBuffer
+                0x2000008c      0x1e0 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/recoveryLoader.cpp.obj
+                0x2000008c                displayBuffer
+ .bss.lcd       0x2000026c       0x14 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/recoveryLoader.cpp.obj
+                0x2000026c                lcd
+ .bss.lcdSpi    0x20000280        0x8 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/recoveryLoader.cpp.obj
+                0x20000280                lcdSpi
+ .bss.spiNorFlash
+                0x20000288        0x8 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/recoveryLoader.cpp.obj
+                0x20000288                spiNorFlash
+ .bss.flashSpi  0x20000290        0x8 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/recoveryLoader.cpp.obj
+                0x20000290                flashSpi
+ .bss.spi       0x20000298       0x1c CMakeFiles/pinetime-mcuboot-recovery-loader.dir/recoveryLoader.cpp.obj
+                0x20000298                spi
+ .bss.m_clock_cb
+                0x200002b4       0x14 libnrf-sdk.a(nrf_drv_clock.c.obj)
+ .bss.m_clock_cb
+                0x200002c8        0x8 libnrf-sdk.a(nrfx_clock.c.obj)
+ .bss.m_cb      0x200002d0       0x5c libnrf-sdk.a(nrfx_gpiote.c.obj)
+ .bss.xQueueRegistry
+                0x2000032c       0x10 libnrf-sdk.a(queue.c.obj)
+                0x2000032c                xQueueRegistry
+ .bss.uxSchedulerSuspended
+                0x2000033c        0x4 libnrf-sdk.a(tasks.c.obj)
+ .bss.xIdleTaskHandle
+                0x20000340        0x4 libnrf-sdk.a(tasks.c.obj)
+ .bss.xNextTaskUnblockTime
+                0x20000344        0x4 libnrf-sdk.a(tasks.c.obj)
+ .bss.uxTaskNumber
+                0x20000348        0x4 libnrf-sdk.a(tasks.c.obj)
+ .bss.xNumOfOverflows
+                0x2000034c        0x4 libnrf-sdk.a(tasks.c.obj)
+ .bss.xYieldPending
+                0x20000350        0x4 libnrf-sdk.a(tasks.c.obj)
+ .bss.uxPendedTicks
+                0x20000354        0x4 libnrf-sdk.a(tasks.c.obj)
+ .bss.xSchedulerRunning
+                0x20000358        0x4 libnrf-sdk.a(tasks.c.obj)
+ .bss.uxTopReadyPriority
+                0x2000035c        0x4 libnrf-sdk.a(tasks.c.obj)
+ .bss.xTickCount
+                0x20000360        0x4 libnrf-sdk.a(tasks.c.obj)
+ .bss.uxCurrentNumberOfTasks
+                0x20000364        0x4 libnrf-sdk.a(tasks.c.obj)
+ .bss.xSuspendedTaskList
+                0x20000368       0x14 libnrf-sdk.a(tasks.c.obj)
+ .bss.uxDeletedTasksWaitingCleanUp
+                0x2000037c        0x4 libnrf-sdk.a(tasks.c.obj)
+ .bss.xTasksWaitingTermination
+                0x20000380       0x14 libnrf-sdk.a(tasks.c.obj)
+ .bss.xPendingReadyList
+                0x20000394       0x14 libnrf-sdk.a(tasks.c.obj)
+ .bss.pxOverflowDelayedTaskList
+                0x200003a8        0x4 libnrf-sdk.a(tasks.c.obj)
+ .bss.pxDelayedTaskList
+                0x200003ac        0x4 libnrf-sdk.a(tasks.c.obj)
+ .bss.xDelayedTaskList2
+                0x200003b0       0x14 libnrf-sdk.a(tasks.c.obj)
+ .bss.xDelayedTaskList1
+                0x200003c4       0x14 libnrf-sdk.a(tasks.c.obj)
+ .bss.pxReadyTasksLists
+                0x200003d8       0x3c libnrf-sdk.a(tasks.c.obj)
+ .bss.pxCurrentTCB
+                0x20000414        0x4 libnrf-sdk.a(tasks.c.obj)
+                0x20000414                pxCurrentTCB
+ .bss.xLastTime.0
+                0x20000418        0x4 libnrf-sdk.a(timers.c.obj)
+ .bss.xTimerTaskHandle
+                0x2000041c        0x4 libnrf-sdk.a(timers.c.obj)
+ .bss.xTimerQueue
+                0x20000420        0x4 libnrf-sdk.a(timers.c.obj)
+ .bss.pxOverflowTimerList
+                0x20000424        0x4 libnrf-sdk.a(timers.c.obj)
+ .bss.pxCurrentTimerList
+                0x20000428        0x4 libnrf-sdk.a(timers.c.obj)
+ .bss.xActiveTimerList2
+                0x2000042c       0x14 libnrf-sdk.a(timers.c.obj)
+ .bss.xActiveTimerList1
+                0x20000440       0x14 libnrf-sdk.a(timers.c.obj)
+ .bss.m_in_critical_region
+                0x20000454        0x4 libnrf-sdk.a(app_util_platform.c.obj)
+ .bss.m_pins    0x20000458        0x4 libnrf-sdk.a(app_gpiote.c.obj)
+ .bss.mp_users  0x2000045c        0x4 libnrf-sdk.a(app_gpiote.c.obj)
+ .bss.m_user_count
+                0x20000460        0x1 libnrf-sdk.a(app_gpiote.c.obj)
+ .bss.m_user_array_size
+                0x20000461        0x1 libnrf-sdk.a(app_gpiote.c.obj)
+ *fill*         0x20000462        0x2 
+ .bss.__stdio_exit_handler
+                0x20000464        0x4 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-findfp.o)
+                0x20000464                __stdio_exit_handler
+ *(COMMON)
+                0x20000468                        . = ALIGN (0x4)
+                0x20000468                        __bss_end__ = .
+LOAD /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crti.o
+LOAD /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+LOAD /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+LOAD /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a
+LOAD CMakeFiles/pinetime-mcuboot-recovery-loader.dir/stdlib.c.obj
+LOAD CMakeFiles/pinetime-mcuboot-recovery-loader.dir/FreeRTOS/heap_4_infinitime.c.obj
+LOAD CMakeFiles/pinetime-mcuboot-recovery-loader.dir/FreeRTOS/port.c.obj
+LOAD CMakeFiles/pinetime-mcuboot-recovery-loader.dir/FreeRTOS/port_cmsis_systick.c.obj
+LOAD CMakeFiles/pinetime-mcuboot-recovery-loader.dir/FreeRTOS/port_cmsis.c.obj
+LOAD CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/SpiNorFlash.cpp.obj
+LOAD CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/SpiMaster.cpp.obj
+LOAD CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/Spi.cpp.obj
+LOAD CMakeFiles/pinetime-mcuboot-recovery-loader.dir/logging/NrfLogger.cpp.obj
+LOAD CMakeFiles/pinetime-mcuboot-recovery-loader.dir/components/rle/RleDecoder.cpp.obj
+LOAD CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/St7789.cpp.obj
+LOAD CMakeFiles/pinetime-mcuboot-recovery-loader.dir/components/brightness/BrightnessController.cpp.obj
+LOAD CMakeFiles/pinetime-mcuboot-recovery-loader.dir/recoveryLoader.cpp.obj
+LOAD libnrf-sdk.a
+LOAD displayapp/fonts/libinfinitime_fonts.a
+LOAD /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a
+START GROUP
+LOAD /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a
+END GROUP
+START GROUP
+LOAD /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a
+END GROUP
+LOAD /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crtend.o
+LOAD /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crtn.o
+START GROUP
+LOAD /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a
+LOAD /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a
+END GROUP
+                0x00008000                        MCUBOOT_SIZE = 0x8000
+                0x00001000                        SCRATCH_SIZE = 0x1000
+                0x00000028                        TLV_SIZE = 0x28
+                0x0007c000                        SCRATCH_OFFSET = 0x7c000
+                0x00000020                        MCUBOOT_APP_IMAGE_HEADER_SIZE = 0x20
+                0x000001b0                        MCUBOOT_APP_IMAGE_TRAILER_SIZE = 0x1b0
+                0x00008020                        APP_OFFSET = (MCUBOOT_SIZE + MCUBOOT_APP_IMAGE_HEADER_SIZE)
+                0x00073e08                        APP_SIZE = ((((SCRATCH_OFFSET - MCUBOOT_SIZE) - MCUBOOT_APP_IMAGE_HEADER_SIZE) - MCUBOOT_APP_IMAGE_TRAILER_SIZE) - TLV_SIZE)
+
+.noinit         0x20000468        0x0
+                [!provide]                        PROVIDE (__start_noinit_data = .)
+ *(.noinit)
+                [!provide]                        PROVIDE (__stop_noinit_data = .)
+
+.heap           0x20000468        0x0
+                0x20000468                        __HeapBase = .
+                0x20000468                        __end__ = .
+                [!provide]                        PROVIDE (end = .)
+ *(.heap*)
+ .heap          0x20000468        0x0 libnrf-sdk.a(gcc_startup_nrf52.S.obj)
+                0x20000468                        __HeapLimit = .
+
+.stack_dummy    0x20000468      0x400
+ *(.stack*)
+ .stack         0x20000468      0x400 libnrf-sdk.a(gcc_startup_nrf52.S.obj)
+                0x20010000                        __StackTop = (ORIGIN (RAM) + LENGTH (RAM))
+                0x2000fc00                        __StackLimit = (__StackTop - SIZEOF (.stack_dummy))
+                0x20010000                        PROVIDE (__stack = __StackTop)
+                0x00000001                        ASSERT ((__StackLimit >= __HeapLimit), region RAM overflowed with stack)
+                0x00000018                        DataInitFlashUsed = (__bss_start__ - __data_start__)
+                0x0002e704                        CodeFlashUsed = (__etext - ORIGIN (FLASH))
+                0x0002e71c                        TotalFlashUsed = (CodeFlashUsed + DataInitFlashUsed)
+                0x00000001                        ASSERT ((TotalFlashUsed <= LENGTH (FLASH)), region FLASH overflowed with .data and user data)
+OUTPUT(pinetime-mcuboot-recovery-loader-1.20.0.out elf32-littlearm)
+LOAD linker stubs
+
+.ARM.attributes
+                0x00000000       0x30
+ .ARM.attributes
+                0x00000000       0x22 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crti.o
+ .ARM.attributes
+                0x00000022       0x34 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .ARM.attributes
+                0x00000056       0x20 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .ARM.attributes
+                0x00000076       0x34 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/FreeRTOS/heap_4_infinitime.c.obj
+ .ARM.attributes
+                0x000000aa       0x34 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/FreeRTOS/port.c.obj
+ .ARM.attributes
+                0x000000de       0x34 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/FreeRTOS/port_cmsis_systick.c.obj
+ .ARM.attributes
+                0x00000112       0x34 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/FreeRTOS/port_cmsis.c.obj
+ .ARM.attributes
+                0x00000146       0x34 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/SpiNorFlash.cpp.obj
+ .ARM.attributes
+                0x0000017a       0x34 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/SpiMaster.cpp.obj
+ .ARM.attributes
+                0x000001ae       0x34 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/Spi.cpp.obj
+ .ARM.attributes
+                0x000001e2       0x34 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/components/rle/RleDecoder.cpp.obj
+ .ARM.attributes
+                0x00000216       0x34 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/St7789.cpp.obj
+ .ARM.attributes
+                0x0000024a       0x34 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/components/brightness/BrightnessController.cpp.obj
+ .ARM.attributes
+                0x0000027e       0x34 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/recoveryLoader.cpp.obj
+ .ARM.attributes
+                0x000002b2       0x20 libnrf-sdk.a(gcc_startup_nrf52.S.obj)
+ .ARM.attributes
+                0x000002d2       0x34 libnrf-sdk.a(nrf_drv_clock.c.obj)
+ .ARM.attributes
+                0x00000306       0x34 libnrf-sdk.a(nrfx_clock.c.obj)
+ .ARM.attributes
+                0x0000033a       0x34 libnrf-sdk.a(nrfx_gpiote.c.obj)
+ .ARM.attributes
+                0x0000036e       0x34 libnrf-sdk.a(queue.c.obj)
+ .ARM.attributes
+                0x000003a2       0x34 libnrf-sdk.a(tasks.c.obj)
+ .ARM.attributes
+                0x000003d6       0x34 libnrf-sdk.a(timers.c.obj)
+ .ARM.attributes
+                0x0000040a       0x34 libnrf-sdk.a(app_error.c.obj)
+ .ARM.attributes
+                0x0000043e       0x34 libnrf-sdk.a(app_error_weak.c.obj)
+ .ARM.attributes
+                0x00000472       0x34 libnrf-sdk.a(app_util_platform.c.obj)
+ .ARM.attributes
+                0x000004a6       0x34 libnrf-sdk.a(app_gpiote.c.obj)
+ .ARM.attributes
+                0x000004da       0x34 libnrf-sdk.a(system_nrf52.c.obj)
+ .ARM.attributes
+                0x0000050e       0x34 libnrf-sdk.a(list.c.obj)
+ .ARM.attributes
+                0x00000542       0x34 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-exit.o)
+ .ARM.attributes
+                0x00000576       0x34 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-findfp.o)
+ .ARM.attributes
+                0x000005aa       0x34 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memset.o)
+ .ARM.attributes
+                0x000005de       0x34 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-init.o)
+ .ARM.attributes
+                0x00000612       0x34 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memcpy-stub.o)
+ .ARM.attributes
+                0x00000646       0x34 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crtend.o
+ .ARM.attributes
+                0x0000067a       0x22 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+fp/hard/crtn.o
+ .ARM.attributes
+                0x0000069c       0x34 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(_exit.o)
+
+.comment        0x00000000       0x44
+ .comment       0x00000000       0x44 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/FreeRTOS/heap_4_infinitime.c.obj
+                                 0x45 (size before relaxing)
+ .comment       0x00000044       0x45 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/FreeRTOS/port.c.obj
+ .comment       0x00000044       0x45 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/FreeRTOS/port_cmsis_systick.c.obj
+ .comment       0x00000044       0x45 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/FreeRTOS/port_cmsis.c.obj
+ .comment       0x00000044       0x45 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/SpiNorFlash.cpp.obj
+ .comment       0x00000044       0x45 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/SpiMaster.cpp.obj
+ .comment       0x00000044       0x45 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/Spi.cpp.obj
+ .comment       0x00000044       0x45 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/components/rle/RleDecoder.cpp.obj
+ .comment       0x00000044       0x45 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/drivers/St7789.cpp.obj
+ .comment       0x00000044       0x45 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/components/brightness/BrightnessController.cpp.obj
+ .comment       0x00000044       0x45 CMakeFiles/pinetime-mcuboot-recovery-loader.dir/recoveryLoader.cpp.obj
+ .comment       0x00000044       0x45 libnrf-sdk.a(nrf_drv_clock.c.obj)
+ .comment       0x00000044       0x45 libnrf-sdk.a(nrfx_clock.c.obj)
+ .comment       0x00000044       0x45 libnrf-sdk.a(nrfx_gpiote.c.obj)
+ .comment       0x00000044       0x45 libnrf-sdk.a(queue.c.obj)
+ .comment       0x00000044       0x45 libnrf-sdk.a(tasks.c.obj)
+ .comment       0x00000044       0x45 libnrf-sdk.a(timers.c.obj)
+ .comment       0x00000044       0x45 libnrf-sdk.a(app_error.c.obj)
+ .comment       0x00000044       0x45 libnrf-sdk.a(app_error_weak.c.obj)
+ .comment       0x00000044       0x45 libnrf-sdk.a(app_util_platform.c.obj)
+ .comment       0x00000044       0x45 libnrf-sdk.a(app_gpiote.c.obj)
+ .comment       0x00000044       0x45 libnrf-sdk.a(system_nrf52.c.obj)
+ .comment       0x00000044       0x45 libnrf-sdk.a(list.c.obj)
+
+.debug_line_str
+                0x00000000       0xdf
+ .debug_line_str
+                0x00000000       0xdf /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+
+.debug_frame    0x00000000      0x200
+ .debug_frame   0x00000000       0x28 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-exit.o)
+ .debug_frame   0x00000028      0x144 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-findfp.o)
+ .debug_frame   0x0000016c       0x20 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memset.o)
+ .debug_frame   0x0000018c       0x2c /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-init.o)
+ .debug_frame   0x000001b8       0x28 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memcpy-stub.o)
+ .debug_frame   0x000001e0       0x20 /opt/homebrew/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(_exit.o)

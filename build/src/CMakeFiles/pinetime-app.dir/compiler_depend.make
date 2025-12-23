@@ -17922,6 +17922,7 @@ src/CMakeFiles/pinetime-app.dir/displayapp/screens/MovementWatchFace.cpp.obj: /U
   /Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/AlertNotificationService.h \
   /Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/BatteryInformationService.h \
   /Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/BleClient.h \
+  /Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/BleController.h \
   /Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/CurrentTimeClient.h \
   /Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/CurrentTimeService.h \
   /Users/deladem/pinetime-dev/InfiniTime-avc/src/components/ble/DeviceInformationService.h \

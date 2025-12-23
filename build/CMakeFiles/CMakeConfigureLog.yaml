@@ -5390,3 +5390,423 @@ events:
       CMAKE_SYSROOT: "/opt/homebrew/arm-toolchain/bin"
       CMAKE_FIND_ROOT_PATH: "/opt/homebrew/arm-toolchain/bin"
 ...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "src/displayapp/fonts/CMakeLists.txt:4 (find_program)"
+    mode: "program"
+    variable: "LV_FONT_CONV"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lv_font_conv"
+    candidate_directories:
+      - "/Users/deladem/pinetime-dev/InfiniTime-avc/node_modules/.bin/"
+      - "/opt/homebrew/arm-toolchain/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Applications/Wireshark.app/Contents/MacOS/"
+      - "/Users/deladem/Library/Application Support/JetBrains/Toolbox/scripts/"
+      - "/Users/deladem/fvm/default/bin/"
+      - "/Users/deladem/fvm/default/.pub-cache/bin/"
+      - "/Users/deladem/.local/bin/"
+      - "/Users/deladem/.lmstudio/bin/"
+      - "/Users/deladem/.vscode/extensions/ms-python.debugpy-2025.16.0-darwin-arm64/bundled/scripts/noConfigScripts/"
+    searched_directories:
+      - "/Users/deladem/pinetime-dev/InfiniTime-avc/node_modules/.bin/lv_font_conv"
+      - "/opt/homebrew/arm-toolchain/bin/lv_font_conv"
+    found: "/opt/homebrew/bin/lv_font_conv"
+    search_context:
+      ENV{PATH}:
+        - "/opt/homebrew/arm-toolchain/bin"
+        - "/opt/homebrew/arm-toolchain/bin"
+        - "/opt/homebrew/arm-toolchain/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Applications/Wireshark.app/Contents/MacOS"
+        - "/opt/homebrew/arm-toolchain/bin"
+        - "/Users/deladem/Library/Application Support/JetBrains/Toolbox/scripts"
+        - "/Users/deladem/fvm/default/bin"
+        - "/Users/deladem/fvm/default/.pub-cache/bin"
+        - "/Users/deladem/.local/bin"
+        - "/Users/deladem/.lmstudio/bin"
+        - "/Users/deladem/.vscode/extensions/ms-python.debugpy-2025.16.0-darwin-arm64/bundled/scripts/noConfigScripts"
+        - "/Users/deladem/fvm/default/bin"
+        - "/Users/deladem/fvm/default/.pub-cache/bin"
+        - "/Users/deladem/.local/bin"
+        - "/Users/deladem/.local/bin"
+        - "/Users/deladem/.lmstudio/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PROGRAM_PATH:
+        - "/bin"
+      CMAKE_SYSROOT: "/opt/homebrew/arm-toolchain/bin"
+      CMAKE_FIND_ROOT_PATH: "/opt/homebrew/arm-toolchain/bin"
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "src/displayapp/fonts/CMakeLists.txt:4 (find_program)"
+    mode: "program"
+    variable: "LV_FONT_CONV"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lv_font_conv"
+    candidate_directories:
+      - "/Users/deladem/pinetime-dev/InfiniTime-avc/node_modules/.bin/"
+      - "/opt/homebrew/arm-toolchain/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Applications/Wireshark.app/Contents/MacOS/"
+      - "/Users/deladem/Library/Application Support/JetBrains/Toolbox/scripts/"
+      - "/Users/deladem/fvm/default/bin/"
+      - "/Users/deladem/fvm/default/.pub-cache/bin/"
+      - "/Users/deladem/.local/bin/"
+      - "/Users/deladem/.lmstudio/bin/"
+      - "/Users/deladem/.vscode/extensions/ms-python.debugpy-2025.16.0-darwin-arm64/bundled/scripts/noConfigScripts/"
+    searched_directories:
+      - "/Users/deladem/pinetime-dev/InfiniTime-avc/node_modules/.bin/lv_font_conv"
+      - "/opt/homebrew/arm-toolchain/bin/lv_font_conv"
+    found: "/opt/homebrew/bin/lv_font_conv"
+    search_context:
+      ENV{PATH}:
+        - "/opt/homebrew/arm-toolchain/bin"
+        - "/opt/homebrew/arm-toolchain/bin"
+        - "/opt/homebrew/arm-toolchain/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Applications/Wireshark.app/Contents/MacOS"
+        - "/opt/homebrew/arm-toolchain/bin"
+        - "/Users/deladem/Library/Application Support/JetBrains/Toolbox/scripts"
+        - "/Users/deladem/fvm/default/bin"
+        - "/Users/deladem/fvm/default/.pub-cache/bin"
+        - "/Users/deladem/.local/bin"
+        - "/Users/deladem/.lmstudio/bin"
+        - "/Users/deladem/.vscode/extensions/ms-python.debugpy-2025.16.0-darwin-arm64/bundled/scripts/noConfigScripts"
+        - "/Users/deladem/fvm/default/bin"
+        - "/Users/deladem/fvm/default/.pub-cache/bin"
+        - "/Users/deladem/.local/bin"
+        - "/Users/deladem/.local/bin"
+        - "/Users/deladem/.lmstudio/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PROGRAM_PATH:
+        - "/bin"
+      CMAKE_SYSROOT: "/opt/homebrew/arm-toolchain/bin"
+      CMAKE_FIND_ROOT_PATH: "/opt/homebrew/arm-toolchain/bin"
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "src/displayapp/fonts/CMakeLists.txt:4 (find_program)"
+    mode: "program"
+    variable: "LV_FONT_CONV"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lv_font_conv"
+    candidate_directories:
+      - "/Users/deladem/pinetime-dev/InfiniTime-avc/node_modules/.bin/"
+      - "/opt/homebrew/arm-toolchain/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Applications/Wireshark.app/Contents/MacOS/"
+      - "/Users/deladem/Library/Application Support/JetBrains/Toolbox/scripts/"
+      - "/Users/deladem/fvm/default/bin/"
+      - "/Users/deladem/fvm/default/.pub-cache/bin/"
+      - "/Users/deladem/.local/bin/"
+      - "/Users/deladem/.lmstudio/bin/"
+      - "/Users/deladem/.vscode/extensions/ms-python.debugpy-2025.16.0-darwin-arm64/bundled/scripts/noConfigScripts/"
+    searched_directories:
+      - "/Users/deladem/pinetime-dev/InfiniTime-avc/node_modules/.bin/lv_font_conv"
+      - "/opt/homebrew/arm-toolchain/bin/lv_font_conv"
+    found: "/opt/homebrew/bin/lv_font_conv"
+    search_context:
+      ENV{PATH}:
+        - "/opt/homebrew/arm-toolchain/bin"
+        - "/opt/homebrew/arm-toolchain/bin"
+        - "/opt/homebrew/arm-toolchain/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Applications/Wireshark.app/Contents/MacOS"
+        - "/opt/homebrew/arm-toolchain/bin"
+        - "/Users/deladem/Library/Application Support/JetBrains/Toolbox/scripts"
+        - "/Users/deladem/fvm/default/bin"
+        - "/Users/deladem/fvm/default/.pub-cache/bin"
+        - "/Users/deladem/.local/bin"
+        - "/Users/deladem/.lmstudio/bin"
+        - "/Users/deladem/.vscode/extensions/ms-python.debugpy-2025.16.0-darwin-arm64/bundled/scripts/noConfigScripts"
+        - "/Users/deladem/fvm/default/bin"
+        - "/Users/deladem/fvm/default/.pub-cache/bin"
+        - "/Users/deladem/.local/bin"
+        - "/Users/deladem/.local/bin"
+        - "/Users/deladem/.lmstudio/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PROGRAM_PATH:
+        - "/bin"
+      CMAKE_SYSROOT: "/opt/homebrew/arm-toolchain/bin"
+      CMAKE_FIND_ROOT_PATH: "/opt/homebrew/arm-toolchain/bin"
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "src/displayapp/fonts/CMakeLists.txt:4 (find_program)"
+    mode: "program"
+    variable: "LV_FONT_CONV"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lv_font_conv"
+    candidate_directories:
+      - "/Users/deladem/pinetime-dev/InfiniTime-avc/node_modules/.bin/"
+      - "/opt/homebrew/arm-toolchain/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Applications/Wireshark.app/Contents/MacOS/"
+      - "/Users/deladem/Library/Application Support/JetBrains/Toolbox/scripts/"
+      - "/Users/deladem/fvm/default/bin/"
+      - "/Users/deladem/fvm/default/.pub-cache/bin/"
+      - "/Users/deladem/.local/bin/"
+      - "/Users/deladem/.lmstudio/bin/"
+      - "/Users/deladem/.vscode/extensions/ms-python.debugpy-2025.16.0-darwin-arm64/bundled/scripts/noConfigScripts/"
+    searched_directories:
+      - "/Users/deladem/pinetime-dev/InfiniTime-avc/node_modules/.bin/lv_font_conv"
+      - "/opt/homebrew/arm-toolchain/bin/lv_font_conv"
+    found: "/opt/homebrew/bin/lv_font_conv"
+    search_context:
+      ENV{PATH}:
+        - "/opt/homebrew/arm-toolchain/bin"
+        - "/opt/homebrew/arm-toolchain/bin"
+        - "/opt/homebrew/arm-toolchain/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Applications/Wireshark.app/Contents/MacOS"
+        - "/opt/homebrew/arm-toolchain/bin"
+        - "/Users/deladem/Library/Application Support/JetBrains/Toolbox/scripts"
+        - "/Users/deladem/fvm/default/bin"
+        - "/Users/deladem/fvm/default/.pub-cache/bin"
+        - "/Users/deladem/.local/bin"
+        - "/Users/deladem/.lmstudio/bin"
+        - "/Users/deladem/.vscode/extensions/ms-python.debugpy-2025.16.0-darwin-arm64/bundled/scripts/noConfigScripts"
+        - "/Users/deladem/fvm/default/bin"
+        - "/Users/deladem/fvm/default/.pub-cache/bin"
+        - "/Users/deladem/.local/bin"
+        - "/Users/deladem/.local/bin"
+        - "/Users/deladem/.lmstudio/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PROGRAM_PATH:
+        - "/bin"
+      CMAKE_SYSROOT: "/opt/homebrew/arm-toolchain/bin"
+      CMAKE_FIND_ROOT_PATH: "/opt/homebrew/arm-toolchain/bin"
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "src/displayapp/fonts/CMakeLists.txt:4 (find_program)"
+    mode: "program"
+    variable: "LV_FONT_CONV"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lv_font_conv"
+    candidate_directories:
+      - "/Users/deladem/pinetime-dev/InfiniTime-avc/node_modules/.bin/"
+      - "/opt/homebrew/arm-toolchain/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Applications/Wireshark.app/Contents/MacOS/"
+      - "/Users/deladem/Library/Application Support/JetBrains/Toolbox/scripts/"
+      - "/Users/deladem/fvm/default/bin/"
+      - "/Users/deladem/fvm/default/.pub-cache/bin/"
+      - "/Users/deladem/.local/bin/"
+      - "/Users/deladem/.lmstudio/bin/"
+      - "/Users/deladem/.vscode/extensions/ms-python.debugpy-2025.16.0-darwin-arm64/bundled/scripts/noConfigScripts/"
+    searched_directories:
+      - "/Users/deladem/pinetime-dev/InfiniTime-avc/node_modules/.bin/lv_font_conv"
+      - "/opt/homebrew/arm-toolchain/bin/lv_font_conv"
+    found: "/opt/homebrew/bin/lv_font_conv"
+    search_context:
+      ENV{PATH}:
+        - "/opt/homebrew/arm-toolchain/bin"
+        - "/opt/homebrew/arm-toolchain/bin"
+        - "/opt/homebrew/arm-toolchain/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Applications/Wireshark.app/Contents/MacOS"
+        - "/opt/homebrew/arm-toolchain/bin"
+        - "/Users/deladem/Library/Application Support/JetBrains/Toolbox/scripts"
+        - "/Users/deladem/fvm/default/bin"
+        - "/Users/deladem/fvm/default/.pub-cache/bin"
+        - "/Users/deladem/.local/bin"
+        - "/Users/deladem/.lmstudio/bin"
+        - "/Users/deladem/.vscode/extensions/ms-python.debugpy-2025.16.0-darwin-arm64/bundled/scripts/noConfigScripts"
+        - "/Users/deladem/fvm/default/bin"
+        - "/Users/deladem/fvm/default/.pub-cache/bin"
+        - "/Users/deladem/.local/bin"
+        - "/Users/deladem/.local/bin"
+        - "/Users/deladem/.lmstudio/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PROGRAM_PATH:
+        - "/bin"
+      CMAKE_SYSROOT: "/opt/homebrew/arm-toolchain/bin"
+      CMAKE_FIND_ROOT_PATH: "/opt/homebrew/arm-toolchain/bin"
+...

@@ -16,7 +16,7 @@ namespace Pinetime {
       static constexpr uint32_t major = 1;
       static constexpr uint32_t minor = 20;
       static constexpr uint32_t patch = 0;
-      static constexpr const char* commitHash = "05b6d75c";
+      static constexpr const char* commitHash = "dd1cf52e";
       static constexpr const char* versionString = "1.20.0";
   };
 }

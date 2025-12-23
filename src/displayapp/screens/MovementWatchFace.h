@@ -12,6 +12,10 @@
 #include "displayapp/screens/Screen.h"
 #include "displayapp/Colors.h"
 #include "components/motion/MovementTrackerIntegration.h"
+#include "components/datetime/DateTimeController.h"
+#include "components/motion/MotionController.h"
+#include "components/battery/BatteryController.h"
+#include "components/ble/BleController.h"
 
 namespace Pinetime {
   namespace Applications {
@@ -19,8 +23,10 @@ namespace Pinetime {
 
       class MovementWatchFace : public Screen {
       public:
-        // Constructeur simplifié
-        explicit MovementWatchFace(DisplayApp* app);
+        MovementWatchFace(Controllers::DateTime& dateTimeController,
+                         const Controllers::Battery& batteryController,
+                         Controllers::MotionController& motionController,
+                         const Controllers::Ble& bleController);
         ~MovementWatchFace() override;
 
         // Méthodes de l'interface Screen
@@ -29,6 +35,14 @@ namespace Pinetime {
         bool OnButtonPushed() override;
 
       private:
+        // ========================================================================
+        // Controllers
+        // ========================================================================
+        Controllers::DateTime& dateTimeController;
+        const Controllers::Battery& batteryController;
+        Controllers::MotionController& motionController;
+        const Controllers::Ble& bleController;
+
         // ========================================================================
         // Références aux services de mouvement (singletons)
         // ========================================================================
@@ -39,23 +53,35 @@ namespace Pinetime {
             Pinetime::System::MovementSystemService::getInstance();
 
         // ========================================================================
-        // Objets LittlevGL
+        // Objets LittlevGL - Style Casio
         // ========================================================================
-        lv_obj_t* container = nullptr;             // Container principal
-        lv_obj_t* time_label = nullptr;            // Heure (ligne 1)
-        lv_obj_t* active_time_label = nullptr;     // Temps actif (ligne 2)
-        lv_obj_t* magnitude_time_label = nullptr;  // Magnitude time (ligne 3)
-        lv_obj_t* axis_time_label = nullptr;       // Axis time (ligne 3)
-        lv_obj_t* progress_bar = nullptr;          // Barre de progression (ligne 4)
-        lv_obj_t* progress_percent_label = nullptr;// Pourcentage (ligne 4)
-        lv_obj_t* movement_indicator = nullptr;    // Indicateur mouvement (ligne 5)
-        lv_obj_t* accel_label = nullptr;           // Accélération (ligne 6)
-        lv_obj_t* mode_label = nullptr;            // Mode batterie (ligne 7)
+        lv_obj_t* label_date = nullptr;            // Date (haut gauche)
+        lv_obj_t* movement_indicator = nullptr;    // Indicateur mouvement (haut droite)
+        lv_obj_t* line_top = nullptr;              // Ligne horizontale haut
+        lv_obj_t* time_label = nullptr;            // Heure principale (centre)
+        lv_obj_t* label_seconds = nullptr;         // Secondes
+        lv_obj_t* line_mid = nullptr;              // Ligne horizontale milieu
+        lv_obj_t* label_active_time = nullptr;     // Temps actif (ACT)
+        lv_obj_t* label_magnitude_time = nullptr;  // Magnitude time (MAG)
+        lv_obj_t* progress_bar = nullptr;          // Barre de progression
+        lv_obj_t* label_progress = nullptr;        // Pourcentage
+        lv_obj_t* line_bottom = nullptr;           // Ligne horizontale bas
+        lv_obj_t* label_step_icon = nullptr;       // Icône pas
+        lv_obj_t* label_step_value = nullptr;      // Valeur pas
+        lv_obj_t* label_battery_icon = nullptr;    // Icône batterie
+        lv_obj_t* label_battery = nullptr;         // État batterie
+        lv_obj_t* label_ble_icon = nullptr;        // Icône Bluetooth
+        lv_obj_t* label_mode = nullptr;            // Mode (NORM/BATT)
+        lv_obj_t* backgroundLabel = nullptr;       // Background pour touches
 
-        // ========================================================================
-        // État interne
-        // ========================================================================
-        uint8_t refresh_count = 0;                 // Compteur pour optimiser refresh
+        // Style des lignes
+        lv_style_t style_line;
+        lv_point_t line_top_points[2];
+        lv_point_t line_mid_points[2];
+        lv_point_t line_bottom_points[2];
+
+        // Tâche de rafraîchissement LVGL
+        lv_task_t* taskRefresh = nullptr;
 
         // ========================================================================
         // Méthodes privées
@@ -63,14 +89,6 @@ namespace Pinetime {
         void CreateUI();              // Créer les éléments UI
         void UpdateMovementData();    // Mettre à jour les données de mouvement
         void UpdateTimeDisplay();     // Mettre à jour l'heure
-
-        // ========================================================================
-        // Constantes de couleur
-        // (définies dans le .cpp car lv_color_make() n'est pas constexpr)
-        // ========================================================================
-        static const lv_color_t color_active;    // Green
-        static const lv_color_t color_idle;      // Light gray
-        static const lv_color_t color_progress;  // Cyan
       };
 
     } // namespace Screens

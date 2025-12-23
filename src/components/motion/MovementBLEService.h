@@ -2,6 +2,7 @@
 
 #include "MovementAnalyzer.h"
 #include <array>
+#include <atomic>
 #include <cstdint>
 #include <functional>
 #include <host/ble_gatt.h>
@@ -89,70 +90,51 @@ struct MovementData {
   }
 };
 
+// Forward declaration
+namespace Pinetime::Controllers {
+  class NimbleController;
+}
+
 // ============================================================================
-// BLE Service - Full NimBLE Implementation
+// BLE Service - Full NimBLE Implementation (like MotionService)
 // ============================================================================
 
 class MovementBLEService {
 public:
-  using DataCallback = std::function<void(const MovementData&)>;
-
-  MovementBLEService();
+  MovementBLEService(Pinetime::Controllers::NimbleController& nimble);
   ~MovementBLEService() = default;
-  
-  // Initialize the BLE service (register with NimBLE)
-  int init();
-  
-  // Send movement data to all connected clients
-  bool sendMovementData(const MovementData& data);
-  
-  // Register callback for data received from Flutter
-  void onDataReceived(DataCallback cb);
-  
-  // Connection/disconnection callbacks
-  void onConnect(uint16_t conn_handle);
-  void onDisconnect(uint16_t conn_handle);
-  
-  // Status
-  bool isConnected() const;
-  int getConnectedClientCount() const;
 
-  // Friend function for callback access
-  friend int movementCharacteristicCallback(uint16_t conn_handle, uint16_t attr_handle,
-                                           struct ble_gatt_access_ctxt* ctxt, void* arg);
+  // Initialize the BLE service (register with NimBLE)
+  void Init();
+
+  // Send movement data to connected client
+  bool sendMovementData(const MovementData& data);
+
+  // Notification subscription (called by NimbleController)
+  void SubscribeNotification(uint16_t attributeHandle);
+  void UnsubscribeNotification(uint16_t attributeHandle);
+
+  // Get characteristic handle for subscription matching
+  uint16_t GetCharacteristicHandle() const { return movementCharacteristicHandle; }
+
+  // Callback for characteristic access
+  int OnCharacteristicAccess(uint16_t attributeHandle, ble_gatt_access_ctxt* context);
 
 private:
-  // UUID Definitions (128-bit format for NimBLE)
-  static constexpr ble_uuid128_t serviceUuid {
-    .u {.type = BLE_UUID_TYPE_128},
-    .value = {0xd0, 0x42, 0x19, 0x3a, 0x3b, 0x43, 0x23, 0x8e,
-              0xfe, 0x48, 0xfc, 0x78, 0x00, 0x00, 0x06, 0x00}
-    // 00060000-78fc-48fe-8e23-433b3a1942d0
-  };
-  
-  static constexpr ble_uuid128_t characteristicUuid {
-    .u {.type = BLE_UUID_TYPE_128},
-    .value = {0xd0, 0x42, 0x19, 0x3a, 0x3b, 0x43, 0x23, 0x8e,
-              0xfe, 0x48, 0xfc, 0x78, 0x01, 0x00, 0x06, 0x00}
-    // 00060001-78fc-48fe-8e23-433b3a1942d0
-  };
-  
+  Pinetime::Controllers::NimbleController& nimble;
+
   // GATT definitions
   ble_gatt_chr_def characteristicDefinition[2];
   ble_gatt_svc_def serviceDefinition[2];
-  
+
   // Characteristic handle (for sending notifications)
   uint16_t movementCharacteristicHandle = 0;
-  
-  // Callbacks
-  DataCallback dataReceivedCallback;
-  
-  // Connected clients tracking
-  int connectedClientCount = 0;
-  
-  // Internal callback handler
-  int handleCharacteristicAccess(uint16_t conn_handle, uint16_t attr_handle,
-                                struct ble_gatt_access_ctxt* ctxt);
+
+  // Notification enabled flag (atomic for thread safety)
+  std::atomic_bool notificationEnabled {false};
+
+  // Last data for read requests
+  MovementData lastData {};
 };
 
 // ============================================================================
@@ -161,13 +143,15 @@ private:
 
 class MovementService {
 public:
+  // Get singleton instance
   static MovementService& getInstance();
-  
-  void init();
-  
-  void updateAccelerometer(const std::array<float, 3>& gravity_corrected_xl, 
+
+  // Initialize with BLE service reference (called from NimbleController)
+  void init(MovementBLEService& bleService);
+
+  void updateAccelerometer(const std::array<float, 3>& gravity_corrected_xl,
                           uint32_t delta_time_ms);
-  
+
   struct CurrentStatus {
     uint32_t magnitude_active_time;
     uint32_t axis_active_time;
@@ -178,11 +162,12 @@ public:
     float accel_y;
     float accel_z;
   };
-  
+
   CurrentStatus getCurrentStatus() const;
   void resetStatistics();
-  void onBleConnect(uint16_t conn_handle);
-  void onBleDisconnect(uint16_t conn_handle);
+
+  // Get BLE service for NimbleController integration
+  MovementBLEService* getBLEService() { return ble_service; }
 
 private:
   MovementService() = default;
@@ -190,7 +175,7 @@ private:
   MovementService& operator=(const MovementService&) = delete;
 
   MovementAnalyzer analyzer;
-  MovementBLEService ble_service;
+  MovementBLEService* ble_service = nullptr;
   CurrentStatus current_status = {0, 0, false, false, 0.0f};
   uint64_t system_time_ms = 0;
 };

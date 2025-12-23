@@ -1,169 +1,131 @@
 #include "MovementBLEService.h"
+#include "components/ble/NimbleController.h"
 #include <host/ble_hs.h>
 #include <host/ble_gatt.h>
 #include <nrf_log.h>
 #include <cstring>
 
-// ============================================================================
-// Global instance pointer for callback wrapper
-// ============================================================================
-
-static MovementBLEService* g_movement_ble_service = nullptr;
+using namespace Pinetime::Controllers;
 
 // ============================================================================
-// NimBLE callback wrapper (non-member function)
+// UUID Definitions
 // ============================================================================
 
-int movementCharacteristicCallback(uint16_t conn_handle, uint16_t attr_handle,
-                                   struct ble_gatt_access_ctxt* ctxt, void* arg) {
-  (void)arg;  // Unused parameter
-  
-  if (g_movement_ble_service) {
-    return g_movement_ble_service->handleCharacteristicAccess(conn_handle, attr_handle, ctxt);
-  }
-  return BLE_ATT_ERR_UNLIKELY;
+// Service UUID: 00060000-78fc-48fe-8e23-433b3a1942d0
+// Characteristic UUID: 00060001-78fc-48fe-8e23-433b3a1942d0
+
+// Note: Using static storage (not constexpr) to ensure stable addresses for NimBLE
+static const ble_uuid128_t movementServiceUuid = {
+  .u = {.type = BLE_UUID_TYPE_128},
+  .value = {0xd0, 0x42, 0x19, 0x3a, 0x3b, 0x43, 0x23, 0x8e, 0xfe, 0x48, 0xfc, 0x78, 0x00, 0x00, 0x06, 0x00}
+};
+
+static const ble_uuid128_t movementCharUuid = {
+  .u = {.type = BLE_UUID_TYPE_128},
+  .value = {0xd0, 0x42, 0x19, 0x3a, 0x3b, 0x43, 0x23, 0x8e, 0xfe, 0x48, 0xfc, 0x78, 0x01, 0x00, 0x06, 0x00}
+};
+
+static int MovementServiceCallback(uint16_t /*conn_handle*/, uint16_t attr_handle, struct ble_gatt_access_ctxt* ctxt, void* arg) {
+  auto* movementService = static_cast<MovementBLEService*>(arg);
+  return movementService->OnCharacteristicAccess(attr_handle, ctxt);
 }
 
 // ============================================================================
 // MovementBLEService Implementation
 // ============================================================================
 
-MovementBLEService::MovementBLEService() : connectedClientCount(0) {
-  g_movement_ble_service = this;
-  std::memset(&characteristicDefinition, 0, sizeof(characteristicDefinition));
-  std::memset(&serviceDefinition, 0, sizeof(serviceDefinition));
-  
-  // Initialize characteristic definition
-  characteristicDefinition[0] = {
-    .uuid = (ble_uuid_t*)&characteristicUuid,
-    .access_cb = movementCharacteristicCallback,
-    .arg = this,
-    .flags = BLE_GATT_CHR_F_NOTIFY | BLE_GATT_CHR_F_READ,
-    .val_handle = &movementCharacteristicHandle,
-  };
-  // characteristicDefinition[1] is already zeroed (terminator)
-  
-  // Initialize service definition
-  serviceDefinition[0] = {
-    .type = BLE_GATT_SVC_TYPE_PRIMARY,
-    .uuid = (ble_uuid_t*)&serviceUuid,
-    .characteristics = characteristicDefinition,
-  };
-  // serviceDefinition[1] is already zeroed (terminator)
+MovementBLEService::MovementBLEService(NimbleController& nimble)
+  : nimble {nimble},
+    characteristicDefinition {{.uuid = &movementCharUuid.u,
+                               .access_cb = MovementServiceCallback,
+                               .arg = this,
+                               .flags = BLE_GATT_CHR_F_READ | BLE_GATT_CHR_F_NOTIFY,
+                               .val_handle = &movementCharacteristicHandle},
+                              {0}},
+    serviceDefinition {
+      {.type = BLE_GATT_SVC_TYPE_PRIMARY, .uuid = &movementServiceUuid.u, .characteristics = characteristicDefinition},
+      {0},
+    } {
 }
 
-// Initialize the BLE service with NimBLE
-int MovementBLEService::init() {
-  int rc = 0;
-  
-  // Count the service/characteristic configuration
-  rc = ble_gatts_count_cfg(serviceDefinition);
-  if (rc != 0) {
-    NRF_LOG_ERROR("Movement Service: ble_gatts_count_cfg failed, rc=%d", rc);
-    return rc;
+void MovementBLEService::Init() {
+  NRF_LOG_INFO("Movement BLE Service: Starting initialization...");
+
+  int res = ble_gatts_count_cfg(serviceDefinition);
+  if (res != 0) {
+    NRF_LOG_ERROR("Movement BLE Service: ble_gatts_count_cfg FAILED with error %d", res);
+    return;
   }
-  
-  // Add the service to the GATT server
-  rc = ble_gatts_add_svcs(serviceDefinition);
-  if (rc != 0) {
-    NRF_LOG_ERROR("Movement Service: ble_gatts_add_svcs failed, rc=%d", rc);
-    return rc;
+  NRF_LOG_INFO("Movement BLE Service: count_cfg OK");
+
+  res = ble_gatts_add_svcs(serviceDefinition);
+  if (res != 0) {
+    NRF_LOG_ERROR("Movement BLE Service: ble_gatts_add_svcs FAILED with error %d", res);
+    return;
   }
-  
-  NRF_LOG_INFO("Movement BLE Service initialized successfully");
+  NRF_LOG_INFO("Movement BLE Service: add_svcs OK");
+
+  NRF_LOG_INFO("Movement BLE Service: Initialized with char handle=%d", movementCharacteristicHandle);
+}
+
+int MovementBLEService::OnCharacteristicAccess(uint16_t attributeHandle, ble_gatt_access_ctxt* context) {
+  if (attributeHandle == movementCharacteristicHandle) {
+    NRF_LOG_DEBUG("Movement Service: READ characteristic (handle=%d)", attributeHandle);
+
+    auto buffer = lastData.serialize();
+    int res = os_mbuf_append(context->om, buffer.data(), buffer.size());
+    return (res == 0) ? 0 : BLE_ATT_ERR_INSUFFICIENT_RES;
+  }
   return 0;
 }
 
-// Send movement data via BLE notification
 bool MovementBLEService::sendMovementData(const MovementData& data) {
-  if (connectedClientCount == 0) {
-    return false;  // No connected clients
+  // Store for read requests
+  lastData = data;
+
+  if (!notificationEnabled) {
+    return false;  // Notifications not enabled by client
   }
-  
+
+  uint16_t connectionHandle = nimble.connHandle();
+
+  if (connectionHandle == 0 || connectionHandle == BLE_HS_CONN_HANDLE_NONE) {
+    return false;  // No connection
+  }
+
   // Serialize the data
   auto buffer = data.serialize();
-  
+
   // Create an mbuf for the notification
-  os_mbuf* om = ble_hs_mbuf_from_flat(buffer.data(), buffer.size());
+  auto* om = ble_hs_mbuf_from_flat(buffer.data(), buffer.size());
   if (!om) {
     NRF_LOG_ERROR("Movement Service: Failed to allocate mbuf");
     return false;
   }
-  
-  // Send notification to all connected clients
-  // Use 0xFFFF to notify all connections
-  int rc = ble_gattc_notify_custom(0xFFFF, movementCharacteristicHandle, om);
-  
+
+  // Send notification
+  int rc = ble_gattc_notify_custom(connectionHandle, movementCharacteristicHandle, om);
+
   if (rc != 0 && rc != BLE_HS_ENOTCONN) {
     NRF_LOG_ERROR("Movement Service: Failed to send notification, rc=%d", rc);
     return false;
   }
-  
+
   return true;
 }
 
-// Register data received callback
-void MovementBLEService::onDataReceived(DataCallback cb) {
-  dataReceivedCallback = cb;
-}
-
-// Handle client connection
-void MovementBLEService::onConnect(uint16_t conn_handle) {
-  (void)conn_handle;  // Unused in this simple implementation
-  connectedClientCount++;
-  NRF_LOG_INFO("Movement Service: Client connected (total: %d)", connectedClientCount);
-}
-
-// Handle client disconnection
-void MovementBLEService::onDisconnect(uint16_t conn_handle) {
-  (void)conn_handle;  // Unused in this simple implementation
-  if (connectedClientCount > 0) {
-    connectedClientCount--;
+void MovementBLEService::SubscribeNotification(uint16_t attributeHandle) {
+  if (attributeHandle == movementCharacteristicHandle) {
+    notificationEnabled = true;
+    NRF_LOG_INFO("Movement Service: Notifications enabled");
   }
-  NRF_LOG_INFO("Movement Service: Client disconnected (total: %d)", connectedClientCount);
 }
 
-// Check if any client is connected
-bool MovementBLEService::isConnected() const {
-  return connectedClientCount > 0;
-}
-
-// Get number of connected clients
-int MovementBLEService::getConnectedClientCount() const {
-  return connectedClientCount;
-}
-
-// NimBLE characteristic access callback - now a member function
-int MovementBLEService::handleCharacteristicAccess(uint16_t conn_handle, uint16_t attr_handle,
-                                                   struct ble_gatt_access_ctxt* ctxt) {
-  (void)conn_handle;  // Unused
-  
-  // Handle READ requests
-  if (ctxt->op == BLE_GATT_ACCESS_OP_READ_CHR) {
-    NRF_LOG_DEBUG("Movement Service: READ characteristic (handle=%d)", attr_handle);
-    // Return empty data for read - real data is sent via notifications
-    return 0;
+void MovementBLEService::UnsubscribeNotification(uint16_t attributeHandle) {
+  if (attributeHandle == movementCharacteristicHandle) {
+    notificationEnabled = false;
+    NRF_LOG_INFO("Movement Service: Notifications disabled");
   }
-  
-  // Handle WRITE requests (if Flutter needs to send commands)
-  if (ctxt->op == BLE_GATT_ACCESS_OP_WRITE_CHR) {
-    NRF_LOG_DEBUG("Movement Service: WRITE characteristic (handle=%d, len=%d)", 
-                  attr_handle, OS_MBUF_PKTLEN(ctxt->om));
-    
-    // Extract data from mbuf
-    if (ctxt->om && OS_MBUF_PKTLEN(ctxt->om) >= 22) {
-      std::array<uint8_t, 22> buffer;
-      int rc = ble_hs_mbuf_to_flat(ctxt->om, buffer.data(), buffer.size(), nullptr);
-      
-      if (rc == 0 && dataReceivedCallback) {
-        MovementData data = MovementData::deserialize(buffer);
-        dataReceivedCallback(data);
-      }
-    }
-    return 0;
-  }
-  
-  return BLE_ATT_ERR_UNLIKELY;
 }
 
 // ============================================================================
@@ -180,23 +142,13 @@ MovementService& MovementService::getInstance() {
   return *g_movement_service;
 }
 
-void MovementService::init() {
-  // Initialize the BLE service
-  int rc = ble_service.init();
-  if (rc != 0) {
-    NRF_LOG_ERROR("Movement Service init failed: %d", rc);
-    return;
-  }
-  
+void MovementService::init(MovementBLEService& bleService) {
+  // Store reference to the BLE service (owned by NimbleController)
+  ble_service = &bleService;
+
   analyzer.reset();
-  
-  // Setup data callback (if Flutter sends data)
-  ble_service.onDataReceived([this](const MovementData& data) {
-    NRF_LOG_DEBUG("Movement data received from BLE: timestamp=%lu", data.timestamp_ms);
-    // Handle received data from Flutter if needed
-  });
-  
-  NRF_LOG_INFO("Movement Service initialized");
+
+  NRF_LOG_INFO("MovementService: analyzer initialized, BLE service at %p", ble_service);
 }
 
 void MovementService::updateAccelerometer(const std::array<float, 3>& gravity_corrected_xl,
@@ -224,21 +176,24 @@ void MovementService::updateAccelerometer(const std::array<float, 3>& gravity_co
     current_status.progress_percent = 100.0f;
   }
 
-  // Prepare data for BLE transmission
-  MovementData ble_data;
-  ble_data.timestamp_ms = static_cast<uint32_t>(system_time_ms % 0x100000000ULL);
-  ble_data.magnitude_active_time = result.magnitude_active_time;
-  ble_data.axis_active_time = result.axis_active_time;
-  ble_data.movement_detected = result.movement_detected;
-  ble_data.any_movement = result.any_movement;
+  // Send via BLE if service is available
+  if (ble_service) {
+    // Prepare data for BLE transmission
+    MovementData ble_data;
+    ble_data.timestamp_ms = static_cast<uint32_t>(system_time_ms % 0x100000000ULL);
+    ble_data.magnitude_active_time = result.magnitude_active_time;
+    ble_data.axis_active_time = result.axis_active_time;
+    ble_data.movement_detected = result.movement_detected;
+    ble_data.any_movement = result.any_movement;
 
-  // Scale accelerometer data (multiply by 100 to preserve 2 decimal places)
-  ble_data.accel_x = static_cast<int16_t>(gravity_corrected_xl[0] * 100.0f);
-  ble_data.accel_y = static_cast<int16_t>(gravity_corrected_xl[1] * 100.0f);
-  ble_data.accel_z = static_cast<int16_t>(gravity_corrected_xl[2] * 100.0f);
+    // Scale accelerometer data (multiply by 100 to preserve 2 decimal places)
+    ble_data.accel_x = static_cast<int16_t>(gravity_corrected_xl[0] * 100.0f);
+    ble_data.accel_y = static_cast<int16_t>(gravity_corrected_xl[1] * 100.0f);
+    ble_data.accel_z = static_cast<int16_t>(gravity_corrected_xl[2] * 100.0f);
 
-  // Send via BLE to all connected clients (works even if display is off)
-  ble_service.sendMovementData(ble_data);
+    // Send via BLE to connected client (if subscribed)
+    ble_service->sendMovementData(ble_data);
+  }
 }
 
 MovementService::CurrentStatus MovementService::getCurrentStatus() const {
@@ -249,12 +204,4 @@ void MovementService::resetStatistics() {
   analyzer.reset();
   current_status = {0, 0, false, false, 0.0f};
   system_time_ms = 0;
-}
-
-void MovementService::onBleConnect(uint16_t conn_handle) {
-  ble_service.onConnect(conn_handle);
-}
-
-void MovementService::onBleDisconnect(uint16_t conn_handle) {
-  ble_service.onDisconnect(conn_handle);
 }

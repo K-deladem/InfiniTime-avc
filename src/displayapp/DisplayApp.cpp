@@ -158,6 +158,13 @@ void DisplayApp::Init() {
   brightnessController.Init();
   ApplyBrightness();
   lvgl.Init();
+
+  // Auto-validate firmware on first boot after OTA update
+  // This prevents MCUboot from rolling back to the previous version
+  if (!validator.IsValidated()) {
+    validator.Validate();
+    NRF_LOG_INFO("DisplayApp: Auto-validated new firmware");
+  }
 }
 
 TickType_t DisplayApp::CalculateSleepTime() {

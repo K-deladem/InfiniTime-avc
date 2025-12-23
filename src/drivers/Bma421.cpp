@@ -45,54 +45,85 @@ Bma421::Bma421(TwiMaster& twiMaster, uint8_t twiAddress) : twiMaster {twiMaster}
 }
 
 void Bma421::Init() {
-  if (not isResetOk)
-    return; // Call SoftReset (and reset TWI device) first!
+  // Reset initialization state
+  isOk = false;
+  initAttempts++;
+
+  if (not isResetOk) {
+    NRF_LOG_ERROR("BMA421: Init failed - SoftReset not completed (attempt %d)", initAttempts);
+    // Try to recover by attempting SoftReset again
+    SoftReset();
+    if (not isResetOk) {
+      NRF_LOG_ERROR("BMA421: Recovery SoftReset also failed");
+      return;
+    }
+  }
 
   auto ret = bma423_init(&bma);
-  if (ret != BMA4_OK)
+  if (ret != BMA4_OK) {
+    NRF_LOG_ERROR("BMA421: bma423_init failed with code %d (attempt %d)", ret, initAttempts);
     return;
+  }
 
+  NRF_LOG_INFO("BMA421: Chip ID detected: 0x%02X", bma.chip_id);
   switch (bma.chip_id) {
     case BMA423_CHIP_ID:
       deviceType = DeviceTypes::BMA421;
+      NRF_LOG_INFO("BMA421: Device type set to BMA421");
       break;
     case BMA425_CHIP_ID:
       deviceType = DeviceTypes::BMA425;
+      NRF_LOG_INFO("BMA421: Device type set to BMA425");
       break;
     default:
       deviceType = DeviceTypes::Unknown;
-      break;
+      NRF_LOG_ERROR("BMA421: Unknown/unsupported chip ID 0x%02X", bma.chip_id);
+      return;
   }
 
   ret = bma423_write_config_file(&bma);
-  if (ret != BMA4_OK)
+  if (ret != BMA4_OK) {
+    NRF_LOG_ERROR("BMA421: write_config_file failed with code %d", ret);
     return;
+  }
 
   ret = bma4_set_interrupt_mode(BMA4_LATCH_MODE, &bma);
-  if (ret != BMA4_OK)
+  if (ret != BMA4_OK) {
+    NRF_LOG_ERROR("BMA421: set_interrupt_mode failed with code %d", ret);
     return;
+  }
 
   ret = bma423_feature_enable(BMA423_STEP_CNTR, 1, &bma);
-  if (ret != BMA4_OK)
+  if (ret != BMA4_OK) {
+    NRF_LOG_ERROR("BMA421: feature_enable STEP_CNTR failed with code %d", ret);
     return;
+  }
 
   ret = bma423_step_detector_enable(0, &bma);
-  if (ret != BMA4_OK)
+  if (ret != BMA4_OK) {
+    NRF_LOG_ERROR("BMA421: step_detector_enable failed with code %d", ret);
     return;
+  }
 
   ret = bma4_set_accel_enable(1, &bma);
-  if (ret != BMA4_OK)
+  if (ret != BMA4_OK) {
+    NRF_LOG_ERROR("BMA421: set_accel_enable failed with code %d", ret);
     return;
+  }
 
   accel_conf.odr = BMA4_OUTPUT_DATA_RATE_100HZ;
   accel_conf.range = BMA4_ACCEL_RANGE_2G;
   accel_conf.bandwidth = BMA4_ACCEL_NORMAL_AVG4;
   accel_conf.perf_mode = BMA4_CIC_AVG_MODE;
   ret = bma4_set_accel_config(&accel_conf, &bma);
-  if (ret != BMA4_OK)
+  if (ret != BMA4_OK) {
+    NRF_LOG_ERROR("BMA421: set_accel_config failed with code %d", ret);
     return;
+  }
 
+  NRF_LOG_INFO("BMA421: Init completed successfully (attempt %d)", initAttempts);
   isOk = true;
+  initAttempts = 0; // Reset counter on success
 }
 
 void Bma421::Reset() {
@@ -109,11 +140,25 @@ void Bma421::Write(uint8_t registerAddress, const uint8_t* data, size_t size) {
 }
 
 Bma421::Values Bma421::Process() {
-  if (not isOk)
+  if (not isOk) {
+    // Log warning periodically (every ~100 calls = ~10 seconds at 10Hz)
+    if ((processCallCount++ % 100) == 0) {
+      NRF_LOG_WARNING("BMA421: Process() called but sensor not initialized (isOk=false)");
+    }
     return {};
+  }
+
   struct bma4_accel rawData;
   struct bma4_accel data;
-  bma4_read_accel_xyz(&rawData, &bma);
+  auto ret = bma4_read_accel_xyz(&rawData, &bma);
+
+  if (ret != BMA4_OK) {
+    // Log read errors periodically
+    if ((readErrorCount++ % 50) == 0) {
+      NRF_LOG_WARNING("BMA421: Failed to read accel data, code %d (error count: %d)", ret, readErrorCount);
+    }
+    return {};
+  }
 
   // Scale the measured ADC counts to units of 'binary milli-g'
   // where 1g = 1024 'binary milli-g' units.
@@ -139,10 +184,27 @@ void Bma421::ResetStepCounter() {
 }
 
 void Bma421::SoftReset() {
+  NRF_LOG_INFO("BMA421: Starting SoftReset");
+  isResetOk = false;
+
   auto ret = bma4_soft_reset(&bma);
   if (ret == BMA4_OK) {
     isResetOk = true;
+    NRF_LOG_INFO("BMA421: SoftReset completed successfully");
     nrf_delay_ms(1);
+  } else {
+    NRF_LOG_ERROR("BMA421: SoftReset failed with code %d", ret);
+    // Attempt basic I2C recovery
+    NRF_LOG_INFO("BMA421: Attempting I2C recovery");
+    nrf_delay_ms(10);
+    ret = bma4_soft_reset(&bma);
+    if (ret == BMA4_OK) {
+      isResetOk = true;
+      NRF_LOG_INFO("BMA421: SoftReset succeeded on retry");
+      nrf_delay_ms(1);
+    } else {
+      NRF_LOG_ERROR("BMA421: SoftReset retry also failed with code %d", ret);
+    }
   }
 }
 
